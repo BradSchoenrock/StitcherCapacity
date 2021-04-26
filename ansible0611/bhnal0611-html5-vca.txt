@@ -1,0 +1,48 @@
+[0;33mvca002bhnal.bhdc.al.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:40:05  5312       37:58 html5client-v3               0.1 44104 84090232[0m
+[0;33m16:26:00 29942    02:52:03 html5client-v3               0.0 38964 84084864[0m
+[0;33m18:16:53 62535    01:01:10 html5client-v3               0.1 45356 84102680[0m
+[0;33m18:23:37 64459       54:26 html5client-v3               0.0 41828 84087800[0m
+[0;33m[0m[0;33mvca001bhnal.bhdc.al.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m19:09:39   766       08:24 html5client-v3               0.1 40680 100855040[0m
+[0;33m17:38:15 36145    01:39:48 html5client-v3               0.1 42176 100870688[0m
+[0;33m18:32:48 54055       45:15 html5client-v3               0.0 29972 100849416[0m
+[0;33m18:54:11 59808       23:52 html5client-v3               0.0 32348 100842528[0m
+[0;33m19:00:10 62615       17:53 html5client-v3               0.1 38828 100852792[0m
+[0;33m[0m[0;33mvca003bhnal.bhdc.al.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:59:06 24811       18:57 html5client-v3               0.3 43836 84086672[0m
+[0;33m16:38:43 47731    02:39:20 html5client-v3               0.0 39440 84089712[0m
+[0;33m17:06:56 56090    02:11:07 html5client-v3               0.0 44548 84092256[0m
+[0;33m[0m[0;33mvca006bhnal.bhdc.al.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m19:06:43  2045       11:21 html5client-v3               0.5 43040 84084476[0m
+[0;33m19:16:14  4815       01:50 html5client-v3               1.2 42652 84079984[0m
+[0;33m17:23:35 38777    01:54:29 html5client-v3               0.1 56676 84100580[0m
+[0;33m18:09:57 52145    01:08:07 html5client-v3               0.0 54056 84082644[0m
+[0;33m18:11:09 53151    01:06:55 html5client-v3               0.1 62840 84089300[0m
+[0;33m18:33:58 58309       44:06 html5client-v3               0.6 58968 84091516[0m
+[0;33m[0m[0;33mvca007bhnal.bhdc.al.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:19:13 34989       58:50 html5client-v3               0.5 53516 100882392[0m
+[0;33m19:02:31 50598       15:32 html5client-v3               0.1 34756 100861680[0m
+[0;33m19:12:25 53761       05:38 html5client-v3               0.4 26648 100828720[0m
+[0;33m[0m[0;33mvca004bhnal.bhdc.al.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:43:09 22964    01:34:54 html5client-v3               0.1 44460 84090372[0m
+[0;33m18:13:25 34429    01:04:38 html5client-v3               0.0 43444 84078524[0m
+[0;33m18:43:25 43861       34:38 html5client-v3               0.8 49396 84099796[0m
+[0;33m19:00:44 49535       17:19 html5client-v3               0.0 34160 84064988[0m
+[0;33m19:07:27 51264       10:36 html5client-v3               0.6 48828 84102012[0m
+[0;33m19:07:48 51329       10:15 html5client-v3               0.4 39892 84082708[0m
+[0;33m[0m[0;33mvca005bhnal.bhdc.al.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:00:46  8331    01:17:18 html5client-v3               0.1 43528 84100816[0m
+[0;33m18:35:44 21375       42:20 html5client-v3               0.1 42940 84100896[0m
+[0;33m14:46:56 21766    04:31:08 html5client-v3               0.1 58392 84107096[0m
+[0;33m11:02:53 22951    08:15:11 html5client-v3               0.0 38396 84078248[0m
+[0;33m18:44:30 24361       33:34 html5client-v3               0.0 38464 84082520[0m
+[0;33m19:13:11 32048       04:53 html5client-v3               0.1 30580 84058288[0m
+[0;33m[0m

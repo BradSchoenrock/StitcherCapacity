@@ -1,0 +1,672 @@
+[0;33mvca04renonv.reno.nv.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m15:00:53  2198    02:15:01 /opt/activevideo/libexec/we  0.0 34996 101630824[0m
+[0;33m16:00:20 26960    01:15:34 /opt/activevideo/libexec/we  0.0 34556 101565288[0m
+[0;33m16:31:51 37977       44:03 /opt/activevideo/libexec/we  0.0 38660 84853608[0m
+[0;33m16:46:46 43735       29:08 /opt/activevideo/libexec/we  0.0 37152 101761892[0m
+[0;33m17:15:08 54720       00:46 /opt/activevideo/libexec/we  0.7 34200 84722532[0m
+[0;33m[0m[0;33mvca29renonv.reno.nv.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m16:08:16 38288    01:07:37 /opt/activevideo/libexec/we  0.0 36212 84657000[0m
+[0;33m16:20:10 43501       55:43 /opt/activevideo/libexec/we  0.0 36684 84788072[0m
+[0;33m16:44:08 51706       31:45 /opt/activevideo/libexec/we  0.0 32588 101630824[0m
+[0;33m16:44:56 51964       30:57 /opt/activevideo/libexec/we  0.0 37184 84788072[0m
+[0;33m16:48:08 53485       27:45 /opt/activevideo/libexec/we  0.0 37236 84923240[0m
+[0;33m[0m[0;33mvca23renonv.reno.nv.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m16:56:20  5367       19:34 /opt/activevideo/libexec/we  0.1 37444 101565288[0m
+[0;33m17:01:06  6392       14:48 /opt/activevideo/libexec/we  0.0 32920 84788072[0m
+[0;33m17:02:18  7625       13:36 /opt/activevideo/libexec/we  0.1 32176 101499752[0m
+[0;33m17:12:13 11005       03:41 /opt/activevideo/libexec/we  0.1 32392 101499752[0m
+[0;33m15:51:10 44186    01:24:44 /opt/activevideo/libexec/we  0.0 32524 101565288[0m
+[0;33m16:08:34 50231    01:07:20 /opt/activevideo/libexec/we  0.0 32216 101434216[0m
+[0;33m13:31:34 57690    03:44:20 /opt/activevideo/libexec/we  0.0 32752 84853608[0m
+[0;33m16:29:25 57746       46:29 /opt/activevideo/libexec/we  0.0 32568 101565288[0m
+[0;33m16:47:51 63689       28:03 /opt/activevideo/libexec/we  0.0 32164 101499748[0m
+[0;33m[0m[0;33mvca24renonv.reno.nv.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:06:22  4635       09:31 /opt/activevideo/libexec/we  0.1 32528 101499752[0m
+[0;33m17:08:22  6118       07:31 /opt/activevideo/libexec/we  0.1 32920 101499752[0m
+[0;33m17:08:30  6177       07:23 /opt/activevideo/libexec/we  0.0 32020 101499752[0m
+[0;33m17:13:55  8476       01:58 /opt/activevideo/libexec/we  0.7 34872 84796264[0m
+[0;33m17:15:10  8656       00:43 /opt/activevideo/libexec/we  0.7 34204 101499752[0m
+[0;33m17:15:38  8828       00:15 /opt/activevideo/libexec/we  2.0 32072 101507948[0m
+[0;33m16:06:21 44765    01:09:32 /opt/activevideo/libexec/we  0.0 36248 101572456[0m
+[0;33m16:19:43 49667       56:10 /opt/activevideo/libexec/we  0.0 32728 84919144[0m
+[0;33m16:20:02 49781       55:51 /opt/activevideo/libexec/we  0.0 34116 101434216[0m
+[0;33m16:44:50 61251       31:03 /opt/activevideo/libexec/we  0.0 34844 101565284[0m
+[0;33m16:48:54 62937       26:59 /opt/activevideo/libexec/we  0.0 32284 101499752[0m
+[0;33m[0m[0;33mvca10renonv.reno.nv.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m16:53:00  3630       22:53 /opt/activevideo/libexec/we  0.0 34368 101499752[0m
+[0;33m16:59:13  6082       16:40 /opt/activevideo/libexec/we  0.0 34376 101565288[0m
+[0;33m17:02:02  7998       13:51 /opt/activevideo/libexec/we  0.1 32760 101631848[0m
+[0;33m14:46:50 13456    02:29:03 /opt/activevideo/libexec/we  0.0 32564 101630820[0m
+[0;33m17:15:03 13629       00:50 /opt/activevideo/libexec/we  0.7 34208 101499752[0m
+[0;33m17:15:30 13860       00:23 /opt/activevideo/libexec/we  1.3 32424 84730732[0m
+[0;33m17:15:39 13924       00:14 /opt/activevideo/libexec/we  2.0 32320 101507948[0m
+[0;33m16:08:07 50508    01:07:46 /opt/activevideo/libexec/we  0.0 32272 84790116[0m
+[0;33m16:35:58 60376       39:55 /opt/activevideo/libexec/we  0.1 32392 101566312[0m
+[0;33m16:36:18 60571       39:35 /opt/activevideo/libexec/we  0.0 32736 101565288[0m
+[0;33m16:39:33 62262       36:20 /opt/activevideo/libexec/we  0.0 32524 84788072[0m
+[0;33m16:45:30 64466       30:23 /opt/activevideo/libexec/we  0.0 33316 101565288[0m
+[0;33m[0m[0;33mvca08renonv.reno.nv.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m16:13:31   826    01:02:22 /opt/activevideo/libexec/we  0.0 34420 84657000[0m
+[0;33m16:16:22  1331       59:31 /opt/activevideo/libexec/we  0.0 34936 84853608[0m
+[0;33m16:18:04  2439       57:49 /opt/activevideo/libexec/we  0.0 34820 84817768[0m
+[0;33m16:48:19 13807       27:34 /opt/activevideo/libexec/we  0.0 34540 101565288[0m
+[0;33m16:52:27 15752       23:26 /opt/activevideo/libexec/we  0.0 32692 101565284[0m
+[0;33m17:13:29 23215       02:24 /opt/activevideo/libexec/we  0.3 32648 84722536[0m
+[0;33m15:06:09 35077    02:09:44 /opt/activevideo/libexec/we  0.0 34848 84899688[0m
+[0;33m15:53:47 57144    01:22:06 /opt/activevideo/libexec/we  0.0 34800 84919144[0m
+[0;33m16:07:25 63292    01:08:28 /opt/activevideo/libexec/we  0.0 34376 84722536[0m
+[0;33m[0m[0;33mvca28renonv.reno.nv.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m16:27:31  5560       48:22 /opt/activevideo/libexec/we  0.0 32944 101696360[0m
+[0;33m16:37:01  9067       38:52 /opt/activevideo/libexec/we  0.0 36444 101499748[0m
+[0;33m17:04:22 24247       11:31 /opt/activevideo/libexec/we  0.1 34516 84788072[0m
+[0;33m17:14:19 27821       01:34 /opt/activevideo/libexec/we  0.3 32432 84788072[0m
+[0;33m17:15:14 27986       00:39 /opt/activevideo/libexec/we  0.8 36152 101507944[0m
+[0;33m17:15:17 28080       00:36 /opt/activevideo/libexec/we  0.9 36360 84722532[0m
+[0;33m15:07:46 38075    02:08:07 /opt/activevideo/libexec/we  0.0 32324 84788072[0m
+[0;33m15:10:39 39701    02:05:14 /opt/activevideo/libexec/we  0.0 32732 84722532[0m
+[0;33m15:53:07 55194    01:22:46 /opt/activevideo/libexec/we  0.0 35064 84788068[0m
+[0;33m15:57:12 57510    01:18:41 /opt/activevideo/libexec/we  0.0 32540 84788072[0m
+[0;33m[0m[0;33mvca19renonv.reno.nv.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m16:54:06  2210       21:48 /opt/activevideo/libexec/we  0.0 32576 101565288[0m
+[0;33m16:56:24  3645       19:30 /opt/activevideo/libexec/we  0.0 32512 84789096[0m
+[0;33m16:56:51  3754       19:03 /opt/activevideo/libexec/we  0.0 32892 101630820[0m
+[0;33m14:25:11  8503    02:50:43 /opt/activevideo/libexec/we  0.0 34456 84840292[0m
+[0;33m17:14:39 10156       01:15 /opt/activevideo/libexec/we  0.4 32072 84722536[0m
+[0;33m17:15:53 10614       00:01 /opt/activevideo/libexec/we  8.0 34444 84296492[0m
+[0;33m15:33:05 32623    01:42:49 /opt/activevideo/libexec/we  0.0 34444 84792168[0m
+[0;33m15:34:08 32952    01:41:46 /opt/activevideo/libexec/we  0.0 36696 101585768[0m
+[0;33m15:50:05 42397    01:25:49 /opt/activevideo/libexec/we  0.0 34432 84789096[0m
+[0;33m16:38:38 61284       37:16 /opt/activevideo/libexec/we  0.0 32912 84919144[0m
+[0;33m16:48:54 64974       27:00 /opt/activevideo/libexec/we  0.0 32580 101565288[0m
+[0;33m[0m[0;33mvca22renonv.reno.nv.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:00:56  8009       14:57 /opt/activevideo/libexec/we  0.0 34820 101565284[0m
+[0;33m17:15:36 14757       00:17 /opt/activevideo/libexec/we  1.5 34680 101507944[0m
+[0;33m14:47:59 17658    02:27:54 /opt/activevideo/libexec/we  0.0 36856 101581672[0m
+[0;33m15:40:45 40779    01:35:08 /opt/activevideo/libexec/we  0.0 34692 84722532[0m
+[0;33m16:02:04 49997    01:13:49 /opt/activevideo/libexec/we  0.0 34520 101565284[0m
+[0;33m16:27:57 60043       47:56 /opt/activevideo/libexec/we  0.0 36496 101565288[0m
+[0;33m[0m[0;33mvca26renonv.reno.nv.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m16:34:31  2765       41:22 /opt/activevideo/libexec/we  0.0 33144 84788068[0m
+[0;33m16:38:44  4744       37:09 /opt/activevideo/libexec/we  0.0 34580 84722532[0m
+[0;33m16:43:00  6799       32:53 /opt/activevideo/libexec/we  0.0 34428 84722532[0m
+[0;33m17:02:34 14848       13:19 /opt/activevideo/libexec/we  0.1 34392 101565288[0m
+[0;33m17:04:30 18675       11:23 /opt/activevideo/libexec/we  0.1 34368 84728680[0m
+[0;33m17:11:08 21830       04:45 /opt/activevideo/libexec/we  0.1 32236 84722536[0m
+[0;33m17:11:16 21946       04:37 /opt/activevideo/libexec/we  0.1 32376 84657000[0m
+[0;33m17:14:06 23016       01:47 /opt/activevideo/libexec/we  0.4 34464 84722536[0m
+[0;33m[0m[0;33mvca11renonv.reno.nv.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m16:23:36 26926       52:18 /opt/activevideo/libexec/we  0.0 32388 84853604[0m
+[0;33m16:35:21 31041       40:33 /opt/activevideo/libexec/we  0.0 34732 84853608[0m
+[0;33m16:50:17 35942       25:37 /opt/activevideo/libexec/we  0.0 32468 84788072[0m
+[0;33m17:05:42 43438       10:12 /opt/activevideo/libexec/we  0.0 32604 101499752[0m
+[0;33m17:15:11 47548       00:43 /opt/activevideo/libexec/we  0.7 33856 84722532[0m
+[0;33m17:15:42 47782       00:12 /opt/activevideo/libexec/we  2.5 32288 84730732[0m
+[0;33m15:02:29 54796    02:13:25 /opt/activevideo/libexec/we  0.0 32668 101499752[0m
+[0;33m15:29:39 64935    01:46:15 /opt/activevideo/libexec/we  0.0 32768 101565288[0m
+[0;33m15:31:58 65533    01:43:56 /opt/activevideo/libexec/we  0.0 32452 101565288[0m
+[0;33m[0m[0;33mvca15renonv.reno.nv.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:13:45   586       02:09 /opt/activevideo/libexec/we  0.2 34296 101499748[0m
+[0;33m17:14:04   699       01:50 /opt/activevideo/libexec/we  0.3 32040 101499752[0m
+[0;33m17:15:08   921       00:46 /opt/activevideo/libexec/we  0.6 32176 84722536[0m
+[0;33m15:05:24 14451    02:10:30 /opt/activevideo/libexec/we  0.0 33224 101565288[0m
+[0;33m15:28:19 25616    01:47:35 /opt/activevideo/libexec/we  0.0 32016 101434212[0m
+[0;33m15:49:22 33087    01:26:32 /opt/activevideo/libexec/we  0.0 32876 84788072[0m
+[0;33m16:15:21 42940    01:00:33 /opt/activevideo/libexec/we  0.0 38584 101565288[0m
+[0;33m16:28:43 48221       47:11 /opt/activevideo/libexec/we  0.0 34612 84788072[0m
+[0;33m16:36:57 50787       38:57 /opt/activevideo/libexec/we  0.0 32448 101566312[0m
+[0;33m17:11:22 64221       04:32 /opt/activevideo/libexec/we  0.1 32144 101499752[0m
+[0;33m17:13:21 65516       02:33 /opt/activevideo/libexec/we  0.4 33932 84722536[0m
+[0;33m[0m[0;33mvca13renonv.reno.nv.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m16:59:13  5129       16:41 /opt/activevideo/libexec/we  0.1 33220 84863848[0m
+[0;33m17:09:00  8828       06:54 /opt/activevideo/libexec/we  0.2 36848 101565288[0m
+[0;33m17:12:51 10782       03:03 /opt/activevideo/libexec/we  0.2 34360 101565288[0m
+[0;33m17:14:04 11119       01:50 /opt/activevideo/libexec/we  0.8 34524 84789096[0m
+[0;33m16:14:40 56022    01:01:14 /opt/activevideo/libexec/we  0.0 34656 84722536[0m
+[0;33m[0m[0;33mvca27renonv.reno.nv.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m16:30:25 41054       45:29 /opt/activevideo/libexec/we  0.0 34812 84853608[0m
+[0;33m17:03:34 53935       12:20 /opt/activevideo/libexec/we  0.0 34736 84919140[0m
+[0;33m17:14:58 57812       00:56 /opt/activevideo/libexec/we  0.5 35340 101499752[0m
+[0;33m17:15:48 58170       00:06 /opt/activevideo/libexec/we 10.1 42968 101573480[0m
+[0;33m[0m[0;33mvca18renonv.reno.nv.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:14:08  9702       01:46 /opt/activevideo/libexec/we  0.8 32800 84788068[0m
+[0;33m[0m[0;33mvca16renonv.reno.nv.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m16:39:32   942       36:22 /opt/activevideo/libexec/we  0.0 33060 101565288[0m
+[0;33m16:52:48  5270       23:06 /opt/activevideo/libexec/we  0.0 34288 101630824[0m
+[0;33m16:52:59  5350       22:55 /opt/activevideo/libexec/we  0.0 32336 84832104[0m
+[0;33m14:22:34 11300    02:53:20 /opt/activevideo/libexec/we  0.0 32904 84852584[0m
+[0;33m17:10:37 13274       05:17 /opt/activevideo/libexec/we  0.3 32780 84723556[0m
+[0;33m17:11:40 13527       04:14 /opt/activevideo/libexec/we  0.1 35344 101499752[0m
+[0;33m17:13:22 14025       02:32 /opt/activevideo/libexec/we  0.5 32944 84853608[0m
+[0;33m17:15:53 18705       00:01 /opt/activevideo/libexec/we  7.0 30840 101066540[0m
+[0;33m16:03:09 49979    01:12:45 /opt/activevideo/libexec/we  0.0 32700 84723560[0m
+[0;33m16:05:09 51398    01:10:45 /opt/activevideo/libexec/we  0.0 33296 84722536[0m
+[0;33m16:17:35 55723       58:19 /opt/activevideo/libexec/we  0.0 33124 84862824[0m
+[0;33m16:23:07 57864       52:47 /opt/activevideo/libexec/we  0.0 32400 101499748[0m
+[0;33m[0m[0;33mvca21renonv.reno.nv.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:09:12  2302       06:42 /opt/activevideo/libexec/we  0.2 32776 101696360[0m
+[0;33m17:12:24  2945       03:30 /opt/activevideo/libexec/we  0.4 33028 101659496[0m
+[0;33m17:14:45  4635       01:09 /opt/activevideo/libexec/we  0.6 32472 101565288[0m
+[0;33m17:15:23  4898       00:31 /opt/activevideo/libexec/we  1.0 34248 101499752[0m
+[0;33m17:15:39  5107       00:15 /opt/activevideo/libexec/we  2.1 39804 101507948[0m
+[0;33m15:40:21 27727    01:35:33 /opt/activevideo/libexec/we  0.0 34928 101630820[0m
+[0;33m15:49:53 31264    01:26:01 /opt/activevideo/libexec/we  0.0 37124 101500776[0m
+[0;33m16:00:37 38677    01:15:17 /opt/activevideo/libexec/we  0.0 32720 101630824[0m
+[0;33m16:06:39 41580    01:09:15 /opt/activevideo/libexec/we  0.0 34404 101501800[0m
+[0;33m16:34:54 52889       41:00 /opt/activevideo/libexec/we  0.0 34656 84790120[0m
+[0;33m16:40:53 55163       35:01 /opt/activevideo/libexec/we  0.0 33116 101565284[0m
+[0;33m16:42:11 55499       33:43 /opt/activevideo/libexec/we  0.0 32640 84853608[0m
+[0;33m16:50:35 59474       25:19 /opt/activevideo/libexec/we  0.0 34736 101643108[0m
+[0;33m16:51:38 59775       24:16 /opt/activevideo/libexec/we  0.0 34852 101630820[0m
+[0;33m[0m[0;33mvca01renonv.reno.nv.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m16:51:19  9180       24:34 /opt/activevideo/libexec/we  0.0 35384 84658024[0m
+[0;33m17:03:29 14639       12:24 /opt/activevideo/libexec/we  0.1 34496 84722536[0m
+[0;33m17:05:47 15274       10:06 /opt/activevideo/libexec/we  0.0 33012 101565288[0m
+[0;33m17:06:20 15415       09:33 /opt/activevideo/libexec/we  0.0 36292 84657000[0m
+[0;33m17:07:53 15886       08:00 /opt/activevideo/libexec/we  0.1 36260 101499752[0m
+[0;33m17:12:00 17391       03:53 /opt/activevideo/libexec/we  0.2 36516 84722536[0m
+[0;33m17:13:20 18466       02:33 /opt/activevideo/libexec/we  0.5 33512 101565284[0m
+[0;33m16:08:06 53661    01:07:47 /opt/activevideo/libexec/we  0.0 36400 101499752[0m
+[0;33m16:14:34 56695    01:01:19 /opt/activevideo/libexec/we  0.0 35080 101696360[0m
+[0;33m[0m[0;33mvca12renonv.reno.nv.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:12:17   774       03:36 /opt/activevideo/libexec/we  0.4 32760 101696360[0m
+[0;33m17:12:48   961       03:05 /opt/activevideo/libexec/we  0.1 32240 101499752[0m
+[0;33m17:14:43  2285       01:10 /opt/activevideo/libexec/we  0.5 32728 101565284[0m
+[0;33m15:14:28 25199    02:01:25 /opt/activevideo/libexec/we  0.0 32436 84860776[0m
+[0;33m16:49:44 57623       26:09 /opt/activevideo/libexec/we  0.0 32656 101566308[0m
+[0;33m16:52:28 58171       23:25 /opt/activevideo/libexec/we  0.0 32472 84722536[0m
+[0;33m16:59:24 61108       16:29 /opt/activevideo/libexec/we  0.0 34632 101565284[0m
+[0;33m17:00:31 61356       15:22 /opt/activevideo/libexec/we  0.0 32288 101500776[0m
+[0;33m17:06:12 63861       09:41 /opt/activevideo/libexec/we  0.1 32516 84788072[0m
+[0;33m17:09:04 64351       06:49 /opt/activevideo/libexec/we  0.2 32880 101630824[0m
+[0;33m17:11:08 65495       04:45 /opt/activevideo/libexec/we  0.4 33160 84853608[0m
+[0;33m[0m[0;33mvca17renonv.reno.nv.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m16:58:23  2980       17:31 /opt/activevideo/libexec/we  0.1 32472 84722536[0m
+[0;33m16:59:47  3481       16:07 /opt/activevideo/libexec/we  0.1 32304 101565288[0m
+[0;33m17:03:37  5702       12:17 /opt/activevideo/libexec/we  0.1 33384 101565288[0m
+[0;33m17:14:28  9621       01:26 /opt/activevideo/libexec/we  0.5 33460 101499752[0m
+[0;33m17:15:06  9748       00:48 /opt/activevideo/libexec/we  1.5 36708 101630824[0m
+[0;33m14:47:31 14108    02:28:23 /opt/activevideo/libexec/we  0.0 34344 84732772[0m
+[0;33m15:25:29 30687    01:50:25 /opt/activevideo/libexec/we  0.0 32544 101565284[0m
+[0;33m16:22:42 52944       53:12 /opt/activevideo/libexec/we  0.0 32572 84853604[0m
+[0;33m13:50:04 58742    03:25:50 /opt/activevideo/libexec/we  0.0 32028 101499752[0m
+[0;33m[0m[0;33mvca06renonv.reno.nv.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:01:04  4684       14:50 /opt/activevideo/libexec/we  0.0 33456 101500776[0m
+[0;33m17:09:17  7529       06:37 /opt/activevideo/libexec/we  0.2 32736 84788072[0m
+[0;33m15:43:25 37758    01:32:29 /opt/activevideo/libexec/we  0.0 32292 84788068[0m
+[0;33m16:14:46 52298    01:01:08 /opt/activevideo/libexec/we  0.0 32680 101630824[0m
+[0;33m16:24:52 55774       51:02 /opt/activevideo/libexec/we  0.0 32280 84657000[0m
+[0;33m16:36:50 60218       39:04 /opt/activevideo/libexec/we  0.0 32600 101565288[0m
+[0;33m16:48:42 64269       27:12 /opt/activevideo/libexec/we  0.0 33552 101696360[0m
+[0;33m[0m[0;33mvca02renonv.reno.nv.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m16:14:07   435    01:01:47 /opt/activevideo/libexec/we  0.0 32248 101565288[0m
+[0;33m13:55:54  8211    03:20:00 /opt/activevideo/libexec/we  0.0 34528 101565288[0m
+[0;33m17:07:02 21791       08:52 /opt/activevideo/libexec/we  0.2 33944 84788072[0m
+[0;33m17:10:40 23401       05:14 /opt/activevideo/libexec/we  0.1 32700 84853604[0m
+[0;33m17:14:14 25145       01:40 /opt/activevideo/libexec/we  0.3 32244 101499752[0m
+[0;33m17:15:14 25416       00:40 /opt/activevideo/libexec/we  0.7 32132 84722536[0m
+[0;33m17:15:53 25697       00:01 /opt/activevideo/libexec/we  9.0 34704 84304688[0m
+[0;33m15:25:40 45691    01:50:14 /opt/activevideo/libexec/we  0.0 32576 84722536[0m
+[0;33m[0m[0;33mvca05renonv.reno.nv.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:00:25 18659       15:29 /opt/activevideo/libexec/we  0.0 32764 101696360[0m
+[0;33m17:08:35 22047       07:19 /opt/activevideo/libexec/we  0.1 33884 84657000[0m
+[0;33m17:12:00 23347       03:54 /opt/activevideo/libexec/we  0.3 32572 101573484[0m
+[0;33m17:13:29 23638       02:25 /opt/activevideo/libexec/we  0.3 32760 84722532[0m
+[0;33m[0m[0;33mvca14renonv.reno.nv.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m15:58:56 23469    01:16:58 /opt/activevideo/libexec/we  0.0 34560 84657000[0m
+[0;33m16:38:19 41011       37:35 /opt/activevideo/libexec/we  0.0 33156 101565284[0m
+[0;33m16:42:06 42391       33:48 /opt/activevideo/libexec/we  0.0 32656 84790120[0m
+[0;33m16:46:21 43447       29:33 /opt/activevideo/libexec/we  0.0 36100 84656996[0m
+[0;33m16:56:11 47005       19:43 /opt/activevideo/libexec/we  0.0 32552 84722536[0m
+[0;33m16:59:27 48986       16:27 /opt/activevideo/libexec/we  0.0 32280 101499748[0m
+[0;33m17:09:50 53456       06:04 /opt/activevideo/libexec/we  0.0 32248 101434216[0m
+[0;33m17:12:43 55039       03:11 /opt/activevideo/libexec/we  0.5 34376 101500776[0m
+[0;33m17:15:17 55860       00:37 /opt/activevideo/libexec/we  0.5 34264 84648760[0m
+[0;33m[0m[0;33mvca25renonv.reno.nv.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m16:39:03 18899       36:50 /opt/activevideo/libexec/we  0.0 32144 84722536[0m
+[0;33m16:45:50 21893       30:03 /opt/activevideo/libexec/we  0.0 34604 101565288[0m
+[0;33m14:41:43 28309    02:34:10 /opt/activevideo/libexec/we  0.0 32600 84725604[0m
+[0;33m17:01:54 29009       13:59 /opt/activevideo/libexec/we  0.1 36496 84788068[0m
+[0;33m17:13:36 34843       02:17 /opt/activevideo/libexec/we  0.5 35788 84722532[0m
+[0;33m[0m[0;33mvca20renonv.reno.nv.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m14:00:45  2181    03:15:09 /opt/activevideo/libexec/we  0.0 32932 101696360[0m
+[0;33m10:50:33  9525    06:25:21 /opt/activevideo/libexec/we  0.0 34628 101499748[0m
+[0;33m17:08:17 11616       07:37 /opt/activevideo/libexec/we  0.2 32464 101565288[0m
+[0;33m17:12:10 13011       03:44 /opt/activevideo/libexec/we  0.0 32032 101425976[0m
+[0;33m17:15:25 14409       00:29 /opt/activevideo/libexec/we  1.1 34344 101499752[0m
+[0;33m17:15:51 14500       00:03 /opt/activevideo/libexec/we 10.0 37628 101516144[0m
+[0;33m15:55:24 45529    01:20:30 /opt/activevideo/libexec/we  0.0 32892 101565284[0m
+[0;33m16:39:14 63662       36:40 /opt/activevideo/libexec/we  0.0 34736 84788068[0m
+[0;33m[0m[0;33mvca03renonv.reno.nv.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m13:13:22 10578    04:02:32 /opt/activevideo/libexec/we  0.0 34128 84722536[0m
+[0;33m16:00:59 11696    01:14:55 /opt/activevideo/libexec/we  0.0 36448 101565284[0m
+[0;33m16:24:40 24454       51:14 /opt/activevideo/libexec/we  0.0 37248 101565284[0m
+[0;33m16:39:32 30330       36:22 /opt/activevideo/libexec/we  0.0 34440 84788068[0m
+[0;33m16:40:17 31543       35:37 /opt/activevideo/libexec/we  0.0 33956 84813672[0m
+[0;33m17:08:31 43846       07:23 /opt/activevideo/libexec/we  0.3 32256 84657000[0m
+[0;33m17:09:06 44054       06:48 /opt/activevideo/libexec/we  0.2 34864 84853608[0m
+[0;33m17:09:58 45096       05:56 /opt/activevideo/libexec/we  0.1 31952 84722536[0m
+[0;33m17:12:06 45750       03:48 /opt/activevideo/libexec/we  0.1 32496 101499752[0m
+[0;33m17:14:01 46485       01:53 /opt/activevideo/libexec/we  0.2 31984 84722536[0m
+[0;33m17:14:12 46610       01:42 /opt/activevideo/libexec/we  0.6 34812 101499752[0m
+[0;33m17:14:40 46748       01:14 /opt/activevideo/libexec/we  0.5 32664 84722536[0m
+[0;33m14:47:46 48889    02:28:08 /opt/activevideo/libexec/we  0.0 34632 101565284[0m
+[0;33m[0m[0;33mvca09renonv.reno.nv.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:10:22  2265       05:32 /opt/activevideo/libexec/we  0.1 32328 101499752[0m
+[0;33m17:15:49  4099       00:05 /opt/activevideo/libexec/we  6.0 40128 84730728[0m
+[0;33m12:35:28 41050    04:40:26 /opt/activevideo/libexec/we  0.0 32900 101696356[0m
+[0;33m15:55:29 42135    01:20:25 /opt/activevideo/libexec/we  0.0 33748 84853604[0m
+[0;33m16:03:55 45739    01:11:59 /opt/activevideo/libexec/we  0.0 32648 101499752[0m
+[0;33m16:40:35 57309       35:19 /opt/activevideo/libexec/we  0.0 32400 84788068[0m
+[0;33m17:02:45 65003       13:09 /opt/activevideo/libexec/we  0.1 32796 101630820[0m
+[0;33m[0m[0;33mvca30renonv.reno.nv.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m15:46:49  1262    01:29:05 /opt/activevideo/libexec/we  0.0 32488 84722536[0m
+[0;33m15:51:12  2998    01:24:42 /opt/activevideo/libexec/we  0.0 34696 101499752[0m
+[0;33m15:57:12  4986    01:18:42 /opt/activevideo/libexec/we  0.0 35208 84658024[0m
+[0;33m16:04:28  9143    01:11:26 /opt/activevideo/libexec/we  0.0 34504 84853608[0m
+[0;33m16:46:00 25337       29:54 /opt/activevideo/libexec/we  0.0 34892 84790116[0m
+[0;33m16:49:15 27063       26:39 /opt/activevideo/libexec/we  0.0 34472 84722536[0m
+[0;33m16:52:33 31555       23:21 /opt/activevideo/libexec/we  0.0 33808 84853608[0m
+[0;33m17:06:01 38212       09:53 /opt/activevideo/libexec/we  0.1 32656 101630824[0m
+[0;33m17:10:23 40562       05:31 /opt/activevideo/libexec/we  0.2 32168 101499752[0m
+[0;33m17:12:21 41085       03:33 /opt/activevideo/libexec/we  0.3 32320 101630824[0m
+[0;33m17:15:04 42363       00:50 /opt/activevideo/libexec/we  1.2 33664 101565288[0m
+[0;33m15:00:01 46310    02:15:53 /opt/activevideo/libexec/we  0.0 34340 84788072[0m
+[0;33m12:41:30 57591    04:34:24 /opt/activevideo/libexec/we  0.0 34788 101565288[0m
+[0;33m15:29:56 59854    01:45:58 /opt/activevideo/libexec/we  0.0 32000 84656996[0m
+[0;33m[0m[0;33mvca07renonv.reno.nv.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m16:57:30  6945       18:24 /opt/activevideo/libexec/we  0.0 32600 101646180[0m
+[0;33m15:11:16 34125    02:04:38 /opt/activevideo/libexec/we  0.0 35016 84984680[0m
+[0;33m16:00:05 50826    01:15:49 /opt/activevideo/libexec/we  0.0 32672 84788072[0m
+[0;33m16:21:12 58342       54:42 /opt/activevideo/libexec/we  0.0 32704 84919144[0m
+[0;33m16:31:33 62886       44:21 /opt/activevideo/libexec/we  0.0 34652 84957032[0m
+[0;33m[0m[0;33mvca32renonv.reno.nv.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:15:42  1165       00:13 /opt/activevideo/libexec/we  1.4 34072 101434168[0m
+[0;33m14:53:30 11238    02:22:25 /opt/activevideo/libexec/we  0.0 31812 101434212[0m
+[0;33m15:02:41 17484    02:13:14 /opt/activevideo/libexec/we  0.0 34204 84722532[0m
+[0;33m15:52:10 34050    01:23:45 /opt/activevideo/libexec/we  0.0 38560 101499748[0m
+[0;33m16:01:47 38614    01:14:08 /opt/activevideo/libexec/we  0.0 32396 101501800[0m
+[0;33m16:14:39 43173    01:01:16 /opt/activevideo/libexec/we  0.0 32620 101630824[0m
+[0;33m16:38:40 52019       37:15 /opt/activevideo/libexec/we  0.0 32676 84788072[0m
+[0;33m16:57:19 58968       18:36 /opt/activevideo/libexec/we  0.0 32460 101565288[0m
+[0;33m[0m[0;33mvca34renonv.reno.nv.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m15:53:39 26651    01:22:16 /opt/activevideo/libexec/we  0.0 34844 84853604[0m
+[0;33m16:33:31 40946       42:24 /opt/activevideo/libexec/we  0.0 32248 84723560[0m
+[0;33m16:37:23 42324       38:32 /opt/activevideo/libexec/we  0.0 32368 101565288[0m
+[0;33m17:03:48 53725       12:07 /opt/activevideo/libexec/we  0.0 33452 84788068[0m
+[0;33m17:14:01 56774       01:54 /opt/activevideo/libexec/we  0.3 32116 84722536[0m
+[0;33m17:14:32 56946       01:23 /opt/activevideo/libexec/we  0.4 35096 84722536[0m
+[0;33m[0m[0;33mvca38renonv.reno.nv.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m16:34:56 11047       40:59 /opt/activevideo/libexec/we  0.0 33024 101630824[0m
+[0;33m17:14:08 23434       01:47 /opt/activevideo/libexec/we  0.3 34376 84788072[0m
+[0;33m17:15:09 24528       00:46 /opt/activevideo/libexec/we  0.7 34516 101499748[0m
+[0;33m16:06:38 61602    01:09:17 /opt/activevideo/libexec/we  0.0 34048 84722536[0m
+[0;33m16:07:17 61832    01:08:38 /opt/activevideo/libexec/we  0.0 34536 101499752[0m
+[0;33m[0m[0;33mvca33renonv.reno.nv.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m15:13:15  6984    02:02:41 /opt/activevideo/libexec/we  0.0 32516 84788072[0m
+[0;33m16:02:13 27453    01:13:43 /opt/activevideo/libexec/we  0.0 32016 101500776[0m
+[0;33m16:07:01 30169    01:08:55 /opt/activevideo/libexec/we  0.0 32864 84788072[0m
+[0;33m16:32:56 40415       43:00 /opt/activevideo/libexec/we  0.0 33716 84936548[0m
+[0;33m16:42:57 44356       32:59 /opt/activevideo/libexec/we  0.0 32060 84658020[0m
+[0;33m16:56:25 50179       19:31 /opt/activevideo/libexec/we  0.0 32600 84722536[0m
+[0;33m16:58:17 50824       17:39 /opt/activevideo/libexec/we  0.0 34660 84853604[0m
+[0;33m16:59:00 51044       16:56 /opt/activevideo/libexec/we  0.0 32840 101499752[0m
+[0;33m17:00:27 51683       15:29 /opt/activevideo/libexec/we  0.0 32176 84722532[0m
+[0;33m17:10:21 55966       05:35 /opt/activevideo/libexec/we  0.2 35240 84853608[0m
+[0;33m17:13:29 57577       02:27 /opt/activevideo/libexec/we  0.2 34116 84722536[0m
+[0;33m17:15:54 58241       00:02 /opt/activevideo/libexec/we  5.0 37500 101442364[0m
+[0;33m[0m[0;33mvca42renonv.reno.nv.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:11:49  8177       04:07 /opt/activevideo/libexec/we  0.1 32420 101434216[0m
+[0;33m17:13:51  9319       02:05 /opt/activevideo/libexec/we  0.2 34312 101630824[0m
+[0;33m17:14:28  9474       01:28 /opt/activevideo/libexec/we  0.4 34492 101499752[0m
+[0;33m17:14:49  9568       01:07 /opt/activevideo/libexec/we  0.4 32632 101630820[0m
+[0;33m15:56:09 40128    01:19:47 /opt/activevideo/libexec/we  0.0 33044 101738340[0m
+[0;33m16:22:08 51052       53:48 /opt/activevideo/libexec/we  0.0 34924 84850536[0m
+[0;33m16:23:06 51258       52:50 /opt/activevideo/libexec/we  0.0 32744 101565288[0m
+[0;33m16:29:13 53743       46:43 /opt/activevideo/libexec/we  0.0 34788 101696360[0m
+[0;33m16:46:40 60114       29:16 /opt/activevideo/libexec/we  0.0 32060 84658024[0m
+[0;33m16:50:03 61418       25:53 /opt/activevideo/libexec/we  0.0 32444 101630820[0m
+[0;33m14:21:13 64262    02:54:43 /opt/activevideo/libexec/we  0.0 34304 101565288[0m
+[0;33m[0m[0;33mvca41renonv.reno.nv.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m15:49:56 16641    01:25:59 /opt/activevideo/libexec/we  0.0 32560 84788068[0m
+[0;33m15:52:54 17991    01:23:01 /opt/activevideo/libexec/we  0.0 32328 101499748[0m
+[0;33m16:33:43 30682       42:12 /opt/activevideo/libexec/we  0.0 36644 84853604[0m
+[0;33m16:48:51 35434       27:04 /opt/activevideo/libexec/we  0.0 32788 101565284[0m
+[0;33m16:58:19 38280       17:36 /opt/activevideo/libexec/we  0.0 36040 101434212[0m
+[0;33m17:11:58 42575       03:57 /opt/activevideo/libexec/we  0.3 34692 101565284[0m
+[0;33m17:14:24 42918       01:31 /opt/activevideo/libexec/we  0.3 32072 84722536[0m
+[0;33m14:08:51 47835    03:07:04 /opt/activevideo/libexec/we  0.0 32240 84656996[0m
+[0;33m14:24:35 52853    02:51:20 /opt/activevideo/libexec/we  0.0 34480 84774756[0m
+[0;33m[0m[0;33mvca39renonv.reno.nv.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:02:04  4518       13:52 /opt/activevideo/libexec/we  0.0 32468 84722536[0m
+[0;33m17:04:41  5673       11:15 /opt/activevideo/libexec/we  0.1 34740 101565284[0m
+[0;33m17:10:01  7535       05:55 /opt/activevideo/libexec/we  0.1 32208 101499748[0m
+[0;33m17:11:22  7941       04:34 /opt/activevideo/libexec/we  0.1 34364 101565288[0m
+[0;33m15:03:51 26231    02:12:05 /opt/activevideo/libexec/we  0.0 32456 101565284[0m
+[0;33m15:54:24 45315    01:21:32 /opt/activevideo/libexec/we  0.0 32212 84841320[0m
+[0;33m16:31:03 58697       44:53 /opt/activevideo/libexec/we  0.0 34620 101565284[0m
+[0;33m16:41:28 61894       34:28 /opt/activevideo/libexec/we  0.0 32608 84788068[0m
+[0;33m13:59:36 64009    03:16:20 /opt/activevideo/libexec/we  0.0 33236 84788072[0m
+[0;33m[0m[0;33mvca36renonv.reno.nv.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:15:44  1098       00:12 /opt/activevideo/libexec/we  2.5 36380 101573484[0m
+[0;33m16:14:24 45451    01:01:32 /opt/activevideo/libexec/we  0.0 33988 84657000[0m
+[0;33m13:56:24 57906    03:19:32 /opt/activevideo/libexec/we  0.0 32456 101565284[0m
+[0;33m17:08:08 63891       07:48 /opt/activevideo/libexec/we  0.2 32624 101630820[0m
+[0;33m[0m[0;33mvca35renonv.reno.nv.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:13:58  1841       01:57 /opt/activevideo/libexec/we  0.2 32252 101499748[0m
+[0;33m17:15:54  3256       00:01 /opt/activevideo/libexec/we 11.0 35016 84665148[0m
+[0;33m16:22:35 50007       53:20 /opt/activevideo/libexec/we  0.0 34312 84723556[0m
+[0;33m16:35:43 54801       40:12 /opt/activevideo/libexec/we  0.0 32376 101499752[0m
+[0;33m16:43:34 56774       32:21 /opt/activevideo/libexec/we  0.0 33156 84788072[0m
+[0;33m[0m[0;33mvca46renonv.reno.nv.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m16:16:18 13599       59:38 /opt/activevideo/libexec/we  0.0 33400 101630824[0m
+[0;33m16:17:09 13829       58:47 /opt/activevideo/libexec/we  0.0 36264 101499748[0m
+[0;33m16:32:39 20334       43:17 /opt/activevideo/libexec/we  0.0 32480 101565288[0m
+[0;33m16:46:08 24847       29:48 /opt/activevideo/libexec/we  0.0 32528 84788072[0m
+[0;33m17:09:14 33724       06:42 /opt/activevideo/libexec/we  0.2 36348 101565288[0m
+[0;33m17:13:52 39320       02:04 /opt/activevideo/libexec/we  0.1 32260 84648760[0m
+[0;33m17:14:13 39495       01:43 /opt/activevideo/libexec/we  0.7 32900 101499748[0m
+[0;33m17:15:11 40490       00:45 /opt/activevideo/libexec/we  0.5 32236 84656956[0m
+[0;33m17:15:26 40559       00:30 /opt/activevideo/libexec/we  1.3 34148 84730732[0m
+[0;33m17:15:27 40596       00:29 /opt/activevideo/libexec/we  1.0 32128 101507944[0m
+[0;33m17:15:33 40658       00:23 /opt/activevideo/libexec/we  1.3 34224 101499748[0m
+[0;33m17:15:55 40882       00:01 /opt/activevideo/libexec/we 11.0 36772 84370220[0m
+[0;33m15:26:00 57832    01:49:56 /opt/activevideo/libexec/we  0.0 34788 84722536[0m
+[0;33m[0m[0;33mvca31renonv.reno.nv.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m16:07:30  8491    01:08:25 /opt/activevideo/libexec/we  0.0 38564 101565288[0m
+[0;33m16:28:33 16623       47:22 /opt/activevideo/libexec/we  0.0 34668 84789096[0m
+[0;33m16:59:54 28677       16:01 /opt/activevideo/libexec/we  0.0 32480 84853608[0m
+[0;33m17:08:37 32129       07:18 /opt/activevideo/libexec/we  0.1 34284 84789096[0m
+[0;33m17:09:16 32288       06:39 /opt/activevideo/libexec/we  0.2 32632 84722536[0m
+[0;33m17:12:25 34094       03:30 /opt/activevideo/libexec/we  0.3 37236 101565288[0m
+[0;33m17:15:30 35495       00:25 /opt/activevideo/libexec/we  2.7 33360 101577572[0m
+[0;33m[0m[0;33mvca50renonv.reno.nv.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m16:07:37  7197    01:08:19 /opt/activevideo/libexec/we  0.0 34512 101500776[0m
+[0;33m16:13:09  9324    01:02:47 /opt/activevideo/libexec/we  0.0 34888 84922212[0m
+[0;33m13:53:55 21455    03:22:01 /opt/activevideo/libexec/we  0.0 36468 84722536[0m
+[0;33m16:42:27 24423       33:29 /opt/activevideo/libexec/we  0.0 36556 101499748[0m
+[0;33m16:43:33 24653       32:23 /opt/activevideo/libexec/we  0.0 32768 101499748[0m
+[0;33m14:01:07 25090    03:14:49 /opt/activevideo/libexec/we  0.0 34740 84853608[0m
+[0;33m16:57:05 29349       18:51 /opt/activevideo/libexec/we  0.0 32840 84788072[0m
+[0;33m16:57:59 29537       17:57 /opt/activevideo/libexec/we  0.0 33052 84657000[0m
+[0;33m17:06:01 33162       09:55 /opt/activevideo/libexec/we  0.1 36488 101499752[0m
+[0;33m17:06:06 33265       09:50 /opt/activevideo/libexec/we  0.0 34688 101499752[0m
+[0;33m17:11:57 35498       03:59 /opt/activevideo/libexec/we  0.4 33320 101743460[0m
+[0;33m17:14:51 36223       01:05 /opt/activevideo/libexec/we  0.4 34084 84722536[0m
+[0;33m17:15:50 36542       00:06 /opt/activevideo/libexec/we  4.5 37136 84730732[0m
+[0;33m17:15:53 37374       00:03 /opt/activevideo/libexec/we  8.6 37172 84730728[0m
+[0;33m15:16:36 52921    01:59:20 /opt/activevideo/libexec/we  0.0 36600 101499752[0m
+[0;33m[0m[0;33mvca37renonv.reno.nv.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m16:43:54  2403       32:01 /opt/activevideo/libexec/we  0.1 33912 101565288[0m
+[0;33m16:54:33  6094       21:22 /opt/activevideo/libexec/we  0.0 34696 84853608[0m
+[0;33m17:03:25 13195       12:30 /opt/activevideo/libexec/we  0.0 32420 84788072[0m
+[0;33m17:10:24 16335       05:31 /opt/activevideo/libexec/we  0.2 32928 101632872[0m
+[0;33m17:12:54 16796       03:01 /opt/activevideo/libexec/we  0.2 31756 101499748[0m
+[0;33m17:14:01 17076       01:54 /opt/activevideo/libexec/we  0.7 32756 101630824[0m
+[0;33m17:14:46 17330       01:09 /opt/activevideo/libexec/we  1.1 32096 101499752[0m
+[0;33m17:15:44 18562       00:11 /opt/activevideo/libexec/we  2.5 37504 84796268[0m
+[0;33m16:10:05 53714    01:05:50 /opt/activevideo/libexec/we  0.0 33084 84853608[0m
+[0;33m[0m[0;33mvca48renonv.reno.nv.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m16:35:13  1325       40:43 /opt/activevideo/libexec/we  0.0 33260 84788072[0m
+[0;33m16:38:42  2916       37:14 /opt/activevideo/libexec/we  0.0 32360 84788072[0m
+[0;33m16:54:47  7745       21:09 /opt/activevideo/libexec/we  0.0 32492 101426020[0m
+[0;33m16:58:20  9784       17:36 /opt/activevideo/libexec/we  0.0 32524 84722536[0m
+[0;33m16:58:58 10074       16:58 /opt/activevideo/libexec/we  0.0 32792 101499752[0m
+[0;33m17:08:10 17105       07:46 /opt/activevideo/libexec/we  0.1 32956 101630824[0m
+[0;33m17:12:01 18312       03:55 /opt/activevideo/libexec/we  0.3 32292 101499748[0m
+[0;33m17:12:34 18546       03:22 /opt/activevideo/libexec/we  0.1 32168 84722532[0m
+[0;33m17:14:36 19953       01:20 /opt/activevideo/libexec/we  0.7 32648 101507944[0m
+[0;33m14:49:28 26930    02:26:28 /opt/activevideo/libexec/we  0.0 33300 84920168[0m
+[0;33m14:49:43 27011    02:26:13 /opt/activevideo/libexec/we  0.0 36980 101565288[0m
+[0;33m[0m[0;33mvca40renonv.reno.nv.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m16:21:59  1283       53:57 /opt/activevideo/libexec/we  0.0 34608 101618536[0m
+[0;33m16:29:04  3437       46:52 /opt/activevideo/libexec/we  0.0 32624 84722536[0m
+[0;33m17:02:46 19193       13:10 /opt/activevideo/libexec/we  0.1 36632 84853608[0m
+[0;33m17:06:23 20767       09:33 /opt/activevideo/libexec/we  0.1 34380 84722532[0m
+[0;33m17:07:03 20957       08:53 /opt/activevideo/libexec/we  0.1 34692 84919140[0m
+[0;33m17:07:34 21148       08:22 /opt/activevideo/libexec/we  0.0 32712 101630824[0m
+[0;33m17:12:35 23275       03:21 /opt/activevideo/libexec/we  0.4 32504 84853608[0m
+[0;33m15:56:28 54458    01:19:28 /opt/activevideo/libexec/we  0.0 32608 84853604[0m
+[0;33m16:03:22 57595    01:12:34 /opt/activevideo/libexec/we  0.0 36700 84733800[0m
+[0;33m16:17:31 64464       58:25 /opt/activevideo/libexec/we  0.0 35960 84873060[0m
+[0;33m[0m[0;33mvca52renonv.reno.nv.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m16:59:52 26578       16:04 /opt/activevideo/libexec/we  0.1 32900 101565288[0m
+[0;33m17:03:16 28435       12:40 /opt/activevideo/libexec/we  0.1 34712 84857704[0m
+[0;33m17:11:32 30757       04:24 /opt/activevideo/libexec/we  0.2 32484 101499752[0m
+[0;33m17:14:13 32119       01:43 /opt/activevideo/libexec/we  0.3 34296 84656996[0m
+[0;33m17:14:37 32198       01:19 /opt/activevideo/libexec/we  0.5 32556 84722536[0m
+[0;33m17:14:47 32266       01:09 /opt/activevideo/libexec/we  0.6 32168 101499752[0m
+[0;33m14:27:10 42510    02:48:46 /opt/activevideo/libexec/we  0.0 32384 84722536[0m
+[0;33m[0m[0;33mvca49renonv.reno.nv.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m15:43:09 10289    01:32:47 /opt/activevideo/libexec/we  0.0 32532 84788068[0m
+[0;33m15:45:15 11096    01:30:41 /opt/activevideo/libexec/we  0.0 32188 84723560[0m
+[0;33m16:23:59 31767       51:57 /opt/activevideo/libexec/we  0.0 32556 84853608[0m
+[0;33m16:39:20 37862       36:36 /opt/activevideo/libexec/we  0.0 32864 84788072[0m
+[0;33m16:49:17 41544       26:39 /opt/activevideo/libexec/we  0.0 32272 84722536[0m
+[0;33m16:52:38 42950       23:18 /opt/activevideo/libexec/we  0.0 34268 84722532[0m
+[0;33m14:26:48 43077    02:49:08 /opt/activevideo/libexec/we  0.0 34356 84658024[0m
+[0;33m16:55:54 43635       20:02 /opt/activevideo/libexec/we  0.0 34692 84879204[0m
+[0;33m17:00:41 45939       15:15 /opt/activevideo/libexec/we  0.2 32188 84724584[0m
+[0;33m17:10:38 50561       05:18 /opt/activevideo/libexec/we  0.1 32596 84788072[0m
+[0;33m17:14:19 52206       01:37 /opt/activevideo/libexec/we  0.4 31976 101499748[0m
+[0;33m17:15:40 52540       00:16 /opt/activevideo/libexec/we  2.0 32444 101573484[0m
+[0;33m17:15:45 52592       00:11 /opt/activevideo/libexec/we  2.8 32272 84730732[0m
+[0;33m[0m[0;33mvca43renonv.reno.nv.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m15:21:18  8782    01:54:38 /opt/activevideo/libexec/we  0.0 34532 101499752[0m
+[0;33m15:27:30 11258    01:48:26 /opt/activevideo/libexec/we  0.0 34544 101499752[0m
+[0;33m16:10:53 30040    01:05:03 /opt/activevideo/libexec/we  0.0 34440 84722536[0m
+[0;33m16:22:18 33784       53:38 /opt/activevideo/libexec/we  0.0 34592 84788068[0m
+[0;33m16:23:00 34002       52:56 /opt/activevideo/libexec/we  0.0 32184 84722536[0m
+[0;33m16:38:27 39089       37:29 /opt/activevideo/libexec/we  0.0 34568 84722532[0m
+[0;33m13:52:04 43162    03:23:52 /opt/activevideo/libexec/we  0.0 36484 84657000[0m
+[0;33m17:15:30 53211       00:26 /opt/activevideo/libexec/we  1.6 33952 84730728[0m
+[0;33m[0m[0;33mvca44renonv.reno.nv.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m16:16:26 10004       59:29 /opt/activevideo/libexec/we  0.0 36924 84722532[0m
+[0;33m16:35:23 18123       40:32 /opt/activevideo/libexec/we  0.0 32164 84788072[0m
+[0;33m[0m[0;33mvca51renonv.reno.nv.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m09:29:06 18712    07:46:50 /opt/activevideo/libexec/we  0.0 32420 84657000[0m
+[0;33m16:26:13 43908       49:43 /opt/activevideo/libexec/we  0.0 32316 84788072[0m
+[0;33m11:38:30 62791    05:37:26 /opt/activevideo/libexec/we  0.0 36628 101566312[0m
+[0;33m17:13:44 63594       02:12 /opt/activevideo/libexec/we  0.7 32524 101565288[0m
+[0;33m17:14:55 63994       01:01 /opt/activevideo/libexec/we  0.5 32496 84722536[0m
+[0;33m[0m[0;33mvca47renonv.reno.nv.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m16:13:57  7421    01:01:59 /opt/activevideo/libexec/we  0.0 34388 101499752[0m
+[0;33m16:23:42 10705       52:14 /opt/activevideo/libexec/we  0.0 34484 101565284[0m
+[0;33m13:36:17 11744    03:39:39 /opt/activevideo/libexec/we  0.0 34496 101565288[0m
+[0;33m16:41:11 17867       34:45 /opt/activevideo/libexec/we  0.0 36596 101567336[0m
+[0;33m17:09:17 31919       06:39 /opt/activevideo/libexec/we  0.0 33988 84722536[0m
+[0;33m17:15:25 34094       00:31 /opt/activevideo/libexec/we  0.6 31936 84648760[0m
+[0;33m[0m[0;33mvca53renonv.reno.nv.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:00:56 48848       15:00 /opt/activevideo/libexec/we  0.0 34668 84788068[0m
+[0;33m17:04:00 50514       11:56 /opt/activevideo/libexec/we  0.0 34728 101565288[0m
+[0;33m17:11:32 53056       04:24 /opt/activevideo/libexec/we  0.2 36544 101566308[0m
+[0;33m[0m[0;33mvca45renonv.reno.nv.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m16:32:19 21465       43:37 /opt/activevideo/libexec/we  0.0 32848 84984676[0m
+[0;33m17:15:38 36701       00:18 /opt/activevideo/libexec/we  3.5 33172 84796268[0m
+[0;33m14:24:19 38236    02:51:37 /opt/activevideo/libexec/we  0.0 32640 101565288[0m
+[0;33m15:00:43 50513    02:15:13 /opt/activevideo/libexec/we  0.0 34928 101572452[0m
+[0;33m[0m[0;33mvca55renonv.reno.nv.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m15:19:14 23612    01:56:42 /opt/activevideo/libexec/we  0.0 32476 84853608[0m
+[0;33m16:13:25 40187    01:02:31 /opt/activevideo/libexec/we  0.0 32700 84919144[0m
+[0;33m16:39:16 49943       36:40 /opt/activevideo/libexec/we  0.0 32376 84788068[0m
+[0;33m16:45:11 51852       30:45 /opt/activevideo/libexec/we  0.0 32072 84656996[0m
+[0;33m17:15:07 61358       00:49 /opt/activevideo/libexec/we  0.6 32632 84861804[0m
+[0;33m17:15:42 61576       00:14 /opt/activevideo/libexec/we  5.6 35688 84861804[0m
+[0;33m[0m[0;33mvca56renonv.reno.nv.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m16:20:04 44108       55:53 /opt/activevideo/libexec/we  0.0 34624 84722532[0m
+[0;33m16:23:50 45674       52:07 /opt/activevideo/libexec/we  0.0 34324 101499752[0m
+[0;33m16:32:37 48874       43:20 /opt/activevideo/libexec/we  0.0 34524 84722536[0m
+[0;33m16:40:10 51235       35:47 /opt/activevideo/libexec/we  0.0 34888 84853604[0m
+[0;33m17:00:57 59087       15:00 /opt/activevideo/libexec/we  0.0 34152 101434216[0m
+[0;33m11:20:34 61590    05:55:23 /opt/activevideo/libexec/we  0.0 34408 101630820[0m
+[0;33m17:12:30 63477       03:27 /opt/activevideo/libexec/we  0.2 34852 84722532[0m
+[0;33m17:14:48 63920       01:09 /opt/activevideo/libexec/we  0.5 36484 84722532[0m
+[0;33m17:15:07 64002       00:50 /opt/activevideo/libexec/we  0.6 34420 101565288[0m
+[0;33m17:15:19 64085       00:38 /opt/activevideo/libexec/we  1.8 32304 84730732[0m
+[0;33m17:15:47 64303       00:10 /opt/activevideo/libexec/we  2.0 31984 101434168[0m
+[0;33m[0m[0;33mvca54renonv.reno.nv.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m16:31:10  1030       44:46 /opt/activevideo/libexec/we  0.0 34524 84722536[0m
+[0;33m16:31:58  1274       43:58 /opt/activevideo/libexec/we  0.0 34672 101565288[0m
+[0;33m16:43:33  5023       32:23 /opt/activevideo/libexec/we  0.0 35628 101565284[0m
+[0;33m17:14:03 20577       01:53 /opt/activevideo/libexec/we  0.3 36284 84722532[0m
+[0;33m17:15:06 20865       00:50 /opt/activevideo/libexec/we  0.6 32368 101499752[0m
+[0;33m17:15:54 21877       00:02 /opt/activevideo/libexec/we 12.0 39544 84738924[0m
+[0;33m15:37:02 42415    01:38:54 /opt/activevideo/libexec/we  0.0 36732 101566312[0m
+[0;33m15:53:38 49946    01:22:18 /opt/activevideo/libexec/we  0.0 34376 101565284[0m
+[0;33m16:09:11 56920    01:06:45 /opt/activevideo/libexec/we  0.0 38808 101630824[0m
+[0;33m[0m[0;31mvca100renonv.reno.nv.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca100renonv.reno.nv.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca102renonv.reno.nv.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca102renonv.reno.nv.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca101renonv.reno.nv.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca101renonv.reno.nv.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca105renonv.reno.nv.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca105renonv.reno.nv.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca103renonv.reno.nv.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca103renonv.reno.nv.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca106renonv.reno.nv.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca106renonv.reno.nv.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca104renonv.reno.nv.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca104renonv.reno.nv.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca107renonv.reno.nv.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca107renonv.reno.nv.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca108renonv.reno.nv.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca108renonv.reno.nv.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca109renonv.reno.nv.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca109renonv.reno.nv.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca115renonv.reno.nv.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca115renonv.reno.nv.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca110renonv.reno.nv.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca110renonv.reno.nv.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca111renonv.reno.nv.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca111renonv.reno.nv.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca113renonv.reno.nv.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca113renonv.reno.nv.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca112renonv.reno.nv.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca112renonv.reno.nv.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca117renonv.reno.nv.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca117renonv.reno.nv.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca114renonv.reno.nv.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca114renonv.reno.nv.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca116renonv.reno.nv.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca116renonv.reno.nv.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca118renonv.reno.nv.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca118renonv.reno.nv.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca119renonv.reno.nv.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca119renonv.reno.nv.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m

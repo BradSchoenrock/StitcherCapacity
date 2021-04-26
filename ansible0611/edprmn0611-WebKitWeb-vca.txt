@@ -1,0 +1,792 @@
+[0;31mvca005edprmn.edpr.mn.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ******************************************************************************\n* This is a private computer system of Charter Communications (\"Charter\").   *\n* It is for authorized, legitimate business use and users only. All users    *\n* (authorized or unauthorized) have no explicit or implicit expectation of   *\n* privacy.                                                                   *\n*                                                                            *\n* Any or all uses of this system and all files on this system may be         *\n* intercepted, monitored, and disclosed by Charter at any time, and may be   *\n* disclosed to any third-party at Charter's sole discretion, including but   *\n* not limited to law enforcement.  By using this system, the user consents   *\n* to such interception, monitoring, and disclosure at Charter's sole         *\n* discretion.                                                                *\n*                                                                            *\n* Unauthorized or improper use of this system may result in loss of access   *\n* and/or privileges, corrective action up to and including termination, and  *\n* any legal remedy available to Charter, and/or civil and criminal           *\n* penalties. By continuing to use this system you indicate your awareness of *\n* and consent to these terms and conditions of use, including those found in *\n* Charter's Acceptable Use of Technology Policy, Network Protection Policy   *\n* and Employee Handbook.                                                     *\n*                                                                            *\n* LOG OFF IMMEDIATELY if you do not agree to the conditions stated in this   *\n* warning.                                                                   *\n******************************************************************************\nReceived disconnect from 172.24.52.10: 2: Too many authentication failures for bschoenrock",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;33mvca001edprmn.edpr.mn.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m16:56:16  2537    01:45:30 /opt/activevideo/libexec/we  0.5 427308 85502172[0m
+[0;33m17:00:21  4782    01:41:25 /opt/activevideo/libexec/we  0.3 394520 85657676[0m
+[0;33m14:44:34  6493    03:57:12 /opt/activevideo/libexec/we  0.3 340284 85471948[0m
+[0;33m17:29:28 17504    01:12:18 /opt/activevideo/libexec/we  0.2 219932 85273536[0m
+[0;33m17:58:56 33896       42:50 /opt/activevideo/libexec/we  0.3 337676 85448292[0m
+[0;33m18:01:02 35627       40:44 /opt/activevideo/libexec/we  1.0 337016 85528568[0m
+[0;33m18:08:23 38506       33:23 /opt/activevideo/libexec/we  0.2 225588 101833808[0m
+[0;33m18:11:14 40066       30:32 /opt/activevideo/libexec/we  0.3 200432 101892840[0m
+[0;33m18:14:23 40751       27:23 /opt/activevideo/libexec/we  0.9 349644 85480424[0m
+[0;33m18:18:00 42767       23:46 /opt/activevideo/libexec/we  3.5 430604 85842600[0m
+[0;33m18:32:17 48992       09:29 /opt/activevideo/libexec/we  7.2 465672 102569088[0m
+[0;33m16:46:21 62080    01:55:25 /opt/activevideo/libexec/we  0.2 210116 101975000[0m
+[0;33m[0m[0;33mvca010edprmn.edpr.mn.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:36:47  6029       04:59 /opt/activevideo/libexec/we  3.5 244256 85355480[0m
+[0;33m18:36:57  6102       04:49 /opt/activevideo/libexec/we  1.4 222640 101850528[0m
+[0;33m18:40:22  7587       01:24 /opt/activevideo/libexec/we 14.2 438024 85540896[0m
+[0;33m18:41:12  7725       00:34 /opt/activevideo/libexec/we  8.3 231740 85157816[0m
+[0;33m17:16:01 35134    01:25:45 /opt/activevideo/libexec/we  0.4 248504 102036736[0m
+[0;33m18:00:21 55580       41:25 /opt/activevideo/libexec/we  0.5 229332 102041552[0m
+[0;33m18:14:23 61098       27:23 /opt/activevideo/libexec/we  0.8 369912 85485164[0m
+[0;33m[0m[0;33mvca003edprmn.edpr.mn.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:40:34   892       01:13 /opt/activevideo/libexec/we  5.2 221396 101852580[0m
+[0;33m18:40:40   971       01:07 /opt/activevideo/libexec/we  8.4 228328 101976692[0m
+[0;33m18:41:36  1263       00:11 /opt/activevideo/libexec/we 26.0 294724 85159256[0m
+[0;33m16:48:56  1948    01:52:51 /opt/activevideo/libexec/we  0.6 372080 85590580[0m
+[0;33m14:51:42  2170    03:50:05 /opt/activevideo/libexec/we  0.4 437796 85708152[0m
+[0;33m17:00:39  8227    01:41:08 /opt/activevideo/libexec/we  0.4 377708 102426296[0m
+[0;33m17:11:47 16842    01:30:00 /opt/activevideo/libexec/we  0.2 304396 85504760[0m
+[0;33m17:14:40 18798    01:27:07 /opt/activevideo/libexec/we  0.0 250828 85283708[0m
+[0;33m17:18:03 21061    01:23:44 /opt/activevideo/libexec/we  0.3 358416 102242152[0m
+[0;33m17:28:29 26525    01:13:18 /opt/activevideo/libexec/we  0.3 389100 102407940[0m
+[0;33m17:35:20 30218    01:06:27 /opt/activevideo/libexec/we  0.4 231068 102000456[0m
+[0;33m17:42:39 33522       59:08 /opt/activevideo/libexec/we  0.5 340648 102322952[0m
+[0;33m17:47:06 36451       54:41 /opt/activevideo/libexec/we  0.1 178344 101895692[0m
+[0;33m16:11:00 47370    02:30:47 /opt/activevideo/libexec/we  0.2 354152 85552408[0m
+[0;33m18:17:12 52739       24:35 /opt/activevideo/libexec/we  0.4 202288 101944952[0m
+[0;33m18:20:45 54696       21:02 /opt/activevideo/libexec/we  0.6 219484 101959864[0m
+[0;33m18:20:49 54757       20:58 /opt/activevideo/libexec/we  1.2 324400 102246072[0m
+[0;33m16:24:29 54760    02:17:18 /opt/activevideo/libexec/we  0.1 242400 101942312[0m
+[0;33m18:39:19 65180       02:28 /opt/activevideo/libexec/we  3.5 222604 101968800[0m
+[0;33m18:39:35 65350       02:12 /opt/activevideo/libexec/we  9.4 335040 102364740[0m
+[0;33m[0m[0;33mvca019edprmn.edpr.mn.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m14:15:58  5080    04:25:49 /opt/activevideo/libexec/we  0.1 223792 101980032[0m
+[0;33m17:36:40 33738    01:05:07 /opt/activevideo/libexec/we  0.5 334668 102201572[0m
+[0;33m17:47:16 38030       54:31 /opt/activevideo/libexec/we  0.4 349524 102255600[0m
+[0;33m18:00:15 44144       41:32 /opt/activevideo/libexec/we  0.5 240884 102032892[0m
+[0;33m18:12:06 50928       29:41 /opt/activevideo/libexec/we  0.3 215896 101947412[0m
+[0;33m18:19:44 54830       22:03 /opt/activevideo/libexec/we  0.3 187148 85108652[0m
+[0;33m10:52:12 55270    07:49:35 /opt/activevideo/libexec/we  0.2 364900 102360260[0m
+[0;33m18:23:43 55861       18:04 /opt/activevideo/libexec/we  0.5 233412 85350672[0m
+[0;33m18:27:09 57665       14:38 /opt/activevideo/libexec/we  0.9 323004 85493096[0m
+[0;33m18:31:08 59600       10:39 /opt/activevideo/libexec/we  2.2 348636 102267100[0m
+[0;33m18:36:40 62051       05:07 /opt/activevideo/libexec/we  1.3 204736 101858448[0m
+[0;33m18:39:43 63566       02:04 /opt/activevideo/libexec/we  5.1 244320 85178876[0m
+[0;33m[0m[0;33mvca018edprmn.edpr.mn.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:32:39  2756    01:09:08 /opt/activevideo/libexec/we  0.6 367760 102397972[0m
+[0;33m17:36:05  4704    01:05:42 /opt/activevideo/libexec/we  0.3 272736 85394548[0m
+[0;33m17:39:44  5757    01:02:03 /opt/activevideo/libexec/we  1.3 480636 85794720[0m
+[0;33m17:42:22  7391       59:25 /opt/activevideo/libexec/we  0.3 223724 101968560[0m
+[0;33m17:43:21  7653       58:26 /opt/activevideo/libexec/we  0.3 324876 85595340[0m
+[0;33m17:57:04 14861       44:43 /opt/activevideo/libexec/we  0.9 352784 85519312[0m
+[0;33m17:58:53 15659       42:54 /opt/activevideo/libexec/we  0.4 323016 85396636[0m
+[0;33m18:11:30 23824       30:17 /opt/activevideo/libexec/we  0.3 233180 101983556[0m
+[0;33m18:28:01 30501       13:46 /opt/activevideo/libexec/we  2.1 445356 85435252[0m
+[0;33m18:34:52 33814       06:55 /opt/activevideo/libexec/we  2.6 360156 102323044[0m
+[0;33m18:37:58 35654       03:49 /opt/activevideo/libexec/we  3.4 341752 102302608[0m
+[0;33m18:39:59 36188       01:48 /opt/activevideo/libexec/we 16.7 389900 102412496[0m
+[0;33m16:51:20 47482    01:50:27 /opt/activevideo/libexec/we  0.4 265448 102122660[0m
+[0;33m[0m[0;33mvca011edprmn.edpr.mn.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:01:10 11813       40:37 /opt/activevideo/libexec/we  0.3 234072 102010120[0m
+[0;33m18:12:09 16233       29:38 /opt/activevideo/libexec/we  0.7 348348 85374128[0m
+[0;33m18:15:47 18432       26:00 /opt/activevideo/libexec/we  1.0 395052 102420208[0m
+[0;33m18:26:29 22734       15:18 /opt/activevideo/libexec/we  0.4 227856 85117336[0m
+[0;33m16:11:15 24582    02:30:32 /opt/activevideo/libexec/we  0.2 338668 85477796[0m
+[0;33m18:31:34 25132       10:13 /opt/activevideo/libexec/we  0.5 203924 85138304[0m
+[0;33m18:32:56 25508       08:51 /opt/activevideo/libexec/we  0.6 203672 85033588[0m
+[0;33m18:37:31 27462       04:16 /opt/activevideo/libexec/we  8.3 348040 102197944[0m
+[0;33m18:40:21 28334       01:26 /opt/activevideo/libexec/we  6.8 242108 85263824[0m
+[0;33m18:40:38 28523       01:09 /opt/activevideo/libexec/we  4.6 213208 85068040[0m
+[0;33m16:41:21 39370    02:00:26 /opt/activevideo/libexec/we  0.3 353136 102257732[0m
+[0;33m17:00:12 48133    01:41:35 /opt/activevideo/libexec/we  0.2 354296 85473224[0m
+[0;33m17:34:46 63899    01:07:01 /opt/activevideo/libexec/we  0.4 318968 102249680[0m
+[0;33m[0m[0;33mvca008edprmn.edpr.mn.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:19:14  7067       22:32 /opt/activevideo/libexec/we  1.6 358556 102342312[0m
+[0;33m18:29:31 12683       12:15 /opt/activevideo/libexec/we  1.8 329300 102349216[0m
+[0;33m18:31:32 13462       10:14 /opt/activevideo/libexec/we  1.5 444708 102457976[0m
+[0;33m18:33:00 14964       08:46 /opt/activevideo/libexec/we  2.3 327712 102221900[0m
+[0;33m18:37:57 17216       03:49 /opt/activevideo/libexec/we  3.3 330852 85628472[0m
+[0;33m18:40:07 17821       01:39 /opt/activevideo/libexec/we  5.7 235876 85254608[0m
+[0;33m18:41:15 18347       00:31 /opt/activevideo/libexec/we 12.3 260268 85103408[0m
+[0;33m16:49:25 32436    01:52:21 /opt/activevideo/libexec/we  1.2 404000 102423608[0m
+[0;33m17:20:29 45801    01:21:17 /opt/activevideo/libexec/we  0.6 362944 85568996[0m
+[0;33m17:37:32 52549    01:04:14 /opt/activevideo/libexec/we  0.4 403072 102347372[0m
+[0;33m17:38:28 52902    01:03:18 /opt/activevideo/libexec/we  0.4 313196 85508440[0m
+[0;33m15:18:09 56514    03:23:37 /opt/activevideo/libexec/we  0.5 429012 85634568[0m
+[0;33m17:58:33 61659       43:13 /opt/activevideo/libexec/we  1.1 398048 102461016[0m
+[0;33m17:59:27 62094       42:19 /opt/activevideo/libexec/we  0.7 332044 85533148[0m
+[0;33m18:00:49 62859       40:57 /opt/activevideo/libexec/we  0.6 326012 102274908[0m
+[0;33m[0m[0;33mvca021edprmn.edpr.mn.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:27:57  2258    01:13:49 /opt/activevideo/libexec/we  0.6 379068 85630768[0m
+[0;33m18:01:17 23742       40:29 /opt/activevideo/libexec/we  0.3 214884 85128768[0m
+[0;33m18:03:52 25170       37:54 /opt/activevideo/libexec/we  0.3 215840 85187940[0m
+[0;33m18:16:25 32844       25:21 /opt/activevideo/libexec/we  0.4 402072 85473200[0m
+[0;33m18:21:53 36978       19:53 /opt/activevideo/libexec/we  0.4 189488 101928192[0m
+[0;33m18:28:54 40274       12:52 /opt/activevideo/libexec/we  0.4 190324 101973824[0m
+[0;33m18:32:38 42514       09:08 /opt/activevideo/libexec/we  1.5 213928 101910716[0m
+[0;33m18:34:01 43033       07:45 /opt/activevideo/libexec/we  0.7 175588 85156420[0m
+[0;33m18:39:55 46552       01:51 /opt/activevideo/libexec/we 10.3 513632 85610328[0m
+[0;33m18:40:37 46767       01:09 /opt/activevideo/libexec/we  9.1 240432 85199476[0m
+[0;33m18:40:52 46831       00:54 /opt/activevideo/libexec/we  7.4 255108 85260896[0m
+[0;33m18:41:23 46946       00:23 /opt/activevideo/libexec/we 22.3 303264 102133096[0m
+[0;33m16:59:13 50470    01:42:33 /opt/activevideo/libexec/we  0.6 364068 85615120[0m
+[0;33m17:06:17 56039    01:35:29 /opt/activevideo/libexec/we  1.0 400468 102408544[0m
+[0;33m15:07:26 59247    03:34:20 /opt/activevideo/libexec/we  0.2 327308 85526580[0m
+[0;33m17:13:15 59485    01:28:31 /opt/activevideo/libexec/we  0.2 281024 85480168[0m
+[0;33m17:22:51 64576    01:18:55 /opt/activevideo/libexec/we  0.2 365264 85375964[0m
+[0;33m[0m[0;33mvca009edprmn.edpr.mn.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:01:51  5505    01:39:56 /opt/activevideo/libexec/we  0.3 330884 85490196[0m
+[0;33m17:35:59 21818    01:05:48 /opt/activevideo/libexec/we  0.5 333216 102302476[0m
+[0;33m17:42:21 27185       59:26 /opt/activevideo/libexec/we  0.4 352596 102229160[0m
+[0;33m18:05:32 37628       36:15 /opt/activevideo/libexec/we  0.6 425332 85721244[0m
+[0;33m18:09:54 39709       31:53 /opt/activevideo/libexec/we  1.4 345472 102376032[0m
+[0;33m18:11:35 40202       30:12 /opt/activevideo/libexec/we  1.1 399392 102446424[0m
+[0;33m18:14:42 41996       27:05 /opt/activevideo/libexec/we  1.1 467036 85646360[0m
+[0;33m18:23:58 44956       17:49 /opt/activevideo/libexec/we  0.9 351320 102387336[0m
+[0;33m18:34:02 48448       07:45 /opt/activevideo/libexec/we  1.8 343356 102289292[0m
+[0;33m18:38:48 50490       02:59 /opt/activevideo/libexec/we  5.3 237960 85279316[0m
+[0;33m18:39:46 51560       02:01 /opt/activevideo/libexec/we  3.8 236380 101933452[0m
+[0;33m18:39:49 51608       01:58 /opt/activevideo/libexec/we  3.4 204816 85092300[0m
+[0;33m18:39:51 51652       01:56 /opt/activevideo/libexec/we  6.3 237740 101981888[0m
+[0;33m18:40:42 51950       01:05 /opt/activevideo/libexec/we  7.3 236448 85186004[0m
+[0;33m18:40:54 52010       00:53 /opt/activevideo/libexec/we  6.0 231324 101890368[0m
+[0;33m18:41:05 52088       00:42 /opt/activevideo/libexec/we  7.5 229092 101852312[0m
+[0;33m18:41:13 52147       00:34 /opt/activevideo/libexec/we 15.8 262484 102076980[0m
+[0;33m[0m[0;33mvca017edprmn.edpr.mn.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:02:55  4592       38:52 /opt/activevideo/libexec/we  0.9 340580 85448980[0m
+[0;33m18:15:00 10142       26:47 /opt/activevideo/libexec/we  0.8 396960 85562676[0m
+[0;33m18:15:24 10364       26:23 /opt/activevideo/libexec/we  0.8 360100 102401468[0m
+[0;33m16:10:59 14236    02:30:48 /opt/activevideo/libexec/we  0.2 271028 102215016[0m
+[0;33m18:23:37 14947       18:10 /opt/activevideo/libexec/we  0.6 182628 102074204[0m
+[0;33m18:31:42 17682       10:05 /opt/activevideo/libexec/we  0.6 201964 85217112[0m
+[0;33m18:40:02 21771       01:45 /opt/activevideo/libexec/we  4.6 234180 101952032[0m
+[0;33m18:41:40 22159       00:07 /opt/activevideo/libexec/we 26.7 256888 85027020[0m
+[0;33m17:42:21 58061       59:26 /opt/activevideo/libexec/we  0.3 361880 102330260[0m
+[0;33m17:48:51 62261       52:56 /opt/activevideo/libexec/we  0.3 221096 85223972[0m
+[0;33m17:52:33 64009       49:14 /opt/activevideo/libexec/we  0.2 217132 85200828[0m
+[0;33m[0m[0;33mvca016edprmn.edpr.mn.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:31:36   637       10:11 /opt/activevideo/libexec/we  1.0 202312 101988272[0m
+[0;33m18:37:05  3327       04:42 /opt/activevideo/libexec/we 11.5 370032 102362272[0m
+[0;33m13:53:39  3896    04:48:08 /opt/activevideo/libexec/we  0.2 344384 85511428[0m
+[0;33m18:40:48  5445       00:59 /opt/activevideo/libexec/we  6.6 234972 102022784[0m
+[0;33m18:41:17  5589       00:30 /opt/activevideo/libexec/we  6.4 198168 101869472[0m
+[0;33m18:41:33  5783       00:14 /opt/activevideo/libexec/we 17.1 264460 101885224[0m
+[0;33m18:41:41  5848       00:06 /opt/activevideo/libexec/we 32.0 260068 85032308[0m
+[0;33m16:42:14 16235    01:59:33 /opt/activevideo/libexec/we  0.2 434324 102372572[0m
+[0;33m16:57:31 21997    01:44:16 /opt/activevideo/libexec/we  0.1 257684 85322904[0m
+[0;33m17:29:17 36906    01:12:30 /opt/activevideo/libexec/we  0.1 213020 101874288[0m
+[0;33m17:31:55 38033    01:09:52 /opt/activevideo/libexec/we  0.4 378420 102343276[0m
+[0;33m17:32:53 39035    01:08:54 /opt/activevideo/libexec/we  0.6 315888 102276264[0m
+[0;33m17:36:27 40264    01:05:20 /opt/activevideo/libexec/we  0.8 347532 85492728[0m
+[0;33m17:41:38 42824    01:00:09 /opt/activevideo/libexec/we  0.4 324704 102341484[0m
+[0;33m18:05:48 53480       35:59 /opt/activevideo/libexec/we  0.3 201572 85107524[0m
+[0;33m18:06:59 53842       34:48 /opt/activevideo/libexec/we  0.6 322780 102358148[0m
+[0;33m18:13:58 57610       27:49 /opt/activevideo/libexec/we  0.7 383840 85654020[0m
+[0;33m18:18:40 59462       23:07 /opt/activevideo/libexec/we  1.0 325396 85493032[0m
+[0;33m18:26:45 63288       15:02 /opt/activevideo/libexec/we  1.2 340660 85535012[0m
+[0;33m[0m[0;33mvca014edprmn.edpr.mn.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:56:07 20972       45:40 /opt/activevideo/libexec/we  1.2 409860 102453320[0m
+[0;33m17:57:31 22457       44:16 /opt/activevideo/libexec/we  0.6 347896 85537988[0m
+[0;33m18:00:08 23364       41:39 /opt/activevideo/libexec/we  0.1 197596 101851304[0m
+[0;33m18:02:42 25303       39:05 /opt/activevideo/libexec/we  0.4 189416 85241452[0m
+[0;33m18:07:12 27461       34:35 /opt/activevideo/libexec/we  1.2 383620 102354288[0m
+[0;33m18:08:34 27792       33:13 /opt/activevideo/libexec/we  0.8 347684 102179848[0m
+[0;33m18:13:58 30260       27:49 /opt/activevideo/libexec/we  0.6 242668 85208688[0m
+[0;33m16:09:58 37606    02:31:49 /opt/activevideo/libexec/we  0.1 235744 85292596[0m
+[0;33m18:34:49 39540       06:58 /opt/activevideo/libexec/we  1.7 406712 102294532[0m
+[0;33m18:39:54 42169       01:53 /opt/activevideo/libexec/we  4.8 242572 101964988[0m
+[0;33m18:41:04 42433       00:43 /opt/activevideo/libexec/we  9.7 246972 85187196[0m
+[0;33m16:28:38 45759    02:13:09 /opt/activevideo/libexec/we  0.3 237420 85326840[0m
+[0;33m17:09:23 63160    01:32:24 /opt/activevideo/libexec/we  0.5 353744 85641316[0m
+[0;33m[0m[0;33mvca022edprmn.edpr.mn.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:58:03  9369       43:44 /opt/activevideo/libexec/we  0.5 327124 85492812[0m
+[0;33m18:00:00 12508       41:47 /opt/activevideo/libexec/we  0.8 332380 102328020[0m
+[0;33m18:03:39 14752       38:08 /opt/activevideo/libexec/we  0.3 204884 101903476[0m
+[0;33m18:03:43 14810       38:04 /opt/activevideo/libexec/we  0.2 249092 102109912[0m
+[0;33m18:21:31 22176       20:16 /opt/activevideo/libexec/we  1.6 391380 102452140[0m
+[0;33m18:27:16 26036       14:31 /opt/activevideo/libexec/we  5.7 342208 102316640[0m
+[0;33m18:32:00 27062       09:47 /opt/activevideo/libexec/we  1.8 387416 102511384[0m
+[0;33m18:34:49 28649       06:58 /opt/activevideo/libexec/we  2.3 226484 85236232[0m
+[0;33m18:37:16 30249       04:31 /opt/activevideo/libexec/we  2.0 219680 85108764[0m
+[0;33m18:37:57 30396       03:50 /opt/activevideo/libexec/we  2.9 266720 85156264[0m
+[0;33m18:41:36 31083       00:11 /opt/activevideo/libexec/we 19.0 242252 101872904[0m
+[0;33m16:33:21 40851    02:08:26 /opt/activevideo/libexec/we  0.4 346516 102423988[0m
+[0;33m17:02:10 50744    01:39:37 /opt/activevideo/libexec/we  0.4 324832 102263704[0m
+[0;33m17:04:10 51995    01:37:37 /opt/activevideo/libexec/we  0.2 339780 102420260[0m
+[0;33m17:34:10 64873    01:07:37 /opt/activevideo/libexec/we  0.3 240304 85300016[0m
+[0;33m[0m[0;33mvca031edprmn.edpr.mn.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:33:05  1309       08:42 /opt/activevideo/libexec/we  2.3 462524 85676184[0m
+[0;33m18:35:34  2753       06:13 /opt/activevideo/libexec/we  6.7 393268 102451952[0m
+[0;33m18:37:22  3278       04:25 /opt/activevideo/libexec/we  1.2 184872 101942244[0m
+[0;33m14:06:32  4340    04:35:15 /opt/activevideo/libexec/we  0.1 282740 85485660[0m
+[0;33m18:40:25  5021       01:22 /opt/activevideo/libexec/we  7.6 248476 101915364[0m
+[0;33m18:41:12  5155       00:35 /opt/activevideo/libexec/we 12.1 289360 102057252[0m
+[0;33m17:00:00 18348    01:41:47 /opt/activevideo/libexec/we  0.2 316760 102311512[0m
+[0;33m17:00:05 18523    01:41:42 /opt/activevideo/libexec/we  0.4 391976 85672816[0m
+[0;33m17:07:45 21256    01:34:02 /opt/activevideo/libexec/we  0.6 335336 85392836[0m
+[0;33m17:20:05 27413    01:21:42 /opt/activevideo/libexec/we  0.2 223496 102036500[0m
+[0;33m17:22:53 27955    01:18:54 /opt/activevideo/libexec/we  0.3 329316 102252916[0m
+[0;33m17:28:47 31402    01:13:00 /opt/activevideo/libexec/we  0.2 243820 102091032[0m
+[0;33m15:17:33 35906    03:24:14 /opt/activevideo/libexec/we  0.4 398372 102255568[0m
+[0;33m17:40:49 36963    01:00:58 /opt/activevideo/libexec/we  0.2 331412 102265572[0m
+[0;33m17:41:12 37105    01:00:35 /opt/activevideo/libexec/we  0.4 371424 85414908[0m
+[0;33m17:42:10 37662       59:37 /opt/activevideo/libexec/we  0.5 359372 102304680[0m
+[0;33m17:46:29 40374       55:18 /opt/activevideo/libexec/we  0.5 348160 102410088[0m
+[0;33m17:49:58 45101       51:49 /opt/activevideo/libexec/we  0.6 339832 85599432[0m
+[0;33m17:51:25 45748       50:22 /opt/activevideo/libexec/we  0.3 285080 85494940[0m
+[0;33m17:54:31 47470       47:16 /opt/activevideo/libexec/we  0.2 171888 101988736[0m
+[0;33m18:01:36 50603       40:11 /opt/activevideo/libexec/we  0.6 320564 102207272[0m
+[0;33m18:25:15 63093       16:32 /opt/activevideo/libexec/we  2.0 321076 102393776[0m
+[0;33m[0m[0;33mvca006edprmn.edpr.mn.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:03:51  4483       37:56 /opt/activevideo/libexec/we  0.4 343112 85480016[0m
+[0;33m15:58:43 15934    02:43:04 /opt/activevideo/libexec/we  0.4 390828 102449532[0m
+[0;33m18:24:49 17249       16:58 /opt/activevideo/libexec/we  1.8 299932 102157316[0m
+[0;33m18:38:03 25377       03:44 /opt/activevideo/libexec/we  6.3 354844 85602544[0m
+[0;33m18:40:40 26862       01:07 /opt/activevideo/libexec/we  5.4 206252 85087252[0m
+[0;33m18:40:46 26914       01:01 /opt/activevideo/libexec/we  7.5 250156 101909652[0m
+[0;33m18:41:25 27096       00:22 /opt/activevideo/libexec/we 11.7 246168 101947812[0m
+[0;33m18:41:45 27225       00:02 /opt/activevideo/libexec/we  110 452744 85127008[0m
+[0;33m16:53:01 38923    01:48:46 /opt/activevideo/libexec/we  0.1 211532 85212184[0m
+[0;33m17:20:55 51495    01:20:52 /opt/activevideo/libexec/we  0.3 375388 85521156[0m
+[0;33m17:33:02 56676    01:08:45 /opt/activevideo/libexec/we  0.3 224768 85212460[0m
+[0;33m17:36:46 58168    01:05:01 /opt/activevideo/libexec/we  0.5 327016 102302844[0m
+[0;33m17:52:42 64842       49:05 /opt/activevideo/libexec/we  1.0 429724 85681340[0m
+[0;33m[0m[0;33mvca013edprmn.edpr.mn.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m15:23:18 30280    03:18:29 /opt/activevideo/libexec/we  0.2 357396 85473968[0m
+[0;33m17:51:14 31763       50:33 /opt/activevideo/libexec/we  0.9 425504 85776092[0m
+[0;33m18:08:52 39073       32:55 /opt/activevideo/libexec/we  1.0 390928 85719932[0m
+[0;33m18:32:39 48977       09:08 /opt/activevideo/libexec/we  0.5 173644 101836720[0m
+[0;33m18:33:33 49068       08:14 /opt/activevideo/libexec/we  1.5 376604 102444624[0m
+[0;33m18:34:47 50181       07:00 /opt/activevideo/libexec/we  1.6 295224 85494172[0m
+[0;33m18:36:35 50488       05:12 /opt/activevideo/libexec/we  1.6 168352 101736596[0m
+[0;33m18:41:13 52037       00:34 /opt/activevideo/libexec/we  8.9 233264 85092560[0m
+[0;33m18:41:43 52165       00:04 /opt/activevideo/libexec/we 44.7 194976 84969576[0m
+[0;33m[0m[0;33mvca027edprmn.edpr.mn.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:58:00  7461       43:47 /opt/activevideo/libexec/we  0.8 344620 102326232[0m
+[0;33m17:59:20  7977       42:27 /opt/activevideo/libexec/we  0.1 206880 85162508[0m
+[0;33m18:01:08 12325       40:39 /opt/activevideo/libexec/we  0.3 293080 85429884[0m
+[0;33m18:06:11 14997       35:36 /opt/activevideo/libexec/we  0.9 380956 102318000[0m
+[0;33m18:17:01 20620       24:46 /opt/activevideo/libexec/we  1.2 358368 102325844[0m
+[0;33m18:17:31 20888       24:16 /opt/activevideo/libexec/we  0.7 350520 85490736[0m
+[0;33m18:21:04 22982       20:43 /opt/activevideo/libexec/we  0.9 346292 102262932[0m
+[0;33m18:23:00 23492       18:47 /opt/activevideo/libexec/we  1.5 405996 85742408[0m
+[0;33m18:28:22 25884       13:25 /opt/activevideo/libexec/we  1.4 304532 85473600[0m
+[0;33m18:30:23 27182       11:24 /opt/activevideo/libexec/we  1.9 333408 85450368[0m
+[0;33m18:37:31 31245       04:16 /opt/activevideo/libexec/we  3.0 221160 85245856[0m
+[0;33m18:38:06 31445       03:41 /opt/activevideo/libexec/we  4.1 257932 102036864[0m
+[0;33m18:39:10 31721       02:37 /opt/activevideo/libexec/we  2.1 151720 84880396[0m
+[0;33m18:40:43 32406       01:04 /opt/activevideo/libexec/we  6.5 233956 85109296[0m
+[0;33m17:03:58 45882    01:37:49 /opt/activevideo/libexec/we  0.2 277676 85381492[0m
+[0;33m[0m[0;33mvca023edprmn.edpr.mn.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m14:15:27  3309    04:26:20 /opt/activevideo/libexec/we  0.2 283928 85409060[0m
+[0;33m17:34:37 27862    01:07:10 /opt/activevideo/libexec/we  0.2 217960 85217024[0m
+[0;33m17:34:51 28094    01:06:56 /opt/activevideo/libexec/we  0.3 356800 102259920[0m
+[0;33m17:38:32 30069    01:03:15 /opt/activevideo/libexec/we  0.1 202248 101998352[0m
+[0;33m17:39:43 30679    01:02:04 /opt/activevideo/libexec/we  0.1 179688 85142184[0m
+[0;33m17:56:44 39234       45:03 /opt/activevideo/libexec/we  0.4 343668 85416892[0m
+[0;33m18:01:02 41683       40:45 /opt/activevideo/libexec/we  0.1 194224 85144080[0m
+[0;33m18:02:11 42359       39:36 /opt/activevideo/libexec/we  0.3 200948 101989264[0m
+[0;33m18:21:05 51341       20:42 /opt/activevideo/libexec/we  0.5 201220 101996740[0m
+[0;33m18:21:16 51413       20:31 /opt/activevideo/libexec/we  0.7 307548 102228704[0m
+[0;33m18:32:42 57209       09:05 /opt/activevideo/libexec/we  0.8 171504 85140264[0m
+[0;33m18:36:46 58814       05:01 /opt/activevideo/libexec/we  1.5 183084 84953012[0m
+[0;33m18:38:42 59374       03:05 /opt/activevideo/libexec/we  3.2 224564 101969548[0m
+[0;33m[0m[0;33mvca025edprmn.edpr.mn.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:27:38  2071       14:09 /opt/activevideo/libexec/we  0.8 271728 102244128[0m
+[0;33m18:28:44  2401       13:03 /opt/activevideo/libexec/we  1.3 344420 102243288[0m
+[0;33m18:30:10  3157       11:37 /opt/activevideo/libexec/we  1.7 433856 102481488[0m
+[0;33m18:32:14  4640       09:33 /opt/activevideo/libexec/we  1.8 344552 85540172[0m
+[0;33m18:33:21  5395       08:26 /opt/activevideo/libexec/we  1.1 269060 102126220[0m
+[0;33m18:39:49  7798       01:58 /opt/activevideo/libexec/we 10.9 386652 85500992[0m
+[0;33m18:40:10  8017       01:37 /opt/activevideo/libexec/we  5.0 227216 101945852[0m
+[0;33m18:41:07  8226       00:40 /opt/activevideo/libexec/we  6.5 226148 85011584[0m
+[0;33m16:49:57 16490    01:51:50 /opt/activevideo/libexec/we  0.2 336552 85467524[0m
+[0;33m16:53:40 18424    01:48:07 /opt/activevideo/libexec/we  0.3 324520 102295908[0m
+[0;33m16:59:45 21217    01:42:02 /opt/activevideo/libexec/we  0.2 230156 102104708[0m
+[0;33m14:59:27 24720    03:42:20 /opt/activevideo/libexec/we  0.1 357072 102198680[0m
+[0;33m17:29:45 36159    01:12:02 /opt/activevideo/libexec/we  1.3 403652 102509872[0m
+[0;33m17:37:39 41359    01:04:08 /opt/activevideo/libexec/we  1.0 439728 102518864[0m
+[0;33m17:42:07 43687       59:40 /opt/activevideo/libexec/we  0.4 331352 85554204[0m
+[0;33m15:55:13 50582    02:46:34 /opt/activevideo/libexec/we  0.2 385360 85668832[0m
+[0;33m15:56:14 50818    02:45:33 /opt/activevideo/libexec/we  0.4 386572 85587328[0m
+[0;33m18:01:42 52839       40:05 /opt/activevideo/libexec/we  0.7 327852 102338876[0m
+[0;33m18:05:37 54891       36:10 /opt/activevideo/libexec/we  1.1 370024 85631940[0m
+[0;33m13:53:47 59018    04:48:00 /opt/activevideo/libexec/we  0.1 351580 85461540[0m
+[0;33m18:17:28 61241       24:19 /opt/activevideo/libexec/we  0.4 385620 102271400[0m
+[0;33m18:20:10 62428       21:37 /opt/activevideo/libexec/we  0.4 189748 101971412[0m
+[0;33m16:20:29 63670    02:21:18 /opt/activevideo/libexec/we  0.6 370868 85613832[0m
+[0;33m18:23:42 64873       18:05 /opt/activevideo/libexec/we  1.4 203476 85289928[0m
+[0;33m[0m[0;33mvca015edprmn.edpr.mn.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m14:50:52  5247    03:50:55 /opt/activevideo/libexec/we  0.4 413096 102454144[0m
+[0;33m17:15:25 10293    01:26:22 /opt/activevideo/libexec/we  0.2 292048 102178040[0m
+[0;33m17:16:19 11350    01:25:28 /opt/activevideo/libexec/we  0.9 342632 85591948[0m
+[0;33m17:16:42 11543    01:25:05 /opt/activevideo/libexec/we  0.6 388896 85513892[0m
+[0;33m17:26:01 15198    01:15:46 /opt/activevideo/libexec/we  0.8 357132 102313280[0m
+[0;33m17:28:12 16537    01:13:35 /opt/activevideo/libexec/we  0.3 359148 85620884[0m
+[0;33m17:52:04 29261       49:43 /opt/activevideo/libexec/we  0.4 287280 102217684[0m
+[0;33m16:02:42 37270    02:39:05 /opt/activevideo/libexec/we  0.5 413592 102421720[0m
+[0;33m18:10:22 37951       31:25 /opt/activevideo/libexec/we  0.8 392408 85736952[0m
+[0;33m16:05:09 38248    02:36:38 /opt/activevideo/libexec/we  0.4 455160 85698180[0m
+[0;33m16:11:27 42137    02:30:20 /opt/activevideo/libexec/we  0.2 319428 102177912[0m
+[0;33m18:19:40 42845       22:07 /opt/activevideo/libexec/we  7.0 584544 102560560[0m
+[0;33m18:27:35 47104       14:12 /opt/activevideo/libexec/we  1.4 333352 102230556[0m
+[0;33m14:06:28 47324    04:35:19 /opt/activevideo/libexec/we  0.1 282712 85376792[0m
+[0;33m18:36:17 50840       05:30 /opt/activevideo/libexec/we  6.3 311344 85439404[0m
+[0;33m16:32:25 52321    02:09:22 /opt/activevideo/libexec/we  0.4 402884 85573140[0m
+[0;33m[0m[0;33mvca040edprmn.edpr.mn.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:39:46  1609       02:02 /opt/activevideo/libexec/we  2.8 210768 85063700[0m
+[0;33m18:39:59  1680       01:49 /opt/activevideo/libexec/we  2.3 174796 101792736[0m
+[0;33m18:41:30  2144       00:18 /opt/activevideo/libexec/we 35.6 419736 102179008[0m
+[0;33m18:41:46  2270       00:02 /opt/activevideo/libexec/we 87.0 208204 85049156[0m
+[0;33m16:22:29  2931    02:19:19 /opt/activevideo/libexec/we  0.1 222484 102066396[0m
+[0;33m17:36:10 34950    01:05:38 /opt/activevideo/libexec/we  1.0 415128 85708160[0m
+[0;33m17:39:19 36412    01:02:29 /opt/activevideo/libexec/we  0.2 221072 85302344[0m
+[0;33m17:47:08 39039       54:40 /opt/activevideo/libexec/we  0.2 191140 101894708[0m
+[0;33m17:50:29 40467       51:19 /opt/activevideo/libexec/we  0.6 302500 102261364[0m
+[0;33m17:57:31 43212       44:17 /opt/activevideo/libexec/we  0.1 222628 85102736[0m
+[0;33m18:00:04 44982       41:44 /opt/activevideo/libexec/we  1.5 337880 102255612[0m
+[0;33m18:04:28 47783       37:20 /opt/activevideo/libexec/we  0.3 271200 85384996[0m
+[0;33m18:10:11 50420       31:37 /opt/activevideo/libexec/we  0.2 235632 85319544[0m
+[0;33m18:17:25 55966       24:23 /opt/activevideo/libexec/we  0.3 213124 101905912[0m
+[0;33m18:20:27 57599       21:21 /opt/activevideo/libexec/we  0.8 336760 85519928[0m
+[0;33m18:30:25 62698       11:23 /opt/activevideo/libexec/we  2.7 328336 85573680[0m
+[0;33m18:31:06 62977       10:42 /opt/activevideo/libexec/we  1.9 346840 85545068[0m
+[0;33m18:35:45 64778       06:03 /opt/activevideo/libexec/we  3.7 257488 102048836[0m
+[0;33m[0m[0;33mvca012edprmn.edpr.mn.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:31:26  4609    01:10:21 /opt/activevideo/libexec/we  1.8 377368 86196480[0m
+[0;33m17:34:20  6796    01:07:27 /opt/activevideo/libexec/we  0.5 347148 102323896[0m
+[0;33m17:50:19 13905       51:28 /opt/activevideo/libexec/we  0.5 322440 102213992[0m
+[0;33m18:08:36 23202       33:11 /opt/activevideo/libexec/we  1.1 401724 102439088[0m
+[0;33m18:11:07 23915       30:40 /opt/activevideo/libexec/we  0.6 356632 102213596[0m
+[0;33m18:11:07 23947       30:40 /opt/activevideo/libexec/we  0.9 332756 85677624[0m
+[0;33m18:15:31 25894       26:16 /opt/activevideo/libexec/we  0.5 219436 85128420[0m
+[0;33m18:20:09 28291       21:38 /opt/activevideo/libexec/we  1.6 404172 85665196[0m
+[0;33m18:28:37 32326       13:10 /opt/activevideo/libexec/we  1.6 398940 102503164[0m
+[0;33m18:37:01 36027       04:46 /opt/activevideo/libexec/we  2.2 215880 101920148[0m
+[0;33m18:37:56 36170       03:51 /opt/activevideo/libexec/we  2.2 218444 85066324[0m
+[0;33m18:39:46 36612       02:01 /opt/activevideo/libexec/we 13.4 547916 102444616[0m
+[0;33m18:41:00 37144       00:47 /opt/activevideo/libexec/we  4.9 192072 85032764[0m
+[0;33m18:41:43 38266       00:04 /opt/activevideo/libexec/we 45.5 209660 101754788[0m
+[0;33m16:55:01 50598    01:46:46 /opt/activevideo/libexec/we  0.2 229304 85275908[0m
+[0;33m17:05:26 54472    01:36:21 /opt/activevideo/libexec/we  0.2 348240 85474172[0m
+[0;33m[0m[0;33mvca002edprmn.edpr.mn.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:01:46  6566    01:40:02 /opt/activevideo/libexec/we  0.1 220256 101973420[0m
+[0;33m17:16:32 14838    01:25:16 /opt/activevideo/libexec/we  0.6 395376 85655224[0m
+[0;33m14:53:23 18954    03:48:25 /opt/activevideo/libexec/we  0.2 360276 85449148[0m
+[0;33m17:45:11 27902       56:37 /opt/activevideo/libexec/we  0.4 241480 102008340[0m
+[0;33m17:45:16 27963       56:32 /opt/activevideo/libexec/we  0.1 223772 85048668[0m
+[0;33m18:09:05 37313       32:43 /opt/activevideo/libexec/we  0.9 369684 102330208[0m
+[0;33m18:32:31 46301       09:17 /opt/activevideo/libexec/we  0.8 211200 85290980[0m
+[0;33m18:40:18 50022       01:30 /opt/activevideo/libexec/we  6.1 228832 102011396[0m
+[0;33m18:41:44 50389       00:04 /opt/activevideo/libexec/we 47.5 249344 85098684[0m
+[0;33m[0m[0;33mvca007edprmn.edpr.mn.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:39:46  3747    01:02:01 /opt/activevideo/libexec/we  1.3 393196 85593208[0m
+[0;33m17:40:36  4102    01:01:11 /opt/activevideo/libexec/we  0.3 280020 85494804[0m
+[0;33m17:44:58  6242       56:49 /opt/activevideo/libexec/we  0.3 240228 85277976[0m
+[0;33m17:50:29  8795       51:18 /opt/activevideo/libexec/we  0.7 373736 85662844[0m
+[0;33m17:52:48  9713       48:59 /opt/activevideo/libexec/we  0.9 365048 102206412[0m
+[0;33m17:58:17 14522       43:30 /opt/activevideo/libexec/we  0.3 239668 102021460[0m
+[0;33m18:10:56 22061       30:51 /opt/activevideo/libexec/we  1.7 404424 102466048[0m
+[0;33m18:11:03 22121       30:44 /opt/activevideo/libexec/we  0.4 201568 101944600[0m
+[0;33m18:12:24 22631       29:23 /opt/activevideo/libexec/we  0.6 369384 102367492[0m
+[0;33m18:28:53 29655       12:54 /opt/activevideo/libexec/we  1.5 318788 85485236[0m
+[0;33m18:29:34 30914       12:13 /opt/activevideo/libexec/we  3.9 390796 85608252[0m
+[0;33m18:40:13 36898       01:34 /opt/activevideo/libexec/we  6.0 258028 102037284[0m
+[0;33m18:40:18 36953       01:29 /opt/activevideo/libexec/we  5.9 229944 85158340[0m
+[0;33m18:40:22 37015       01:25 /opt/activevideo/libexec/we  5.0 217036 85162468[0m
+[0;33m18:41:28 37206       00:19 /opt/activevideo/libexec/we 36.1 428148 85561548[0m
+[0;33m18:41:42 37293       00:05 /opt/activevideo/libexec/we 37.8 241952 101869780[0m
+[0;33m14:45:13 55989    03:56:34 /opt/activevideo/libexec/we  0.1 385856 85529792[0m
+[0;33m17:19:46 59127    01:22:01 /opt/activevideo/libexec/we  0.2 249776 102099888[0m
+[0;33m17:23:24 60179    01:18:23 /opt/activevideo/libexec/we  0.4 326564 102230008[0m
+[0;33m[0m[0;33mvca024edprmn.edpr.mn.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:28:27 20633    01:13:21 /opt/activevideo/libexec/we  1.4 386476 102313496[0m
+[0;33m17:28:41 21572    01:13:07 /opt/activevideo/libexec/we  0.1 249308 101965548[0m
+[0;33m17:52:53 33296       48:55 /opt/activevideo/libexec/we  0.7 394248 102475952[0m
+[0;33m17:54:42 35000       47:06 /opt/activevideo/libexec/we  0.2 191684 85103508[0m
+[0;33m18:04:09 40680       37:39 /opt/activevideo/libexec/we  0.9 323380 102265900[0m
+[0;33m18:12:52 44351       28:56 /opt/activevideo/libexec/we  0.3 223820 85138648[0m
+[0;33m18:15:56 45939       25:52 /opt/activevideo/libexec/we  0.3 219004 101927764[0m
+[0;33m18:37:28 55400       04:20 /opt/activevideo/libexec/we  2.6 312044 102239288[0m
+[0;33m18:40:59 57343       00:49 /opt/activevideo/libexec/we  6.8 229064 85143796[0m
+[0;33m18:41:02 57395       00:46 /opt/activevideo/libexec/we 23.5 519888 102510616[0m
+[0;33m[0m[0;33mvca028edprmn.edpr.mn.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:14:38  2368       27:10 /opt/activevideo/libexec/we  1.1 342996 102251100[0m
+[0;33m16:46:38 26761    01:55:10 /opt/activevideo/libexec/we  0.1 208292 85231256[0m
+[0;33m17:11:29 39249    01:30:19 /opt/activevideo/libexec/we  0.2 205332 101963616[0m
+[0;33m17:13:44 40317    01:28:04 /opt/activevideo/libexec/we  1.2 460408 102386376[0m
+[0;33m17:15:01 40698    01:26:47 /opt/activevideo/libexec/we  0.3 228244 85287632[0m
+[0;33m17:43:55 53463       57:53 /opt/activevideo/libexec/we  0.3 284136 102202948[0m
+[0;33m18:06:44 63853       35:04 /opt/activevideo/libexec/we  2.0 298584 85382488[0m
+[0;33m[0m[0;33mvca039edprmn.edpr.mn.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:22:09  6960    01:19:39 /opt/activevideo/libexec/we  0.5 343112 102287844[0m
+[0;33m15:27:17 16032    03:14:31 /opt/activevideo/libexec/we  0.4 380624 85575540[0m
+[0;33m17:57:07 26451       44:41 /opt/activevideo/libexec/we  3.1 495500 102612116[0m
+[0;33m18:03:02 29491       38:46 /opt/activevideo/libexec/we  0.8 350572 102455284[0m
+[0;33m18:12:09 33920       29:39 /opt/activevideo/libexec/we  0.6 328448 102407940[0m
+[0;33m18:12:44 34229       29:04 /opt/activevideo/libexec/we  0.6 327796 102252308[0m
+[0;33m18:26:49 40689       14:59 /opt/activevideo/libexec/we  0.4 183176 101936752[0m
+[0;33m18:28:07 41028       13:41 /opt/activevideo/libexec/we  1.9 326860 102253068[0m
+[0;33m18:32:47 43233       09:01 /opt/activevideo/libexec/we  0.8 211132 85173984[0m
+[0;33m18:38:42 45204       03:06 /opt/activevideo/libexec/we  1.8 184568 101739480[0m
+[0;33m18:40:44 46867       01:04 /opt/activevideo/libexec/we  5.6 219704 101948816[0m
+[0;33m18:40:54 46920       00:54 /opt/activevideo/libexec/we  5.9 220964 101857412[0m
+[0;33m16:38:16 49907    02:03:32 /opt/activevideo/libexec/we  0.2 340548 102244548[0m
+[0;33m[0m[0;33mvca030edprmn.edpr.mn.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:09:05   738       32:43 /opt/activevideo/libexec/we  0.6 316408 102256712[0m
+[0;33m18:13:07  2620       28:41 /opt/activevideo/libexec/we  0.5 269416 85375612[0m
+[0;33m18:15:41  3159       26:07 /opt/activevideo/libexec/we  1.0 385140 102468396[0m
+[0;33m18:26:52  7875       14:56 /opt/activevideo/libexec/we  1.1 335820 102302076[0m
+[0;33m18:28:40  8582       13:08 /opt/activevideo/libexec/we  1.1 336832 102269272[0m
+[0;33m18:29:04  8774       12:44 /opt/activevideo/libexec/we  0.6 231932 101996224[0m
+[0;33m18:36:20 13718       05:28 /opt/activevideo/libexec/we  1.6 186732 101787804[0m
+[0;33m18:41:16 15484       00:32 /opt/activevideo/libexec/we 11.6 235932 101818396[0m
+[0;33m18:41:35 15579       00:13 /opt/activevideo/libexec/we 17.3 249772 101815376[0m
+[0;33m16:31:58 22113    02:09:50 /opt/activevideo/libexec/we  0.4 249488 85335040[0m
+[0;33m17:10:06 38229    01:31:42 /opt/activevideo/libexec/we  0.1 292116 85342284[0m
+[0;33m17:38:49 51047    01:02:59 /opt/activevideo/libexec/we  0.7 443772 102557468[0m
+[0;33m17:40:12 51544    01:01:36 /opt/activevideo/libexec/we  0.4 390728 102394264[0m
+[0;33m17:55:30 59065       46:18 /opt/activevideo/libexec/we  0.7 390508 85564048[0m
+[0;33m18:00:30 61908       41:18 /opt/activevideo/libexec/we  0.6 243040 85346552[0m
+[0;33m18:01:00 62098       40:48 /opt/activevideo/libexec/we  0.7 310656 102187404[0m
+[0;33m18:02:47 63579       39:01 /opt/activevideo/libexec/we  0.5 258488 102080940[0m
+[0;33m18:04:10 64009       37:38 /opt/activevideo/libexec/we  0.5 341844 102270880[0m
+[0;33m[0m[0;33mvca033edprmn.edpr.mn.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m16:57:18  4055    01:44:30 /opt/activevideo/libexec/we  0.6 345380 102302492[0m
+[0;33m17:01:20  5608    01:40:28 /opt/activevideo/libexec/we  0.7 401192 85575008[0m
+[0;33m17:06:47  8352    01:35:01 /opt/activevideo/libexec/we  0.3 235784 102018656[0m
+[0;33m17:12:17 14425    01:29:31 /opt/activevideo/libexec/we  0.3 369432 85497784[0m
+[0;33m17:34:24 25044    01:07:24 /opt/activevideo/libexec/we  0.6 424184 85751664[0m
+[0;33m17:36:36 25758    01:05:12 /opt/activevideo/libexec/we  0.3 330404 85536848[0m
+[0;33m17:39:37 27650    01:02:11 /opt/activevideo/libexec/we  0.1 180392 101865316[0m
+[0;33m17:41:04 28072    01:00:44 /opt/activevideo/libexec/we  0.3 360480 102280412[0m
+[0;33m17:59:55 36819       41:53 /opt/activevideo/libexec/we  0.7 325404 85556092[0m
+[0;33m18:01:39 37979       40:09 /opt/activevideo/libexec/we  0.4 295360 85530560[0m
+[0;33m18:21:43 47943       20:05 /opt/activevideo/libexec/we  0.6 210428 101930844[0m
+[0;33m18:26:19 49753       15:29 /opt/activevideo/libexec/we  1.6 302316 85422636[0m
+[0;33m18:32:20 53156       09:28 /opt/activevideo/libexec/we  2.4 258916 85181624[0m
+[0;33m18:34:56 53867       06:52 /opt/activevideo/libexec/we  5.2 379004 85606016[0m
+[0;33m18:40:45 56344       01:03 /opt/activevideo/libexec/we  6.5 240488 102037964[0m
+[0;33m16:47:35 64614    01:54:13 /opt/activevideo/libexec/we  0.5 418544 85662072[0m
+[0;33m[0m[0;33mvca026edprmn.edpr.mn.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:21:54  1948       19:54 /opt/activevideo/libexec/we  1.6 214664 101944836[0m
+[0;33m18:27:49  4636       13:59 /opt/activevideo/libexec/we  1.1 347592 102394120[0m
+[0;33m18:38:15  9404       03:33 /opt/activevideo/libexec/we  2.5 213432 85081088[0m
+[0;33m18:40:15 10948       01:33 /opt/activevideo/libexec/we  8.6 402968 102239636[0m
+[0;33m18:40:50 11251       00:58 /opt/activevideo/libexec/we  7.6 241176 85191184[0m
+[0;33m18:41:39 11553       00:09 /opt/activevideo/libexec/we 21.1 246580 101862228[0m
+[0;33m18:41:48 11697       00:00 /opt/activevideo/libexec/we  0.0 118788 101478104[0m
+[0;33m16:30:57 12172    02:10:51 /opt/activevideo/libexec/we  0.6 360308 102280000[0m
+[0;33m16:37:26 14579    02:04:22 /opt/activevideo/libexec/we  0.3 379444 102233744[0m
+[0;33m16:40:19 16699    02:01:29 /opt/activevideo/libexec/we  0.1 232684 101993716[0m
+[0;33m17:28:57 40000    01:12:51 /opt/activevideo/libexec/we  0.3 346860 102342432[0m
+[0;33m17:33:49 41801    01:07:59 /opt/activevideo/libexec/we  0.2 205560 102051144[0m
+[0;33m17:36:12 43716    01:05:36 /opt/activevideo/libexec/we  0.5 439740 102454816[0m
+[0;33m17:41:01 46200    01:00:47 /opt/activevideo/libexec/we  0.3 200932 85260396[0m
+[0;33m17:41:28 46376    01:00:20 /opt/activevideo/libexec/we  0.5 415816 102564264[0m
+[0;33m17:51:19 51061       50:29 /opt/activevideo/libexec/we  1.5 387952 102422748[0m
+[0;33m15:27:23 51218    03:14:25 /opt/activevideo/libexec/we  0.1 211876 85275436[0m
+[0;33m09:55:21 53102    08:46:27 /opt/activevideo/libexec/we  0.2 340572 102252436[0m
+[0;33m15:31:44 53124    03:10:04 /opt/activevideo/libexec/we  0.2 363432 102335952[0m
+[0;33m17:59:18 54112       42:30 /opt/activevideo/libexec/we  0.6 304516 102221192[0m
+[0;33m18:01:19 56258       40:29 /opt/activevideo/libexec/we  0.4 288088 102275692[0m
+[0;33m18:02:29 57032       39:19 /opt/activevideo/libexec/we  0.7 333468 102304004[0m
+[0;33m18:06:23 59137       35:25 /opt/activevideo/libexec/we  0.8 347488 85507352[0m
+[0;33m18:07:39 59711       34:09 /opt/activevideo/libexec/we  4.1 339176 85344644[0m
+[0;33m18:14:02 62508       27:46 /opt/activevideo/libexec/we  1.3 349756 85546544[0m
+[0;33m18:18:13 65074       23:35 /opt/activevideo/libexec/we  2.8 430832 85644760[0m
+[0;33m[0m[0;33mvca035edprmn.edpr.mn.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:34:44  2302       07:04 /opt/activevideo/libexec/we  3.8 221636 102046756[0m
+[0;33m18:35:15  2545       06:33 /opt/activevideo/libexec/we  6.5 430556 85363652[0m
+[0;33m18:37:59  4115       03:49 /opt/activevideo/libexec/we  5.4 315156 102256120[0m
+[0;33m16:42:46 11554    01:59:02 /opt/activevideo/libexec/we  0.4 356420 85596216[0m
+[0;33m16:58:08 18147    01:43:40 /opt/activevideo/libexec/we  0.1 233384 85194344[0m
+[0;33m17:00:29 20037    01:41:19 /opt/activevideo/libexec/we  0.3 334672 102235212[0m
+[0;33m15:01:33 32571    03:40:15 /opt/activevideo/libexec/we  0.2 339904 102313340[0m
+[0;33m18:10:23 56571       31:25 /opt/activevideo/libexec/we  0.5 238880 102100620[0m
+[0;33m18:13:06 57483       28:42 /opt/activevideo/libexec/we  0.8 383236 102148348[0m
+[0;33m18:16:39 59275       25:09 /opt/activevideo/libexec/we  0.7 324988 102418672[0m
+[0;33m16:03:43 60039    02:38:05 /opt/activevideo/libexec/we  0.3 350388 102303280[0m
+[0;33m18:19:24 60204       22:24 /opt/activevideo/libexec/we  1.1 322004 102446752[0m
+[0;33m04:39:51 65433    14:01:57 /opt/activevideo/libexec/we  0.0 271912 102099972[0m
+[0;33m[0m[0;33mvca037edprmn.edpr.mn.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m16:39:56  2578    02:01:52 /opt/activevideo/libexec/we  0.2 352268 102207288[0m
+[0;33m18:38:29  3894       03:19 /opt/activevideo/libexec/we  3.0 196124 102056900[0m
+[0;33m18:39:15  4192       02:33 /opt/activevideo/libexec/we  8.2 418044 85467300[0m
+[0;33m18:40:09  4718       01:39 /opt/activevideo/libexec/we  9.9 279172 85229372[0m
+[0;33m18:41:34  5304       00:14 /opt/activevideo/libexec/we 18.0 258444 85175632[0m
+[0;33m18:41:38  5358       00:10 /opt/activevideo/libexec/we 19.7 259724 101937592[0m
+[0;33m16:56:26 13083    01:45:22 /opt/activevideo/libexec/we  0.3 402868 102425688[0m
+[0;33m17:10:09 21430    01:31:39 /opt/activevideo/libexec/we  0.5 345692 85521848[0m
+[0;33m17:12:07 23272    01:29:41 /opt/activevideo/libexec/we  0.2 446868 85451676[0m
+[0;33m15:17:13 23663    03:24:35 /opt/activevideo/libexec/we  0.2 371084 102442936[0m
+[0;33m17:26:25 30572    01:15:23 /opt/activevideo/libexec/we  0.3 428352 102529476[0m
+[0;33m17:26:47 31481    01:15:01 /opt/activevideo/libexec/we  0.3 393144 85719632[0m
+[0;33m17:28:11 32203    01:13:37 /opt/activevideo/libexec/we  0.4 339840 85464380[0m
+[0;33m17:38:03 37070    01:03:45 /opt/activevideo/libexec/we  0.3 326872 85458084[0m
+[0;33m17:53:34 44628       48:14 /opt/activevideo/libexec/we  1.0 389940 102410340[0m
+[0;33m17:54:06 44843       47:42 /opt/activevideo/libexec/we  0.4 324860 85499168[0m
+[0;33m18:03:39 50771       38:09 /opt/activevideo/libexec/we  0.4 343560 85355572[0m
+[0;33m18:06:44 52940       35:04 /opt/activevideo/libexec/we  0.8 348268 85616316[0m
+[0;33m18:17:16 58807       24:32 /opt/activevideo/libexec/we  0.7 329888 102173364[0m
+[0;33m18:18:21 59054       23:27 /opt/activevideo/libexec/we  0.6 309616 102252740[0m
+[0;33m18:20:35 59913       21:13 /opt/activevideo/libexec/we  2.7 409856 102507024[0m
+[0;33m16:26:03 60534    02:15:45 /opt/activevideo/libexec/we  0.1 228992 102000376[0m
+[0;33m18:31:35 65263       10:13 /opt/activevideo/libexec/we  1.4 330088 102353276[0m
+[0;33m[0m[0;31mvca049edprmn.edpr.mn.charter.com | FAILED | rc=1 >>[0m
+[0;31m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZEnon-zero return code[0m
+[0;31m[0m[0;31mvca067edprmn.edpr.mn.charter.com | FAILED | rc=1 >>[0m
+[0;31m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZEnon-zero return code[0m
+[0;31m[0m[0;31mvca070edprmn.edpr.mn.charter.com | FAILED | rc=1 >>[0m
+[0;31m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZEnon-zero return code[0m
+[0;31m[0m[0;31mvca074edprmn.edpr.mn.charter.com | FAILED | rc=1 >>[0m
+[0;31m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZEnon-zero return code[0m
+[0;31m[0m[0;31mvca064edprmn.edpr.mn.charter.com | FAILED | rc=1 >>[0m
+[0;31m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZEnon-zero return code[0m
+[0;31m[0m[0;31mvca076edprmn.edpr.mn.charter.com | FAILED | rc=1 >>[0m
+[0;31m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZEnon-zero return code[0m
+[0;31m[0m[0;31mvca072edprmn.edpr.mn.charter.com | FAILED | rc=1 >>[0m
+[0;31m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZEnon-zero return code[0m
+[0;31m[0m[0;31mvca065edprmn.edpr.mn.charter.com | FAILED | rc=1 >>[0m
+[0;31m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZEnon-zero return code[0m
+[0;31m[0m[0;31mvca082edprmn.edpr.mn.charter.com | FAILED | rc=1 >>[0m
+[0;31m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZEnon-zero return code[0m
+[0;31m[0m[0;31mvca078edprmn.edpr.mn.charter.com | FAILED | rc=1 >>[0m
+[0;31m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZEnon-zero return code[0m
+[0;31m[0m[0;31mvca080edprmn.edpr.mn.charter.com | FAILED | rc=1 >>[0m
+[0;31m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZEnon-zero return code[0m
+[0;31m[0m[0;31mvca084edprmn.edpr.mn.charter.com | FAILED | rc=1 >>[0m
+[0;31m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZEnon-zero return code[0m
+[0;31m[0m[0;31mvca086edprmn.edpr.mn.charter.com | FAILED | rc=1 >>[0m
+[0;31m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZEnon-zero return code[0m
+[0;31m[0m[0;31mvca088edprmn.edpr.mn.charter.com | FAILED | rc=1 >>[0m
+[0;31m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZEnon-zero return code[0m
+[0;31m[0m[0;31mvca004edprmn.edpr.mn.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca004edprmn.edpr.mn.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca020edprmn.edpr.mn.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca020edprmn.edpr.mn.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca029edprmn.edpr.mn.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca029edprmn.edpr.mn.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca032edprmn.edpr.mn.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca032edprmn.edpr.mn.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca034edprmn.edpr.mn.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca034edprmn.edpr.mn.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca036edprmn.edpr.mn.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca036edprmn.edpr.mn.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca038edprmn.edpr.mn.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca038edprmn.edpr.mn.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca041edprmn.edpr.mn.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca041edprmn.edpr.mn.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca042edprmn.edpr.mn.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca042edprmn.edpr.mn.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca043edprmn.edpr.mn.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca043edprmn.edpr.mn.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca044edprmn.edpr.mn.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca044edprmn.edpr.mn.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca045edprmn.edpr.mn.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca045edprmn.edpr.mn.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca047edprmn.edpr.mn.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca047edprmn.edpr.mn.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca046edprmn.edpr.mn.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca046edprmn.edpr.mn.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca048edprmn.edpr.mn.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca048edprmn.edpr.mn.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca050edprmn.edpr.mn.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca050edprmn.edpr.mn.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca051edprmn.edpr.mn.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca051edprmn.edpr.mn.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca052edprmn.edpr.mn.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca052edprmn.edpr.mn.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca053edprmn.edpr.mn.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca053edprmn.edpr.mn.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca054edprmn.edpr.mn.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca054edprmn.edpr.mn.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca055edprmn.edpr.mn.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca055edprmn.edpr.mn.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca056edprmn.edpr.mn.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca056edprmn.edpr.mn.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca057edprmn.edpr.mn.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca057edprmn.edpr.mn.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca058edprmn.edpr.mn.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca058edprmn.edpr.mn.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca059edprmn.edpr.mn.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca059edprmn.edpr.mn.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca060edprmn.edpr.mn.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca060edprmn.edpr.mn.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca061edprmn.edpr.mn.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca061edprmn.edpr.mn.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca062edprmn.edpr.mn.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca062edprmn.edpr.mn.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca063edprmn.edpr.mn.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca063edprmn.edpr.mn.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca066edprmn.edpr.mn.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca066edprmn.edpr.mn.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca068edprmn.edpr.mn.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca068edprmn.edpr.mn.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca069edprmn.edpr.mn.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca069edprmn.edpr.mn.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca071edprmn.edpr.mn.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca071edprmn.edpr.mn.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca073edprmn.edpr.mn.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca073edprmn.edpr.mn.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca075edprmn.edpr.mn.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca075edprmn.edpr.mn.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca077edprmn.edpr.mn.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca077edprmn.edpr.mn.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca079edprmn.edpr.mn.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca079edprmn.edpr.mn.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca081edprmn.edpr.mn.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca081edprmn.edpr.mn.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca083edprmn.edpr.mn.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca083edprmn.edpr.mn.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca085edprmn.edpr.mn.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca085edprmn.edpr.mn.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca087edprmn.edpr.mn.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca087edprmn.edpr.mn.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca089edprmn.edpr.mn.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca089edprmn.edpr.mn.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m

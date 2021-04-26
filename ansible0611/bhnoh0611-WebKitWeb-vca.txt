@@ -1,0 +1,110 @@
+[0;33mvca012bhnoh.codc.oh.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m13:34:26 11343    05:09:32 /opt/activevideo/libexec/we  0.2 232384 85032012[0m
+[0;33m17:27:12 29708    01:16:46 /opt/activevideo/libexec/we  1.3 428804 102105376[0m
+[0;33m17:56:03 36514       47:55 /opt/activevideo/libexec/we  0.2 166048 101656900[0m
+[0;33m18:14:04 43074       29:54 /opt/activevideo/libexec/we  0.7 214536 85037092[0m
+[0;33m18:37:23 49073       06:35 /opt/activevideo/libexec/we  2.3 215792 85047684[0m
+[0;33m15:51:33 59755    02:52:25 /opt/activevideo/libexec/we  0.4 452112 85373860[0m
+[0;33m[0m[0;33mvca005bhnoh.codc.oh.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:38:52 12310    01:05:06 /opt/activevideo/libexec/we  0.4 252456 101810632[0m
+[0;33m18:07:39 22265       36:19 /opt/activevideo/libexec/we  0.5 312624 102147068[0m
+[0;33m18:28:42 29093       15:16 /opt/activevideo/libexec/we  3.1 277424 85212168[0m
+[0;33m18:43:19 34637       00:39 /opt/activevideo/libexec/we  6.5 222532 84864264[0m
+[0;33m18:43:51 34767       00:07 /opt/activevideo/libexec/we 34.1 253380 84974164[0m
+[0;33m16:48:56 55295    01:55:02 /opt/activevideo/libexec/we  0.2 185740 101740060[0m
+[0;33m17:09:56 63207    01:34:02 /opt/activevideo/libexec/we  0.1 208628 84899912[0m
+[0;33m[0m[0;33mvca013bhnoh.codc.oh.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m16:55:02 10951    01:49:00 /opt/activevideo/libexec/we  0.3 412032 102028808[0m
+[0;33m17:27:47 23387    01:16:15 /opt/activevideo/libexec/we  0.1 186492 84897108[0m
+[0;33m17:49:13 30139       54:49 /opt/activevideo/libexec/we  0.6 282220 85168104[0m
+[0;33m18:21:22 42133       22:40 /opt/activevideo/libexec/we  3.4 412144 85493748[0m
+[0;33m18:40:31 49285       03:31 /opt/activevideo/libexec/we  2.3 186960 84983752[0m
+[0;33m18:42:22 49649       01:40 /opt/activevideo/libexec/we  6.3 182840 84954416[0m
+[0;33m18:43:25 49781       00:37 /opt/activevideo/libexec/we 14.6 306288 85062640[0m
+[0;33m[0m[0;33mvca003bhnoh.codc.oh.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:56:24 13937       47:38 /opt/activevideo/libexec/we  0.3 274188 85150292[0m
+[0;33m18:15:29 21229       28:33 /opt/activevideo/libexec/we  0.3 224636 84985936[0m
+[0;33m15:37:07 22557    03:06:55 /opt/activevideo/libexec/we  0.2 337684 85292432[0m
+[0;33m18:31:42 26782       12:20 /opt/activevideo/libexec/we  0.6 174916 84953256[0m
+[0;33m17:12:52 58405    01:31:10 /opt/activevideo/libexec/we  0.6 340212 102075468[0m
+[0;33m17:18:12 61417    01:25:50 /opt/activevideo/libexec/we  0.4 370112 102151856[0m
+[0;33m17:26:38 64250    01:17:24 /opt/activevideo/libexec/we  0.5 382156 102193836[0m
+[0;33m[0m[0;33mvca015bhnoh.codc.oh.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:38:31 35222    01:05:32 /opt/activevideo/libexec/we  0.5 367832 102127252[0m
+[0;33m17:54:03 41220       50:00 /opt/activevideo/libexec/we  0.2 188504 101786756[0m
+[0;33m18:25:39 53336       18:24 /opt/activevideo/libexec/we  0.3 203452 84969824[0m
+[0;33m18:29:47 55277       14:16 /opt/activevideo/libexec/we  0.5 192612 84956440[0m
+[0;33m18:36:36 57646       07:27 /opt/activevideo/libexec/we  2.9 217312 101826808[0m
+[0;33m18:37:51 57992       06:12 /opt/activevideo/libexec/we  3.0 322248 102011988[0m
+[0;33m18:43:50 59682       00:13 /opt/activevideo/libexec/we 22.0 227576 84962304[0m
+[0;33m[0m[0;33mvca014bhnoh.codc.oh.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m16:46:28 24354    01:57:35 /opt/activevideo/libexec/we  0.1 169752 101725688[0m
+[0;33m17:00:53 29617    01:43:10 /opt/activevideo/libexec/we  0.6 367560 85376772[0m
+[0;33m17:02:20 29938    01:41:43 /opt/activevideo/libexec/we  0.4 428520 85495560[0m
+[0;33m17:59:28 46241       44:35 /opt/activevideo/libexec/we  0.4 184368 101730828[0m
+[0;33m18:22:25 54055       21:38 /opt/activevideo/libexec/we  0.4 220300 84991396[0m
+[0;33m18:40:21 59941       03:42 /opt/activevideo/libexec/we  2.9 212212 101744360[0m
+[0;33m18:43:49 61295       00:14 /opt/activevideo/libexec/we  9.5 173652 84708428[0m
+[0;33m[0m[0;33mvca011bhnoh.codc.oh.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:09:09 33590    01:34:54 /opt/activevideo/libexec/we  0.1 201144 84988896[0m
+[0;33m17:26:48 38776    01:17:15 /opt/activevideo/libexec/we  5.1 761628 103177336[0m
+[0;33m17:39:20 42604    01:04:43 /opt/activevideo/libexec/we  1.2 463496 102576580[0m
+[0;33m17:53:37 47413       50:26 /opt/activevideo/libexec/we  0.2 185432 101744404[0m
+[0;33m11:42:35 52065    07:01:28 /opt/activevideo/libexec/we  0.1 219260 101817996[0m
+[0;33m18:22:51 56389       21:12 /opt/activevideo/libexec/we  0.4 170636 84953748[0m
+[0;33m15:32:23 59818    03:11:40 /opt/activevideo/libexec/we  0.3 390096 102143092[0m
+[0;33m[0m[0;33mvca004bhnoh.codc.oh.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:31:43  1368       12:19 /opt/activevideo/libexec/we  1.1 264104 85118820[0m
+[0;33m18:43:47  5965       00:15 /opt/activevideo/libexec/we 33.6 314716 85150000[0m
+[0;33m18:43:47  5984       00:15 /opt/activevideo/libexec/we 24.9 264464 84999884[0m
+[0;33m18:43:51  6072       00:11 /opt/activevideo/libexec/we 20.3 255816 84889968[0m
+[0;33m17:16:34 40121    01:27:28 /opt/activevideo/libexec/we  0.2 188208 101741028[0m
+[0;33m18:04:46 57777       39:16 /opt/activevideo/libexec/we  0.6 327136 85275920[0m
+[0;33m18:05:45 58034       38:17 /opt/activevideo/libexec/we  0.5 217992 84990752[0m
+[0;33m[0m[0;33mvca006bhnoh.codc.oh.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m16:31:19 28524    02:12:43 /opt/activevideo/libexec/we  0.4 382304 102125204[0m
+[0;33m16:38:27 30131    02:05:35 /opt/activevideo/libexec/we  0.6 414720 85466240[0m
+[0;33m18:09:01 55455       35:01 /opt/activevideo/libexec/we  0.3 197248 85017184[0m
+[0;33m18:11:32 56725       32:30 /opt/activevideo/libexec/we  0.6 216296 101803024[0m
+[0;33m18:16:05 58159       27:57 /opt/activevideo/libexec/we  0.6 240728 101829320[0m
+[0;33m18:22:37 59978       21:25 /opt/activevideo/libexec/we  0.7 279744 85161392[0m
+[0;33m[0m[0;31mvca001bhnoh.codc.oh.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca001bhnoh.codc.oh.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca002bhnoh.codc.oh.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca002bhnoh.codc.oh.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca007bhnoh.codc.oh.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca007bhnoh.codc.oh.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca008bhnoh.codc.oh.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca008bhnoh.codc.oh.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca009bhnoh.codc.oh.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca009bhnoh.codc.oh.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;31mvca010bhnoh.codc.oh.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca010bhnoh.codc.oh.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m

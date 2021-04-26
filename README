@@ -1,0 +1,62 @@
+Stitcher capacity repo
+
+Stitcher capacity as outlined below is a conservitave number. 100% capacity will not break a market, even likely some capacity higher than 100% would be potentially operational, but runs increased risks. With 3000 stitchers in production, a 99% sucess rate implys 30 blade failures under load. Some will say 90% is good because they don't understand statistics and stitcher blades are expensive, but don't let them put us in a position of having stitchers fail every day, we will not be able to operationally handle that level of failure. Stitcher capacity (and IaaS, and our datastores, etc...) are an investment in our infrastructure and an investment in our customers. Don't let budget pressures dictate what hardware we need, our customers decide that, and buying sufficinet stitcher capacity is the cost of supporting our customers. 
+
+When determining how many stitchers are required for a given market, take the number of STB expected by Q2 of the following budget year and calculate that to 100% capacity. Then add three blades to ensure failure redundancy to ensure capacity while APO works to fix the blades, and then round up to the nearest multiple of 8 to fill the chassis. Small markets should have a minimum of 16 blades (two full chassis) for redundancy. 
+
+_______________________________
+
+Step 1: gather process usage metrics for each market. This should be done once or twice a year, they don't change that much but checks after AV or SGUI releases which are expected to impact usage are worthwhile. 
+
+Run the following ansible and process it with the included parse.py python script, it will create a statistical summary of usage. M4s are memory limited, M5s with 1TB of memory are better computationally ballanced between CPU and memory limited for spec-guide app usage, so be sure to check both in M5 markets. 
+
+ansible vca*renonv.reno.nv.charter.com -b -m shell -a 'ps -C WebKitWebProces -o start,pid,etime,cmd,pcpu,rss,size' | tee renonv0611-WebKitWeb-vca.txt
+ansible vca*renonv.reno.nv.charter.com -b -m shell -a 'ps -C WebKitNetworkProcess -o start,pid,etime,cmd,pcpu,rss,size' | tee renonv0611-WebKitNet-vca.txt
+ansible vca*renonv.reno.nv.charter.com -b -m shell -a 'ps -C html5client-v3 -o start,pid,etime,cmd,pcpu,rss,size' | tee renonv0611-html5-vca.txt
+
+Near the end of the parse.py script are some commented out lines which can be used to create visualizations of use metrics if desired. 
+
+Take note of the average session size and the standard deviation of the session size. Those numbers will go into excel spreadsheet. 
+
+Step 2: query avialable hardware for each market (Number of stitchers, available memory, CPU). Take note of any stitchers which don't match memory for the rest of the stitchers on the market, and send those to APO for DIMM replacement.  
+
+vca*sldcmo.sldc.mo.charter.com -m shell -a "free -m"
+vca*sldcmo.sldc.mo.charter.com -m shell -a "lscpu"
+
+Memory for stitchers goes into excel spreadsheet. If CPU limited then same equations apply, just put in average and standard deviation of CPU use as well as CPU resources in place of memory resources. 
+
+Step 3: gather number of STB per market from MC database. Needed queries in spreadsheet "Sheet1". Copy/Paste from "Sheet1" into desired collumn in "2021 7.8 check" tab. 
+
+"2021 7.8 check" tab currently projects growth to Q2 of 2021, Q2 2022, Q2 2023. Projections are linear interpolations based on product 5 yr forecast. Updated projections should be used as soon as they are available. 
+
+________________________________
+
+Addressing stitcher capacity is an opportunity to unify and upgrade hardware within datacenters. Reaching for this goal can improve VO working relationship with APO. The following datacenter considerations should be taken into account when addressing capacity. 
+
+04/2021
+
+split hardware datacenters: 
+
+BHNAL has M4s in the old domains, BHDCAL has M5s in a new domain. Ideally BHNAL would be upgraded to M5s and those M5s would be put in the same domain as the BHDCAL M5 stitchers. 
+
+The same thing is in TWCTX with M4s vs DLDCTX with M5s, TWCCA and BHNCA are M4s vs LADCCA is M5s. 
+
+Older M4s: 
+
+Another lifecycle consistancy issue to pay attention to is that stitchers in nvdctn and sldcla are older M4s, with 128 GB memory and are not interchangable with other M4 sites. 
+
+Don't use M3s: 
+
+If someone finds hardware, but the blade only has 96GB of memory, don't put that back in production, it is old M3 hardware that is past is end of life. 
+
+Don't interchange with scalers: 
+
+current scaler blades are different spec than stitchers, don't have scalers sent to another datacenter as stitchers or vice versa. 
+
+BHN markets and TWCHI are small:
+
+in 2020 BHN markets were given extra blades to help ensure early growth. As we approach 2022 budget year considerations these markets are likely overprovisioned, but pay extra attention to their growth to ensure they are going to keep up for the next year. 
+
+
+
+

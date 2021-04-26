@@ -1,0 +1,1433 @@
+[0;33mvca008mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m16:53:12  2679    01:57:00 /opt/activevideo/libexec/we  0.0 32356 101434348[0m
+[0;33m17:14:30 11647    01:35:42 /opt/activevideo/libexec/we  0.0 34408 84853740[0m
+[0;33m18:05:51 33884       44:21 /opt/activevideo/libexec/we  0.0 32160 84788204[0m
+[0;33m18:13:45 37266       36:27 /opt/activevideo/libexec/we  0.0 34556 101630956[0m
+[0;33m18:45:21 48001       04:51 /opt/activevideo/libexec/we  0.2 32860 101666796[0m
+[0;33m18:50:10 50074       00:02 /opt/activevideo/libexec/we 15.0 43912 101516276[0m
+[0;33m[0m[0;33mvca019mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:32:16 21155    01:17:56 /opt/activevideo/libexec/we  0.0 34884 84722668[0m
+[0;33m17:46:33 26574    01:03:39 /opt/activevideo/libexec/we  0.0 34404 101565420[0m
+[0;33m17:56:32 30645       53:40 /opt/activevideo/libexec/we  0.0 33260 84919276[0m
+[0;33m18:16:50 38814       33:22 /opt/activevideo/libexec/we  0.0 32104 84722668[0m
+[0;33m18:21:19 40653       28:53 /opt/activevideo/libexec/we  0.0 36252 101565420[0m
+[0;33m18:27:59 42813       22:13 /opt/activevideo/libexec/we  0.0 34504 101565420[0m
+[0;33m18:30:15 44510       19:57 /opt/activevideo/libexec/we  0.0 32420 84788204[0m
+[0;33m18:35:56 46913       14:16 /opt/activevideo/libexec/we  0.0 32748 101565420[0m
+[0;33m18:45:27 51324       04:45 /opt/activevideo/libexec/we  0.4 35320 84853740[0m
+[0;33m18:47:13 51786       02:59 /opt/activevideo/libexec/we  0.3 37188 84722668[0m
+[0;33m18:48:35 52832       01:37 /opt/activevideo/libexec/we  1.0 32040 101499884[0m
+[0;33m16:21:37 54828    02:28:35 /opt/activevideo/libexec/we  0.0 36500 84725736[0m
+[0;33m[0m[0;33mvca036mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:41:45  2543       08:27 /opt/activevideo/libexec/we  0.0 32416 84788204[0m
+[0;33m18:45:14  3500       04:58 /opt/activevideo/libexec/we  0.3 32460 84790248[0m
+[0;33m18:48:37  5340       01:35 /opt/activevideo/libexec/we  0.5 34164 101499884[0m
+[0;33m18:49:40  5746       00:32 /opt/activevideo/libexec/we  1.0 36592 101573616[0m
+[0;33m16:59:18 24716    01:50:54 /opt/activevideo/libexec/we  0.0 36596 101630956[0m
+[0;33m17:07:05 28647    01:43:07 /opt/activevideo/libexec/we  0.0 36312 101565420[0m
+[0;33m17:22:21 33553    01:27:51 /opt/activevideo/libexec/we  0.0 34060 84648936[0m
+[0;33m17:34:59 38687    01:15:13 /opt/activevideo/libexec/we  0.0 32588 101565420[0m
+[0;33m18:16:20 56948       33:52 /opt/activevideo/libexec/we  0.0 34000 84730860[0m
+[0;33m[0m[0;33mvca038mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m16:51:04  1258    01:59:08 /opt/activevideo/libexec/we  0.0 32188 101499884[0m
+[0;33m17:18:45 10818    01:31:27 /opt/activevideo/libexec/we  0.0 32044 84722668[0m
+[0;33m17:49:24 23098    01:00:48 /opt/activevideo/libexec/we  0.0 34400 101566444[0m
+[0;33m18:20:09 37082       30:03 /opt/activevideo/libexec/we  0.0 32264 84788204[0m
+[0;33m18:30:11 40703       20:01 /opt/activevideo/libexec/we  0.0 34188 84788204[0m
+[0;33m18:48:26 46566       01:46 /opt/activevideo/libexec/we  0.1 33944 84648892[0m
+[0;33m18:49:52 47629       00:20 /opt/activevideo/libexec/we  1.6 34460 84796400[0m
+[0;33m18:49:59 47682       00:13 /opt/activevideo/libexec/we  2.3 33980 84730864[0m
+[0;33m[0m[0;33mvca039mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:43:57 34146       06:15 /opt/activevideo/libexec/we  0.1 34420 101565288[0m
+[0;33m18:48:36 35920       01:36 /opt/activevideo/libexec/we  0.4 34336 101565420[0m
+[0;33m18:49:17 36085       00:55 /opt/activevideo/libexec/we  0.5 34172 101565288[0m
+[0;33m18:50:02 36312       00:10 /opt/activevideo/libexec/we  3.1 34036 84730864[0m
+[0;33m[0m[0;33mvca001mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:25:51  1477       24:21 /opt/activevideo/libexec/we  0.1 32996 101663724[0m
+[0;33m18:30:50  3377       19:22 /opt/activevideo/libexec/we  0.0 36520 101630956[0m
+[0;33m18:33:46  4963       16:26 /opt/activevideo/libexec/we  0.0 32348 101565420[0m
+[0;33m18:46:38 10970       03:34 /opt/activevideo/libexec/we  0.1 32276 84788204[0m
+[0;33m18:49:41 11670       00:31 /opt/activevideo/libexec/we  1.0 32252 84796400[0m
+[0;33m18:49:50 11737       00:22 /opt/activevideo/libexec/we  1.3 36160 84853740[0m
+[0;33m16:39:10 27071    02:11:02 /opt/activevideo/libexec/we  0.0 34916 101576684[0m
+[0;33m16:42:15 28625    02:07:57 /opt/activevideo/libexec/we  0.0 34520 84657132[0m
+[0;33m17:37:16 48666    01:12:56 /opt/activevideo/libexec/we  0.0 34456 101565420[0m
+[0;33m[0m[0;33mvca007mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:06:07 11066    01:44:05 /opt/activevideo/libexec/we  0.0 34920 84853740[0m
+[0;33m17:06:52 11331    01:43:20 /opt/activevideo/libexec/we  0.0 34844 101565420[0m
+[0;33m17:20:30 20085    01:29:42 /opt/activevideo/libexec/we  0.0 34664 84788204[0m
+[0;33m17:36:53 26312    01:13:19 /opt/activevideo/libexec/we  0.0 34548 101565420[0m
+[0;33m17:54:15 32641       55:57 /opt/activevideo/libexec/we  0.0 34356 101499884[0m
+[0;33m15:29:53 33312    03:20:19 /opt/activevideo/libexec/we  0.0 34548 101565420[0m
+[0;33m15:35:23 35667    03:14:49 /opt/activevideo/libexec/we  0.0 34820 101635052[0m
+[0;33m18:02:22 37292       47:50 /opt/activevideo/libexec/we  0.0 37168 84853740[0m
+[0;33m15:58:53 44666    02:51:19 /opt/activevideo/libexec/we  0.0 32544 101565420[0m
+[0;33m18:29:01 48698       21:11 /opt/activevideo/libexec/we  0.0 34668 101565420[0m
+[0;33m18:30:33 49888       19:39 /opt/activevideo/libexec/we  0.0 34496 101643244[0m
+[0;33m18:36:11 52798       14:01 /opt/activevideo/libexec/we  0.1 34840 84853740[0m
+[0;33m18:38:37 53566       11:35 /opt/activevideo/libexec/we  0.1 37356 101565420[0m
+[0;33m18:45:32 57287       04:40 /opt/activevideo/libexec/we  0.1 34496 101565420[0m
+[0;33m18:45:56 57394       04:16 /opt/activevideo/libexec/we  0.1 34376 84788204[0m
+[0;33m18:47:04 57582       03:08 /opt/activevideo/libexec/we  0.3 34348 84788204[0m
+[0;33m18:50:01 59679       00:11 /opt/activevideo/libexec/we  3.7 46588 84861936[0m
+[0;33m16:33:14 60593    02:16:58 /opt/activevideo/libexec/we  0.0 32388 84722668[0m
+[0;33m[0m[0;33mvca018mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:07:01 20457    01:43:11 /opt/activevideo/libexec/we  0.0 34404 101499884[0m
+[0;33m17:08:22 20803    01:41:50 /opt/activevideo/libexec/we  0.0 33836 84657132[0m
+[0;33m17:17:24 24713    01:32:48 /opt/activevideo/libexec/we  0.0 38488 84722668[0m
+[0;33m15:41:59 47691    03:08:13 /opt/activevideo/libexec/we  0.0 32880 101630956[0m
+[0;33m18:33:51 55238       16:21 /opt/activevideo/libexec/we  0.0 34260 101499884[0m
+[0;33m18:37:36 56960       12:36 /opt/activevideo/libexec/we  0.0 36796 84788204[0m
+[0;33m18:44:40 60996       05:32 /opt/activevideo/libexec/we  0.1 34672 101499884[0m
+[0;33m18:47:08 61526       03:04 /opt/activevideo/libexec/we  0.1 32324 84788204[0m
+[0;33m18:49:05 62054       01:07 /opt/activevideo/libexec/we  0.5 34300 84722668[0m
+[0;33m[0m[0;33mvca034mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m14:36:08  9089    04:14:04 /opt/activevideo/libexec/we  0.0 34824 101646316[0m
+[0;33m17:27:06 11739    01:23:06 /opt/activevideo/libexec/we  0.0 34888 101499884[0m
+[0;33m17:29:21 13377    01:20:51 /opt/activevideo/libexec/we  0.0 33064 101630952[0m
+[0;33m18:02:10 30670       48:02 /opt/activevideo/libexec/we  0.0 32272 84788204[0m
+[0;33m18:03:05 30934       47:07 /opt/activevideo/libexec/we  0.0 32772 84788204[0m
+[0;33m18:07:37 32887       42:35 /opt/activevideo/libexec/we  0.0 32644 84788204[0m
+[0;33m18:18:56 37573       31:16 /opt/activevideo/libexec/we  0.0 32264 84722668[0m
+[0;33m18:23:58 39648       26:14 /opt/activevideo/libexec/we  0.0 32152 101499884[0m
+[0;33m18:38:58 45601       11:14 /opt/activevideo/libexec/we  0.2 34888 84722668[0m
+[0;33m18:43:56 47275       06:16 /opt/activevideo/libexec/we  0.0 32424 84788204[0m
+[0;33m18:49:03 49166       01:09 /opt/activevideo/libexec/we  0.5 33288 101565420[0m
+[0;33m[0m[0;33mvca005mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:28:06  1901       22:06 /opt/activevideo/libexec/we  0.1 35108 101565416[0m
+[0;33m18:28:49  2045       21:23 /opt/activevideo/libexec/we  0.0 32876 101565420[0m
+[0;33m18:41:29  6527       08:43 /opt/activevideo/libexec/we  0.1 34696 101499752[0m
+[0;33m18:43:18  7641       06:54 /opt/activevideo/libexec/we  0.0 36528 101500908[0m
+[0;33m18:48:54  9406       01:18 /opt/activevideo/libexec/we  0.7 33108 84754412[0m
+[0;33m18:49:12  9480       01:00 /opt/activevideo/libexec/we  0.8 34828 84788072[0m
+[0;33m17:11:01 36326    01:39:11 /opt/activevideo/libexec/we  0.0 35160 101499884[0m
+[0;33m17:52:53 52844       57:19 /opt/activevideo/libexec/we  0.0 32096 84722536[0m
+[0;33m18:05:11 57609       45:01 /opt/activevideo/libexec/we  0.0 36312 101539688[0m
+[0;33m18:14:57 61589       35:15 /opt/activevideo/libexec/we  0.0 38708 84722668[0m
+[0;33m18:19:36 63380       30:36 /opt/activevideo/libexec/we  0.0 34672 101630956[0m
+[0;33m18:21:44 63983       28:28 /opt/activevideo/libexec/we  0.0 32376 84788204[0m
+[0;33m18:21:51 64040       28:21 /opt/activevideo/libexec/we  0.0 36776 84795240[0m
+[0;33m[0m[0;33mvca021mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:50:09  1160       00:03 /opt/activevideo/libexec/we  6.6 38608 84657088[0m
+[0;33m17:41:39 38875    01:08:33 /opt/activevideo/libexec/we  0.0 35944 84861936[0m
+[0;33m17:52:45 43983       57:27 /opt/activevideo/libexec/we  0.0 36360 101500776[0m
+[0;33m18:01:35 48223       48:37 /opt/activevideo/libexec/we  0.0 36268 101435372[0m
+[0;33m18:07:52 50949       42:20 /opt/activevideo/libexec/we  0.0 36124 101499752[0m
+[0;33m18:11:03 52532       39:09 /opt/activevideo/libexec/we  0.0 34412 84788072[0m
+[0;33m[0m[0;33mvca023mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:46:07  1719    01:04:05 /opt/activevideo/libexec/we  0.0 34300 84722668[0m
+[0;33m17:46:55  2021    01:03:17 /opt/activevideo/libexec/we  0.0 34596 101499884[0m
+[0;33m18:01:37  7991       48:35 /opt/activevideo/libexec/we  0.0 38756 101565420[0m
+[0;33m18:11:36 11570       38:36 /opt/activevideo/libexec/we  0.0 32980 84853740[0m
+[0;33m18:14:12 12322       36:00 /opt/activevideo/libexec/we  0.0 36592 101569516[0m
+[0;33m18:27:48 20702       22:24 /opt/activevideo/libexec/we  0.0 32476 101580780[0m
+[0;33m18:28:30 20956       21:42 /opt/activevideo/libexec/we  0.0 32236 101499884[0m
+[0;33m18:28:47 21040       21:25 /opt/activevideo/libexec/we  0.0 34516 101499884[0m
+[0;33m18:40:14 26241       09:58 /opt/activevideo/libexec/we  0.0 32144 84657132[0m
+[0;33m18:49:08 29188       01:04 /opt/activevideo/libexec/we  0.5 34540 101499884[0m
+[0;33m18:49:48 30197       00:24 /opt/activevideo/libexec/we  1.3 34284 101508080[0m
+[0;33m17:24:33 57699    01:25:39 /opt/activevideo/libexec/we  0.0 32564 84853740[0m
+[0;33m17:41:08 64581    01:09:04 /opt/activevideo/libexec/we  0.0 36988 101565420[0m
+[0;33m17:42:30 64939    01:07:42 /opt/activevideo/libexec/we  0.0 36648 84788200[0m
+[0;33m[0m[0;33mvca026mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:33:10  2220       17:02 /opt/activevideo/libexec/we  0.0 34204 84722668[0m
+[0;33m18:35:08  3570       15:04 /opt/activevideo/libexec/we  0.0 32392 101499884[0m
+[0;33m18:39:52  6721       10:20 /opt/activevideo/libexec/we  0.1 36240 101499884[0m
+[0;33m18:41:22  7250       08:50 /opt/activevideo/libexec/we  0.1 32648 101565420[0m
+[0;33m18:44:10  8191       06:02 /opt/activevideo/libexec/we  0.0 33864 84722668[0m
+[0;33m18:47:45 10156       02:27 /opt/activevideo/libexec/we  0.2 36064 101434348[0m
+[0;33m18:48:19 10309       01:53 /opt/activevideo/libexec/we  0.3 34420 101565420[0m
+[0;33m18:48:20 10345       01:52 /opt/activevideo/libexec/we  0.2 36552 101565420[0m
+[0;33m18:49:57 11725       00:15 /opt/activevideo/libexec/we  2.2 40332 101573616[0m
+[0;33m16:57:20 25964    01:52:52 /opt/activevideo/libexec/we  0.0 34804 84726764[0m
+[0;33m17:06:19 30416    01:43:53 /opt/activevideo/libexec/we  0.0 34696 84854764[0m
+[0;33m17:17:25 34566    01:32:47 /opt/activevideo/libexec/we  0.0 34800 101499884[0m
+[0;33m18:00:14 52902       49:58 /opt/activevideo/libexec/we  0.0 34868 101630956[0m
+[0;33m18:10:36 57847       39:36 /opt/activevideo/libexec/we  0.0 40348 84723692[0m
+[0;33m18:19:01 61074       31:11 /opt/activevideo/libexec/we  0.0 36256 84788204[0m
+[0;33m[0m[0;33mvca022mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:49:34 26085    01:00:38 /opt/activevideo/libexec/we  0.0 32160 84788204[0m
+[0;33m17:56:55 29291       53:17 /opt/activevideo/libexec/we  0.0 32216 84722668[0m
+[0;33m18:06:14 34233       43:58 /opt/activevideo/libexec/we  0.0 32796 84788204[0m
+[0;33m18:22:19 41600       27:53 /opt/activevideo/libexec/we  0.0 32288 84788204[0m
+[0;33m18:26:48 43774       23:24 /opt/activevideo/libexec/we  0.0 35052 101565420[0m
+[0;33m18:27:10 43989       23:02 /opt/activevideo/libexec/we  0.0 32344 84796396[0m
+[0;33m18:33:17 47366       16:55 /opt/activevideo/libexec/we  0.1 34168 101566444[0m
+[0;33m18:35:11 48100       15:01 /opt/activevideo/libexec/we  0.0 34600 84722668[0m
+[0;33m16:23:00 48817    02:27:12 /opt/activevideo/libexec/we  0.0 32428 101568492[0m
+[0;33m18:44:53 52135       05:19 /opt/activevideo/libexec/we  0.0 33916 84649916[0m
+[0;33m18:45:22 52272       04:50 /opt/activevideo/libexec/we  0.7 37204 84788204[0m
+[0;33m18:45:37 52386       04:35 /opt/activevideo/libexec/we  0.3 32740 101499884[0m
+[0;33m18:46:05 52598       04:07 /opt/activevideo/libexec/we  0.0 31664 84583356[0m
+[0;33m18:47:44 53934       02:28 /opt/activevideo/libexec/we  0.7 34716 84788204[0m
+[0;33m18:49:15 54559       00:57 /opt/activevideo/libexec/we  1.3 33308 84722668[0m
+[0;33m18:49:31 54749       00:41 /opt/activevideo/libexec/we  0.9 32892 101565420[0m
+[0;33m[0m[0;33mvca029mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:45:08  1273       05:05 /opt/activevideo/libexec/we  0.2 34928 101499884[0m
+[0;33m18:45:56  1628       04:17 /opt/activevideo/libexec/we  0.1 34544 84722668[0m
+[0;33m18:48:24  2342       01:49 /opt/activevideo/libexec/we  0.8 37356 84790252[0m
+[0;33m18:49:08  2557       01:05 /opt/activevideo/libexec/we  0.5 32068 101565288[0m
+[0;33m18:49:19  2667       00:54 /opt/activevideo/libexec/we  0.6 34488 101565420[0m
+[0;33m18:49:20  2701       00:53 /opt/activevideo/libexec/we  1.1 35084 84722536[0m
+[0;33m14:16:14 17020    04:33:59 /opt/activevideo/libexec/we  0.0 35004 84922348[0m
+[0;33m16:57:40 17994    01:52:33 /opt/activevideo/libexec/we  0.0 34676 84722536[0m
+[0;33m14:28:59 20947    04:21:14 /opt/activevideo/libexec/we  0.0 32732 101634028[0m
+[0;33m17:47:30 41212    01:02:43 /opt/activevideo/libexec/we  0.0 34196 84657132[0m
+[0;33m17:56:33 44797       53:40 /opt/activevideo/libexec/we  0.0 36664 101650280[0m
+[0;33m18:03:49 48187       46:24 /opt/activevideo/libexec/we  0.0 34320 84722668[0m
+[0;33m18:04:29 48386       45:44 /opt/activevideo/libexec/we  0.0 34476 84788204[0m
+[0;33m15:41:44 53200    03:08:29 /opt/activevideo/libexec/we  0.0 36128 101763052[0m
+[0;33m18:19:16 53465       30:57 /opt/activevideo/libexec/we  0.0 40668 101586924[0m
+[0;33m18:24:04 55437       26:09 /opt/activevideo/libexec/we  0.0 34408 84788072[0m
+[0;33m18:24:25 55568       25:48 /opt/activevideo/libexec/we  0.0 34364 101633004[0m
+[0;33m18:30:40 58897       19:33 /opt/activevideo/libexec/we  0.0 34728 84853740[0m
+[0;33m18:40:27 64025       09:46 /opt/activevideo/libexec/we  0.1 32048 101565420[0m
+[0;33m[0m[0;33mvca048mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:47:50 11416       02:22 /opt/activevideo/libexec/we  0.1 34024 84648892[0m
+[0;33m18:49:53 11928       00:19 /opt/activevideo/libexec/we  1.5 36652 101573616[0m
+[0;33m16:45:19 25868    02:04:53 /opt/activevideo/libexec/we  0.0 36492 101499884[0m
+[0;33m17:19:38 42889    01:30:34 /opt/activevideo/libexec/we  0.0 37404 84788204[0m
+[0;33m14:37:35 43620    04:12:37 /opt/activevideo/libexec/we  0.0 38820 84853740[0m
+[0;33m17:26:31 45781    01:23:41 /opt/activevideo/libexec/we  0.0 35260 84853740[0m
+[0;33m18:04:02 59807       46:10 /opt/activevideo/libexec/we  0.0 32736 101630956[0m
+[0;33m[0m[0;33mvca044mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:00:29 21741    01:49:43 /opt/activevideo/libexec/we  0.0 32384 84790252[0m
+[0;33m17:18:16 28088    01:31:56 /opt/activevideo/libexec/we  0.0 34136 101565288[0m
+[0;33m17:40:34 35636    01:09:38 /opt/activevideo/libexec/we  0.0 32340 84722668[0m
+[0;33m18:32:01 55601       18:11 /opt/activevideo/libexec/we  0.0 32380 84854764[0m
+[0;33m18:32:49 55922       17:23 /opt/activevideo/libexec/we  0.0 31976 84722668[0m
+[0;33m18:34:44 56351       15:28 /opt/activevideo/libexec/we  0.0 32064 101434348[0m
+[0;33m18:48:04 60619       02:08 /opt/activevideo/libexec/we  0.1 31996 84648760[0m
+[0;33m[0m[0;33mvca002mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:56:06  4289       54:06 /opt/activevideo/libexec/we  0.0 32280 84657132[0m
+[0;33m18:03:54  8131       46:18 /opt/activevideo/libexec/we  0.0 34600 101696492[0m
+[0;33m18:07:32  9560       42:40 /opt/activevideo/libexec/we  0.0 34572 84722668[0m
+[0;33m18:08:07 10491       42:05 /opt/activevideo/libexec/we  0.0 32832 84919276[0m
+[0;33m18:41:01 26515       09:11 /opt/activevideo/libexec/we  0.0 34260 101499884[0m
+[0;33m18:45:21 28125       04:51 /opt/activevideo/libexec/we  0.3 32960 101565420[0m
+[0;33m18:48:05 29458       02:07 /opt/activevideo/libexec/we  0.2 31972 101499884[0m
+[0;33m16:54:06 44712    01:56:06 /opt/activevideo/libexec/we  0.0 36492 84722668[0m
+[0;33m[0m[0;33mvca025mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:31:04  4934       19:08 /opt/activevideo/libexec/we  0.1 32800 84853740[0m
+[0;33m18:34:07  6577       16:05 /opt/activevideo/libexec/we  0.0 32612 101630956[0m
+[0;33m18:39:55  8960       10:17 /opt/activevideo/libexec/we  0.1 32560 101499884[0m
+[0;33m18:43:00 10769       07:12 /opt/activevideo/libexec/we  0.0 36408 84722536[0m
+[0;33m18:43:20 10895       06:52 /opt/activevideo/libexec/we  0.1 36208 84722668[0m
+[0;33m18:50:12 16734       00:00 /opt/activevideo/libexec/we  0.0 21796 100764900[0m
+[0;33m17:04:29 34528    01:45:43 /opt/activevideo/libexec/we  0.0 33072 101630824[0m
+[0;33m17:20:10 40527    01:30:02 /opt/activevideo/libexec/we  0.0 36576 84788204[0m
+[0;33m17:59:09 56385       51:03 /opt/activevideo/libexec/we  0.0 32340 84722536[0m
+[0;33m18:09:55 60965       40:17 /opt/activevideo/libexec/we  0.0 39012 84722536[0m
+[0;33m18:16:44 64339       33:28 /opt/activevideo/libexec/we  0.0 36608 84853740[0m
+[0;33m[0m[0;33mvca014mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:47:34 13079       02:39 /opt/activevideo/libexec/we  0.2 34736 101501932[0m
+[0;33m18:49:24 14285       00:49 /opt/activevideo/libexec/we  0.4 31596 84583224[0m
+[0;33m18:49:38 14479       00:35 /opt/activevideo/libexec/we  0.9 35080 84861936[0m
+[0;33m15:31:02 60346    03:19:11 /opt/activevideo/libexec/we  0.0 36948 84853740[0m
+[0;33m18:06:10 61484       44:03 /opt/activevideo/libexec/we  0.0 35608 84722664[0m
+[0;33m18:12:20 63759       37:53 /opt/activevideo/libexec/we  0.0 32108 84853740[0m
+[0;33m[0m[0;33mvca016mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:28:36  6640       21:37 /opt/activevideo/libexec/we  0.0 33132 84919276[0m
+[0;33m15:56:41 11196    02:53:32 /opt/activevideo/libexec/we  0.0 32432 101500908[0m
+[0;33m16:01:06 13633    02:49:07 /opt/activevideo/libexec/we  0.0 34820 84789228[0m
+[0;33m16:19:37 24197    02:30:36 /opt/activevideo/libexec/we  0.0 34992 101630956[0m
+[0;33m16:57:11 37520    01:53:02 /opt/activevideo/libexec/we  0.0 34904 101664748[0m
+[0;33m17:32:13 50782    01:18:00 /opt/activevideo/libexec/we  0.0 34044 84722664[0m
+[0;33m17:50:30 57729       59:43 /opt/activevideo/libexec/we  0.0 36808 101565420[0m
+[0;33m17:58:24 60340       51:49 /opt/activevideo/libexec/we  0.0 36600 84770796[0m
+[0;33m[0m[0;33mvca043mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:53:08  4234       57:04 /opt/activevideo/libexec/we  0.0 34936 84788204[0m
+[0;33m18:07:46 11826       42:26 /opt/activevideo/libexec/we  0.0 34752 84788072[0m
+[0;33m18:15:49 14987       34:23 /opt/activevideo/libexec/we  0.0 34512 84746088[0m
+[0;33m18:22:42 17964       27:30 /opt/activevideo/libexec/we  0.0 31912 84722536[0m
+[0;33m18:30:33 21199       19:39 /opt/activevideo/libexec/we  0.0 32344 101499884[0m
+[0;33m18:39:59 25082       10:13 /opt/activevideo/libexec/we  0.0 34120 84722664[0m
+[0;33m18:47:15 28615       02:57 /opt/activevideo/libexec/we  0.2 33784 101565420[0m
+[0;33m18:49:42 29194       00:30 /opt/activevideo/libexec/we  1.0 32088 84722536[0m
+[0;33m18:49:47 29240       00:25 /opt/activevideo/libexec/we  3.0 35500 101639020[0m
+[0;33m17:35:47 56946    01:14:25 /opt/activevideo/libexec/we  0.0 36424 84722668[0m
+[0;33m17:37:12 61487    01:13:00 /opt/activevideo/libexec/we  0.0 32344 101565420[0m
+[0;33m[0m[0;33mvca003mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:22:27  5770       27:45 /opt/activevideo/libexec/we  0.0 32948 84853740[0m
+[0;33m18:32:48 10549       17:24 /opt/activevideo/libexec/we  0.0 32512 84788204[0m
+[0;33m18:34:38 12087       15:34 /opt/activevideo/libexec/we  0.1 36484 84984812[0m
+[0;33m18:35:50 12445       14:22 /opt/activevideo/libexec/we  0.0 36660 101565420[0m
+[0;33m18:48:06 20413       02:06 /opt/activevideo/libexec/we  0.2 34384 101499884[0m
+[0;33m18:48:44 21322       01:28 /opt/activevideo/libexec/we  0.7 34928 101565420[0m
+[0;33m18:49:34 21535       00:38 /opt/activevideo/libexec/we  0.6 37100 84788204[0m
+[0;33m18:49:36 21598       00:36 /opt/activevideo/libexec/we  0.6 34080 101434304[0m
+[0;33m17:05:47 38259    01:44:25 /opt/activevideo/libexec/we  0.0 32308 84781036[0m
+[0;33m17:44:37 53769    01:05:35 /opt/activevideo/libexec/we  0.0 32644 84722668[0m
+[0;33m[0m[0;33mvca056mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:29:26  6305       20:48 /opt/activevideo/libexec/we  0.0 34320 84788072[0m
+[0;33m18:37:58  9335       12:16 /opt/activevideo/libexec/we  0.0 38180 84722536[0m
+[0;33m18:48:09 12597       02:05 /opt/activevideo/libexec/we  0.4 36356 84722536[0m
+[0;33m18:49:38 12914       00:36 /opt/activevideo/libexec/we  0.5 34164 101425976[0m
+[0;33m18:49:58 12989       00:16 /opt/activevideo/libexec/we  1.9 34452 84796400[0m
+[0;33m18:50:08 13093       00:06 /opt/activevideo/libexec/we  4.8 34128 84796268[0m
+[0;33m16:30:38 23680    02:19:36 /opt/activevideo/libexec/we  0.0 36376 84723692[0m
+[0;33m17:12:48 39572    01:37:26 /opt/activevideo/libexec/we  0.0 38572 84853608[0m
+[0;33m18:02:00 60274       48:14 /opt/activevideo/libexec/we  0.0 34240 84788204[0m
+[0;33m[0m[0;33mvca064mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:09:30  6606       40:44 /opt/activevideo/libexec/we  0.0 32824 84853740[0m
+[0;33m18:17:24  9563       32:50 /opt/activevideo/libexec/we  0.0 36284 101565420[0m
+[0;33m18:23:12 11978       27:02 /opt/activevideo/libexec/we  0.0 36168 101565420[0m
+[0;33m16:03:10 17530    02:47:04 /opt/activevideo/libexec/we  0.0 34004 84657132[0m
+[0;33m18:37:11 21058       13:03 /opt/activevideo/libexec/we  0.0 32216 101434348[0m
+[0;33m18:40:55 22864       09:19 /opt/activevideo/libexec/we  0.1 34004 101499884[0m
+[0;33m18:45:33 24974       04:41 /opt/activevideo/libexec/we  0.2 32724 84853740[0m
+[0;33m18:49:56 26999       00:18 /opt/activevideo/libexec/we  2.6 37824 84730864[0m
+[0;33m18:50:00 27139       00:14 /opt/activevideo/libexec/we  3.8 40036 84796396[0m
+[0;33m18:50:10 27218       00:04 /opt/activevideo/libexec/we  7.5 40108 101508080[0m
+[0;33m16:56:39 39795    01:53:35 /opt/activevideo/libexec/we  0.0 35616 101565420[0m
+[0;33m16:57:38 40209    01:52:36 /opt/activevideo/libexec/we  0.0 34624 84788204[0m
+[0;33m14:33:12 45145    04:17:02 /opt/activevideo/libexec/we  0.0 34932 84853740[0m
+[0;33m17:20:40 50213    01:29:34 /opt/activevideo/libexec/we  0.0 36344 101565420[0m
+[0;33m15:03:14 56653    03:47:00 /opt/activevideo/libexec/we  0.0 32396 84788204[0m
+[0;33m17:38:40 57158    01:11:34 /opt/activevideo/libexec/we  0.0 34756 101570540[0m
+[0;33m17:54:04 63644       56:10 /opt/activevideo/libexec/we  0.0 34500 84919276[0m
+[0;33m[0m[0;33mvca071mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:04:54  3410       45:21 /opt/activevideo/libexec/we  0.0 37060 101565420[0m
+[0;33m18:17:05  7640       33:10 /opt/activevideo/libexec/we  0.0 34128 84722668[0m
+[0;33m18:29:33 11771       20:42 /opt/activevideo/libexec/we  0.0 32412 101434348[0m
+[0;33m18:37:32 18292       12:43 /opt/activevideo/libexec/we  0.1 32676 101614572[0m
+[0;33m18:49:53 21909       00:22 /opt/activevideo/libexec/we  1.4 34424 101573616[0m
+[0;33m17:49:32 61933    01:00:43 /opt/activevideo/libexec/we  0.0 32224 101565420[0m
+[0;33m[0m[0;33mvca062mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:49:31 29800    01:00:44 /opt/activevideo/libexec/we  0.0 32284 84788072[0m
+[0;33m[0m[0;33mvca053mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m11:57:02 19440    06:53:12 /opt/activevideo/libexec/we  0.0 35224 101499884[0m
+[0;33m15:07:02 24224    03:43:12 /opt/activevideo/libexec/we  0.0 34372 84788204[0m
+[0;33m18:26:18 37668       23:56 /opt/activevideo/libexec/we  0.0 36508 84788204[0m
+[0;33m18:39:41 43237       10:33 /opt/activevideo/libexec/we  0.2 34660 84793324[0m
+[0;33m18:42:41 44618       07:33 /opt/activevideo/libexec/we  0.3 33848 101565416[0m
+[0;33m16:55:50 63033    01:54:24 /opt/activevideo/libexec/we  0.0 32192 84722668[0m
+[0;33m[0m[0;33mvca073mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m11:20:12  8855    07:30:02 /opt/activevideo/libexec/we  0.0 32744 101761896[0m
+[0;33m17:29:54 21440    01:20:20 /opt/activevideo/libexec/we  0.0 34448 101499752[0m
+[0;33m18:45:30 49452       04:44 /opt/activevideo/libexec/we  0.2 34640 101565288[0m
+[0;33m18:49:12 50947       01:02 /opt/activevideo/libexec/we  0.5 34276 84788200[0m
+[0;33m18:49:56 51199       00:18 /opt/activevideo/libexec/we  1.6 32208 84788072[0m
+[0;33m18:50:10 51307       00:04 /opt/activevideo/libexec/we  7.2 44216 101573484[0m
+[0;33m[0m[0;33mvca067mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:05:01 32180    01:45:14 /opt/activevideo/libexec/we  0.0 32852 101565288[0m
+[0;33m17:26:10 38840    01:24:05 /opt/activevideo/libexec/we  0.0 34324 84722536[0m
+[0;33m14:54:14 49706    03:56:01 /opt/activevideo/libexec/we  0.0 34212 84722536[0m
+[0;33m18:32:22 62701       17:53 /opt/activevideo/libexec/we  0.0 32520 101565420[0m
+[0;33m[0m[0;33mvca074mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:21:59  6019    01:28:17 /opt/activevideo/libexec/we  0.0 34680 84788072[0m
+[0;33m18:26:02 31492       24:14 /opt/activevideo/libexec/we  0.0 32092 84722536[0m
+[0;33m18:31:19 33231       18:57 /opt/activevideo/libexec/we  0.0 34380 84829032[0m
+[0;33m18:34:50 34727       15:26 /opt/activevideo/libexec/we  0.0 32560 84788072[0m
+[0;33m18:38:10 35945       12:06 /opt/activevideo/libexec/we  0.0 32116 101434216[0m
+[0;33m18:44:34 37715       05:42 /opt/activevideo/libexec/we  0.1 34500 84788072[0m
+[0;33m18:47:18 38989       02:58 /opt/activevideo/libexec/we  0.2 33056 101565288[0m
+[0;33m18:47:49 39080       02:27 /opt/activevideo/libexec/we  0.3 34368 101565288[0m
+[0;33m[0m[0;33mvca078mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:12:33 22439       37:43 /opt/activevideo/libexec/we  0.0 32220 101499884[0m
+[0;33m18:25:38 28736       24:38 /opt/activevideo/libexec/we  0.0 34564 84788072[0m
+[0;33m18:26:28 28942       23:48 /opt/activevideo/libexec/we  0.0 34372 101566444[0m
+[0;33m15:55:21 31786    02:54:55 /opt/activevideo/libexec/we  0.0 36792 84853740[0m
+[0;33m15:57:07 32232    02:53:09 /opt/activevideo/libexec/we  0.0 34784 101500776[0m
+[0;33m18:48:25 37329       01:51 /opt/activevideo/libexec/we  0.2 34228 101499752[0m
+[0;33m18:49:53 38710       00:23 /opt/activevideo/libexec/we  1.1 32560 84730732[0m
+[0;33m18:50:04 38830       00:12 /opt/activevideo/libexec/we  2.5 36392 101573616[0m
+[0;33m18:50:07 38880       00:09 /opt/activevideo/libexec/we  3.0 33432 84731756[0m
+[0;33m16:14:19 39912    02:35:57 /opt/activevideo/libexec/we  0.0 32808 84854760[0m
+[0;33m[0m[0;33mvca075mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:44:55  3579    01:05:22 /opt/activevideo/libexec/we  0.0 32388 84722668[0m
+[0;33m18:36:05 25994       14:12 /opt/activevideo/libexec/we  0.0 34100 101566444[0m
+[0;33m18:41:51 27972       08:26 /opt/activevideo/libexec/we  0.0 36040 84788072[0m
+[0;33m18:45:03 29266       05:14 /opt/activevideo/libexec/we  0.0 34012 84657000[0m
+[0;33m18:50:02 30860       00:15 /opt/activevideo/libexec/we  2.0 34016 84730732[0m
+[0;33m[0m[0;33mvca077mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:10:37  3121       39:39 /opt/activevideo/libexec/we  0.0 34700 101565420[0m
+[0;33m18:27:13  9578       23:03 /opt/activevideo/libexec/we  0.0 35104 101566444[0m
+[0;33m15:58:14 11100    02:52:02 /opt/activevideo/libexec/we  0.0 34432 84789228[0m
+[0;33m18:38:15 17649       12:01 /opt/activevideo/libexec/we  0.1 34616 84788204[0m
+[0;33m18:44:36 20739       05:40 /opt/activevideo/libexec/we  0.0 32556 101565420[0m
+[0;33m15:29:56 64309    03:20:20 /opt/activevideo/libexec/we  0.0 36508 101565420[0m
+[0;33m[0m[0;33mvca080mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:11:15  6658    01:39:01 /opt/activevideo/libexec/we  0.0 34032 84722668[0m
+[0;33m17:21:43 10631    01:28:33 /opt/activevideo/libexec/we  0.0 32460 101500908[0m
+[0;33m17:31:17 14085    01:18:59 /opt/activevideo/libexec/we  0.0 32376 101630956[0m
+[0;33m17:53:29 25803       56:47 /opt/activevideo/libexec/we  0.0 32444 84853740[0m
+[0;33m17:59:53 27894       50:23 /opt/activevideo/libexec/we  0.0 36544 101630956[0m
+[0;33m18:02:14 28968       48:02 /opt/activevideo/libexec/we  0.0 34040 84657132[0m
+[0;33m18:10:04 31996       40:12 /opt/activevideo/libexec/we  0.0 32508 84722668[0m
+[0;33m18:24:44 37651       25:32 /opt/activevideo/libexec/we  0.0 34220 101565420[0m
+[0;33m18:48:21 46323       01:55 /opt/activevideo/libexec/we  0.2 34020 84722668[0m
+[0;33m18:50:13 46644       00:03 /opt/activevideo/libexec/we  6.6 42932 84657088[0m
+[0;33m[0m[0;33mvca082mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:12:02 13100    01:38:16 /opt/activevideo/libexec/we  0.0 38828 84853740[0m
+[0;33m17:53:01 31834       57:17 /opt/activevideo/libexec/we  0.0 34452 101499884[0m
+[0;33m17:55:53 32543       54:25 /opt/activevideo/libexec/we  0.0 36448 101499884[0m
+[0;33m18:08:21 37248       41:57 /opt/activevideo/libexec/we  0.0 36444 84859884[0m
+[0;33m18:10:05 37666       40:13 /opt/activevideo/libexec/we  0.0 36348 101565420[0m
+[0;33m18:12:14 38733       38:04 /opt/activevideo/libexec/we  0.0 34280 84722664[0m
+[0;33m13:10:46 43155    05:39:32 /opt/activevideo/libexec/we  0.0 36248 84722668[0m
+[0;33m15:58:38 47001    02:51:40 /opt/activevideo/libexec/we  0.0 36608 101565416[0m
+[0;33m18:41:26 48712       08:52 /opt/activevideo/libexec/we  0.2 35156 101565420[0m
+[0;33m18:45:11 50886       05:07 /opt/activevideo/libexec/we  0.0 31996 101426108[0m
+[0;33m18:45:56 51146       04:22 /opt/activevideo/libexec/we  0.0 34120 84648892[0m
+[0;33m18:50:10 53185       00:08 /opt/activevideo/libexec/we  7.6 35184 84730864[0m
+[0;33m[0m[0;33mvca035mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:27:33 24057       22:45 /opt/activevideo/libexec/we  0.0 32280 84788204[0m
+[0;33m18:37:02 27226       13:16 /opt/activevideo/libexec/we  0.1 32568 101630956[0m
+[0;33m18:39:07 28534       11:11 /opt/activevideo/libexec/we  0.1 33004 84858860[0m
+[0;33m18:48:17 30848       02:01 /opt/activevideo/libexec/we  0.3 34168 101565420[0m
+[0;33m18:49:37 31941       00:41 /opt/activevideo/libexec/we  0.7 36276 84722668[0m
+[0;33m18:49:43 32010       00:35 /opt/activevideo/libexec/we  1.0 34364 101573616[0m
+[0;33m16:49:02 49807    02:01:16 /opt/activevideo/libexec/we  0.0 34572 101499884[0m
+[0;33m17:17:07 59741    01:33:11 /opt/activevideo/libexec/we  0.0 35132 101763052[0m
+[0;33m[0m[0;33mvca086mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m14:45:59  1729    04:04:21 /opt/activevideo/libexec/we  0.0 32592 84788204[0m
+[0;33m18:19:14 18060       31:06 /opt/activevideo/libexec/we  0.0 34424 101499884[0m
+[0;33m18:33:15 23244       17:05 /opt/activevideo/libexec/we  0.1 35012 84853740[0m
+[0;33m18:45:38 27980       04:42 /opt/activevideo/libexec/we  0.0 31948 101426108[0m
+[0;33m16:23:36 38555    02:26:44 /opt/activevideo/libexec/we  0.0 32244 84854764[0m
+[0;33m17:30:20 62796    01:20:00 /opt/activevideo/libexec/we  0.0 33028 101565420[0m
+[0;33m[0m[0;33mvca087mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:22:14  7800    01:28:07 /opt/activevideo/libexec/we  0.0 36480 101630956[0m
+[0;33m17:28:22 10850    01:21:59 /opt/activevideo/libexec/we  0.0 34052 84722668[0m
+[0;33m14:44:43 11712    04:05:38 /opt/activevideo/libexec/we  0.0 34624 84919276[0m
+[0;33m17:40:06 18577    01:10:15 /opt/activevideo/libexec/we  0.0 34164 84657132[0m
+[0;33m17:41:01 18842    01:09:20 /opt/activevideo/libexec/we  0.0 34380 84722536[0m
+[0;33m18:01:13 26195       49:08 /opt/activevideo/libexec/we  0.0 34380 101565420[0m
+[0;33m18:02:07 26405       48:14 /opt/activevideo/libexec/we  0.0 37008 84853608[0m
+[0;33m18:27:42 36201       22:39 /opt/activevideo/libexec/we  0.0 34712 101499884[0m
+[0;33m18:31:42 38341       18:39 /opt/activevideo/libexec/we  0.0 36596 84855656[0m
+[0;33m18:36:07 39800       14:14 /opt/activevideo/libexec/we  0.0 35532 101499880[0m
+[0;33m18:37:28 40121       12:53 /opt/activevideo/libexec/we  0.0 34184 101435240[0m
+[0;33m18:40:39 41813       09:42 /opt/activevideo/libexec/we  0.1 32344 84788072[0m
+[0;33m18:42:36 42397       07:45 /opt/activevideo/libexec/we  0.1 38732 101630956[0m
+[0;33m18:47:42 44451       02:39 /opt/activevideo/libexec/we  0.2 32304 84591596[0m
+[0;33m18:49:56 45945       00:25 /opt/activevideo/libexec/we  1.3 34660 84796396[0m
+[0;33m18:50:13 46067       00:08 /opt/activevideo/libexec/we  3.7 37960 84796400[0m
+[0;33m18:50:16 46127       00:05 /opt/activevideo/libexec/we 12.6 41684 101508080[0m
+[0;33m[0m[0;33mvca060mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:46:00  1201       04:21 /opt/activevideo/libexec/we  0.3 35060 84853608[0m
+[0;33m18:46:10  1255       04:11 /opt/activevideo/libexec/we  0.3 34820 101565420[0m
+[0;33m18:49:19  2181       01:02 /opt/activevideo/libexec/we  0.3 34268 101361596[0m
+[0;33m18:49:33  2262       00:48 /opt/activevideo/libexec/we  0.7 32432 84853608[0m
+[0;33m16:10:39  4696    02:39:42 /opt/activevideo/libexec/we  0.0 37012 101565420[0m
+[0;33m16:59:44 22548    01:50:37 /opt/activevideo/libexec/we  0.0 32224 101499884[0m
+[0;33m17:29:52 37485    01:20:29 /opt/activevideo/libexec/we  0.0 35088 101567464[0m
+[0;33m17:59:47 47789       50:34 /opt/activevideo/libexec/we  0.0 36508 101499752[0m
+[0;33m18:10:10 51753       40:11 /opt/activevideo/libexec/we  0.0 32572 84853608[0m
+[0;33m12:48:00 60575    06:02:21 /opt/activevideo/libexec/we  0.0 35016 84722536[0m
+[0;33m18:35:05 60937       15:16 /opt/activevideo/libexec/we  0.0 32672 84788072[0m
+[0;33m18:42:00 64518       08:21 /opt/activevideo/libexec/we  0.1 32248 84722536[0m
+[0;33m[0m[0;33mvca068mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:02:18 10982    01:48:02 /opt/activevideo/libexec/we  0.0 36952 84723692[0m
+[0;33m17:05:32 13069    01:44:48 /opt/activevideo/libexec/we  0.0 34384 101567468[0m
+[0;33m14:38:03 13959    04:12:17 /opt/activevideo/libexec/we  0.0 32800 101566444[0m
+[0;33m17:25:53 25064    01:24:27 /opt/activevideo/libexec/we  0.0 39060 84853740[0m
+[0;33m17:56:27 40974       53:53 /opt/activevideo/libexec/we  0.0 35072 101565420[0m
+[0;33m18:15:19 49642       35:01 /opt/activevideo/libexec/we  0.0 35292 84722668[0m
+[0;33m18:16:53 49923       33:27 /opt/activevideo/libexec/we  0.0 34656 101499884[0m
+[0;33m18:28:09 54515       22:11 /opt/activevideo/libexec/we  0.1 32464 101565420[0m
+[0;33m18:29:22 55083       20:58 /opt/activevideo/libexec/we  0.0 32540 101630956[0m
+[0;33m18:48:34 62837       01:46 /opt/activevideo/libexec/we  0.3 34132 101565420[0m
+[0;33m18:49:59 63270       00:21 /opt/activevideo/libexec/we  1.5 34592 101573616[0m
+[0;33m18:50:02 63364       00:18 /opt/activevideo/libexec/we  1.6 31992 101499884[0m
+[0;33m18:50:17 63500       00:03 /opt/activevideo/libexec/we  9.6 37164 84796400[0m
+[0;33m[0m[0;33mvca072mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:06:24  3762    01:43:57 /opt/activevideo/libexec/we  0.0 32968 84788072[0m
+[0;33m17:46:15 22911    01:04:06 /opt/activevideo/libexec/we  0.0 32400 84788072[0m
+[0;33m18:02:03 29527       48:18 /opt/activevideo/libexec/we  0.0 34340 84722536[0m
+[0;33m15:40:40 33614    03:09:41 /opt/activevideo/libexec/we  0.0 32296 84723692[0m
+[0;33m15:53:32 38093    02:56:49 /opt/activevideo/libexec/we  0.0 37176 101499884[0m
+[0;33m18:26:25 39283       23:56 /opt/activevideo/libexec/we  0.0 32268 101565288[0m
+[0;33m18:32:05 42291       18:16 /opt/activevideo/libexec/we  0.0 32884 84889448[0m
+[0;33m16:10:36 45662    02:39:45 /opt/activevideo/libexec/we  0.0 36044 101435372[0m
+[0;33m18:43:38 47258       06:43 /opt/activevideo/libexec/we  0.1 34576 101565420[0m
+[0;33m18:48:43 49192       01:38 /opt/activevideo/libexec/we  0.7 35988 84853740[0m
+[0;33m16:26:09 51685    02:24:12 /opt/activevideo/libexec/we  0.0 34452 101499884[0m
+[0;33m[0m[0;33mvca061mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:58:05  7679       52:17 /opt/activevideo/libexec/we  0.0 32200 84722668[0m
+[0;33m18:00:51  9447       49:31 /opt/activevideo/libexec/we  0.0 32484 101565420[0m
+[0;33m18:06:59 11353       43:23 /opt/activevideo/libexec/we  0.0 32312 101500908[0m
+[0;33m18:25:41 21007       24:41 /opt/activevideo/libexec/we  0.1 32348 84788204[0m
+[0;33m18:46:10 28549       04:12 /opt/activevideo/libexec/we  0.0 31872 84648892[0m
+[0;33m18:46:28 28687       03:54 /opt/activevideo/libexec/we  0.2 32380 84788204[0m
+[0;33m18:46:32 28783       03:50 /opt/activevideo/libexec/we  0.1 32468 84853740[0m
+[0;33m18:47:23 29057       02:59 /opt/activevideo/libexec/we  0.1 32008 84648892[0m
+[0;33m18:47:34 29116       02:48 /opt/activevideo/libexec/we  0.4 32644 101630956[0m
+[0;33m18:49:08 29420       01:14 /opt/activevideo/libexec/we  0.5 32232 84788204[0m
+[0;33m18:49:50 29717       00:32 /opt/activevideo/libexec/we  0.9 32512 84788204[0m
+[0;33m17:36:04 64816    01:14:18 /opt/activevideo/libexec/we  0.0 32580 101630956[0m
+[0;33m[0m[0;33mvca089mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:32:13 21193    01:18:10 /opt/activevideo/libexec/we  0.0 36176 84722668[0m
+[0;33m15:20:50 30132    03:29:33 /opt/activevideo/libexec/we  0.0 34744 101565420[0m
+[0;33m18:09:50 36273       40:33 /opt/activevideo/libexec/we  0.0 36636 84853740[0m
+[0;33m18:38:37 48372       11:46 /opt/activevideo/libexec/we  0.1 34160 84788204[0m
+[0;33m18:40:40 48876       09:43 /opt/activevideo/libexec/we  0.1 34876 84788204[0m
+[0;33m18:45:39 50781       04:44 /opt/activevideo/libexec/we  0.3 32748 84722668[0m
+[0;33m18:48:08 52139       02:15 /opt/activevideo/libexec/we  0.2 34356 84722668[0m
+[0;33m18:49:34 52413       00:49 /opt/activevideo/libexec/we  0.6 32456 101565420[0m
+[0;33m18:50:07 52633       00:16 /opt/activevideo/libexec/we  1.6 34432 101508080[0m
+[0;33m16:39:41 60801    02:10:42 /opt/activevideo/libexec/we  0.0 34600 84788204[0m
+[0;33m[0m[0;33mvca076mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:40:06 11516    01:10:17 /opt/activevideo/libexec/we  0.0 38692 101565420[0m
+[0;33m17:58:15 21965       52:08 /opt/activevideo/libexec/we  0.0 34752 101565288[0m
+[0;33m18:05:26 25059       44:57 /opt/activevideo/libexec/we  0.0 36924 101565288[0m
+[0;33m18:12:39 27244       37:44 /opt/activevideo/libexec/we  0.0 34336 101499752[0m
+[0;33m15:37:40 27264    03:12:43 /opt/activevideo/libexec/we  0.0 34992 84853740[0m
+[0;33m18:37:31 36483       12:52 /opt/activevideo/libexec/we  0.1 37036 101697516[0m
+[0;33m18:49:51 41846       00:32 /opt/activevideo/libexec/we  1.0 34252 101565420[0m
+[0;33m[0m[0;33mvca010mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:37:17  4856    01:13:06 /opt/activevideo/libexec/we  0.0 36512 101565420[0m
+[0;33m17:47:21  8573    01:03:02 /opt/activevideo/libexec/we  0.0 36260 84722668[0m
+[0;33m17:52:07 10202       58:16 /opt/activevideo/libexec/we  0.0 34348 101565420[0m
+[0;33m18:06:55 15818       43:28 /opt/activevideo/libexec/we  0.0 32512 101565420[0m
+[0;33m18:15:20 18414       35:03 /opt/activevideo/libexec/we  0.0 36868 84789228[0m
+[0;33m18:20:36 20277       29:47 /opt/activevideo/libexec/we  0.0 32460 101630956[0m
+[0;33m18:38:43 25541       11:40 /opt/activevideo/libexec/we  0.1 34428 101499884[0m
+[0;33m18:47:46 28949       02:37 /opt/activevideo/libexec/we  0.4 32192 101602284[0m
+[0;33m16:37:48 48399    02:12:35 /opt/activevideo/libexec/we  0.0 32608 84853740[0m
+[0;33m17:11:50 60218    01:38:33 /opt/activevideo/libexec/we  0.0 36364 84722668[0m
+[0;33m[0m[0;33mvca079mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:44:36  1652       05:47 /opt/activevideo/libexec/we  0.1 34496 84723692[0m
+[0;33m16:38:27 11401    02:11:56 /opt/activevideo/libexec/we  0.0 36360 84722668[0m
+[0;33m17:33:56 35877    01:16:27 /opt/activevideo/libexec/we  0.0 34916 84788204[0m
+[0;33m17:50:03 42305    01:00:20 /opt/activevideo/libexec/we  0.0 34872 101565420[0m
+[0;33m17:54:45 44574       55:38 /opt/activevideo/libexec/we  0.0 35028 84920300[0m
+[0;33m15:49:19 56053    03:01:04 /opt/activevideo/libexec/we  0.0 34340 101499884[0m
+[0;33m18:25:38 59363       24:45 /opt/activevideo/libexec/we  0.0 34196 101566444[0m
+[0;33m18:27:09 59751       23:14 /opt/activevideo/libexec/we  0.2 37372 84788204[0m
+[0;33m18:33:25 62428       16:58 /opt/activevideo/libexec/we  0.0 34176 101499884[0m
+[0;33m18:39:24 64467       10:59 /opt/activevideo/libexec/we  0.1 32644 84788204[0m
+[0;33m[0m[0;33mvca030mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m16:22:58 11672    02:27:25 /opt/activevideo/libexec/we  0.0 32076 84722668[0m
+[0;33m18:48:49 63364       01:34 /opt/activevideo/libexec/we  0.4 32292 101565420[0m
+[0;33m18:50:00 64431       00:23 /opt/activevideo/libexec/we  1.4 33212 84730864[0m
+[0;33m[0m[0;33mvca009mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:45:09 12804    01:05:14 /opt/activevideo/libexec/we  0.0 34940 101565288[0m
+[0;33m15:52:34 29548    02:57:49 /opt/activevideo/libexec/we  0.0 34224 84722536[0m
+[0;33m18:09:05 30782       41:18 /opt/activevideo/libexec/we  0.0 34764 84788204[0m
+[0;33m18:15:14 34488       35:09 /opt/activevideo/libexec/we  0.0 33368 84722536[0m
+[0;33m18:28:23 42281       22:00 /opt/activevideo/libexec/we  0.0 34284 101565420[0m
+[0;33m18:34:25 44885       15:58 /opt/activevideo/libexec/we  0.0 36380 84826984[0m
+[0;33m18:36:15 45489       14:08 /opt/activevideo/libexec/we  0.0 32896 101565420[0m
+[0;33m18:41:07 48317       09:16 /opt/activevideo/libexec/we  0.0 34376 101499884[0m
+[0;33m18:42:20 48779       08:03 /opt/activevideo/libexec/we  0.1 32688 101565288[0m
+[0;33m18:42:44 49720       07:39 /opt/activevideo/libexec/we  0.2 32228 101499884[0m
+[0;33m18:44:16 50362       06:07 /opt/activevideo/libexec/we  0.8 32740 101565420[0m
+[0;33m18:45:50 50717       04:33 /opt/activevideo/libexec/we  0.3 32708 101630824[0m
+[0;33m18:45:59 50818       04:24 /opt/activevideo/libexec/we  0.4 32724 101565420[0m
+[0;33m18:48:29 52652       01:54 /opt/activevideo/libexec/we  0.2 32324 84788072[0m
+[0;33m18:48:50 52782       01:33 /opt/activevideo/libexec/we  0.3 32108 84722536[0m
+[0;33m18:49:41 53225       00:42 /opt/activevideo/libexec/we  1.1 32280 101499752[0m
+[0;33m18:49:49 53343       00:34 /opt/activevideo/libexec/we  2.1 34840 84730864[0m
+[0;33m18:50:01 53490       00:22 /opt/activevideo/libexec/we  1.0 32080 84657088[0m
+[0;33m18:50:13 53639       00:10 /opt/activevideo/libexec/we  2.5 32280 84657132[0m
+[0;33m18:50:13 53672       00:10 /opt/activevideo/libexec/we  3.5 37620 101573616[0m
+[0;33m16:51:04 53692    01:59:19 /opt/activevideo/libexec/we  0.0 34140 101499884[0m
+[0;33m17:16:22 65277    01:34:01 /opt/activevideo/libexec/we  0.0 34716 101499884[0m
+[0;33m[0m[0;33mvca046mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:01:47 26511       48:37 /opt/activevideo/libexec/we  0.0 34920 101565420[0m
+[0;33m18:14:14 30626       36:10 /opt/activevideo/libexec/we  0.0 36764 84722668[0m
+[0;33m18:23:07 34408       27:17 /opt/activevideo/libexec/we  0.0 34716 84722668[0m
+[0;33m18:39:53 40769       10:31 /opt/activevideo/libexec/we  0.0 32680 101434348[0m
+[0;33m18:49:45 44647       00:39 /opt/activevideo/libexec/we  0.8 34644 84788204[0m
+[0;33m18:50:18 44864       00:06 /opt/activevideo/libexec/we  7.1 38900 101434348[0m
+[0;33m18:50:19 44904       00:05 /opt/activevideo/libexec/we  5.8 32196 84796400[0m
+[0;33m16:40:39 52093    02:09:45 /opt/activevideo/libexec/we  0.0 32184 101565420[0m
+[0;33m[0m[0;33mvca045mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:59:47  4138       50:36 /opt/activevideo/libexec/we  0.0 34756 101565420[0m
+[0;33m18:11:46  9114       38:37 /opt/activevideo/libexec/we  0.0 36212 84789096[0m
+[0;33m18:27:03 18580       23:20 /opt/activevideo/libexec/we  0.0 32652 101499752[0m
+[0;33m18:46:32 25879       03:51 /opt/activevideo/libexec/we  0.2 36760 101696360[0m
+[0;33m18:47:52 26217       02:31 /opt/activevideo/libexec/we  0.7 32860 101639016[0m
+[0;33m18:48:15 26340       02:08 /opt/activevideo/libexec/we  0.3 34680 84657000[0m
+[0;33m18:49:14 26550       01:09 /opt/activevideo/libexec/we  0.4 34308 101499752[0m
+[0;33m18:49:32 26678       00:51 /opt/activevideo/libexec/we  0.5 34412 84788204[0m
+[0;33m18:49:45 27613       00:38 /opt/activevideo/libexec/we  1.0 32568 84797292[0m
+[0;33m17:28:51 56615    01:21:32 /opt/activevideo/libexec/we  0.0 34272 101499752[0m
+[0;33m[0m[0;33mvca040mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:17:31  2158       32:53 /opt/activevideo/libexec/we  0.0 32900 101565420[0m
+[0;33m18:19:17  2618       31:07 /opt/activevideo/libexec/we  0.0 34620 84854632[0m
+[0;33m18:48:55 13352       01:29 /opt/activevideo/libexec/we  0.4 34244 84722668[0m
+[0;33m18:50:05 13901       00:19 /opt/activevideo/libexec/we  1.5 32512 84796268[0m
+[0;33m16:51:24 33133    01:59:00 /opt/activevideo/libexec/we  0.0 33892 84722536[0m
+[0;33m17:07:05 39046    01:43:19 /opt/activevideo/libexec/we  0.0 36460 84853608[0m
+[0;33m17:50:21 54753    01:00:03 /opt/activevideo/libexec/we  0.0 31852 101499880[0m
+[0;33m18:08:27 63097       41:57 /opt/activevideo/libexec/we  0.0 34388 101696360[0m
+[0;33m[0m[0;33mvca092mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:40:17  5472       10:07 /opt/activevideo/libexec/we  0.1 34688 84788072[0m
+[0;33m18:47:33  7926       02:51 /opt/activevideo/libexec/we  0.2 32284 84722536[0m
+[0;33m18:48:14  8937       02:10 /opt/activevideo/libexec/we  0.3 31828 84722536[0m
+[0;33m18:50:20  9303       00:04 /opt/activevideo/libexec/we  7.5 37164 84796400[0m
+[0;33m18:50:24  9420       00:00 /opt/activevideo/libexec/we  0.0 21800 83987684[0m
+[0;33m16:36:55 19550    02:13:29 /opt/activevideo/libexec/we  0.0 34944 84921192[0m
+[0;33m16:46:00 22559    02:04:24 /opt/activevideo/libexec/we  0.0 32648 84722536[0m
+[0;33m17:31:28 39728    01:18:56 /opt/activevideo/libexec/we  0.0 32156 84722668[0m
+[0;33m17:37:08 41946    01:13:16 /opt/activevideo/libexec/we  0.0 34832 84853608[0m
+[0;33m17:57:58 50084       52:26 /opt/activevideo/libexec/we  0.0 34172 84788072[0m
+[0;33m18:16:21 57819       34:03 /opt/activevideo/libexec/we  0.0 34616 101630824[0m
+[0;33m18:20:51 59344       29:33 /opt/activevideo/libexec/we  0.0 34992 84788204[0m
+[0;33m18:27:15 61517       23:09 /opt/activevideo/libexec/we  0.0 34592 84788204[0m
+[0;33m[0m[0;33mvca004mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:39:48  5120    01:10:37 /opt/activevideo/libexec/we  0.0 32760 84853740[0m
+[0;33m17:44:22  7010    01:06:03 /opt/activevideo/libexec/we  0.0 36172 101499884[0m
+[0;33m17:49:08  9601    01:01:17 /opt/activevideo/libexec/we  0.0 36280 84788200[0m
+[0;33m17:49:53  9830    01:00:32 /opt/activevideo/libexec/we  0.0 36476 84804588[0m
+[0;33m17:58:05 12440       52:20 /opt/activevideo/libexec/we  0.0 32168 101499884[0m
+[0;33m18:07:04 20082       43:21 /opt/activevideo/libexec/we  0.0 34844 84984812[0m
+[0;33m18:10:49 22050       39:36 /opt/activevideo/libexec/we  0.0 34220 84829164[0m
+[0;33m18:13:39 23505       36:46 /opt/activevideo/libexec/we  0.0 38140 84788204[0m
+[0;33m18:13:58 23699       36:27 /opt/activevideo/libexec/we  0.0 32984 84854764[0m
+[0;33m18:22:23 26311       28:02 /opt/activevideo/libexec/we  0.0 36260 101566444[0m
+[0;33m18:33:39 31662       16:46 /opt/activevideo/libexec/we  0.0 32508 101565420[0m
+[0;33m18:35:11 32137       15:14 /opt/activevideo/libexec/we  0.1 34788 84788204[0m
+[0;33m16:20:26 36957    02:29:59 /opt/activevideo/libexec/we  0.0 32564 101681132[0m
+[0;33m18:49:32 37844       00:53 /opt/activevideo/libexec/we  0.3 31784 101360572[0m
+[0;33m[0m[0;33mvca017mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:19:38  5338       30:47 /opt/activevideo/libexec/we  0.0 34276 101499884[0m
+[0;33m18:25:05  7049       25:20 /opt/activevideo/libexec/we  0.0 34108 84788204[0m
+[0;33m18:36:28 11741       13:57 /opt/activevideo/libexec/we  0.1 34644 101499884[0m
+[0;33m18:37:31 12834       12:54 /opt/activevideo/libexec/we  0.1 32436 84789228[0m
+[0;33m18:43:26 18463       06:59 /opt/activevideo/libexec/we  0.1 36308 84788204[0m
+[0;33m18:43:35 18542       06:50 /opt/activevideo/libexec/we  0.2 34772 84853740[0m
+[0;33m18:47:03 19924       03:22 /opt/activevideo/libexec/we  0.2 34784 101565420[0m
+[0;33m16:39:01 29305    02:11:24 /opt/activevideo/libexec/we  0.0 32840 84789228[0m
+[0;33m16:48:16 33283    02:02:09 /opt/activevideo/libexec/we  0.0 36628 84853740[0m
+[0;33m17:06:51 40449    01:43:34 /opt/activevideo/libexec/we  0.0 32536 101565420[0m
+[0;33m17:45:33 55518    01:04:52 /opt/activevideo/libexec/we  0.0 34896 101499884[0m
+[0;33m15:09:43 57064    03:40:42 /opt/activevideo/libexec/we  0.0 34732 101565420[0m
+[0;33m18:07:25 64933       43:00 /opt/activevideo/libexec/we  0.0 32476 101630956[0m
+[0;33m[0m[0;33mvca012mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:33:40  2916    01:16:45 /opt/activevideo/libexec/we  0.0 33164 84788204[0m
+[0;33m17:43:17  6477    01:07:08 /opt/activevideo/libexec/we  0.0 32672 84791276[0m
+[0;33m17:51:57 10146       58:28 /opt/activevideo/libexec/we  0.0 32220 84788072[0m
+[0;33m18:13:09 22113       37:16 /opt/activevideo/libexec/we  0.0 32148 84657132[0m
+[0;33m18:13:13 22164       37:12 /opt/activevideo/libexec/we  0.0 32112 101499752[0m
+[0;33m18:20:18 25832       30:07 /opt/activevideo/libexec/we  0.0 32312 84722668[0m
+[0;33m18:30:48 30350       19:37 /opt/activevideo/libexec/we  0.0 34904 101630824[0m
+[0;33m18:34:10 31607       16:15 /opt/activevideo/libexec/we  0.1 36444 101565420[0m
+[0;33m18:42:40 35630       07:45 /opt/activevideo/libexec/we  0.1 34200 84722664[0m
+[0;33m18:48:10 37568       02:15 /opt/activevideo/libexec/we  0.5 34376 84856812[0m
+[0;33m18:50:20 38927       00:05 /opt/activevideo/libexec/we  5.8 37688 101573484[0m
+[0;33m17:01:29 54675    01:48:56 /opt/activevideo/libexec/we  0.0 34196 101625704[0m
+[0;33m[0m[0;33mvca024mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m16:59:37 10195    01:50:48 /opt/activevideo/libexec/we  0.0 32432 84722536[0m
+[0;33m17:12:01 19556    01:38:24 /opt/activevideo/libexec/we  0.0 34148 101499884[0m
+[0;33m17:41:53 32679    01:08:32 /opt/activevideo/libexec/we  0.0 36608 101586924[0m
+[0;33m17:54:54 37366       55:31 /opt/activevideo/libexec/we  0.0 36184 84788204[0m
+[0;33m18:00:52 41341       49:33 /opt/activevideo/libexec/we  0.0 36636 84788204[0m
+[0;33m18:36:30 55775       13:55 /opt/activevideo/libexec/we  0.0 34692 84722668[0m
+[0;33m16:16:13 57402    02:34:12 /opt/activevideo/libexec/we  0.0 34524 101565288[0m
+[0;33m18:49:25 60326       01:00 /opt/activevideo/libexec/we  0.5 36348 84722668[0m
+[0;33m18:50:25 61558       00:00 /opt/activevideo/libexec/we  0.0 21800 100764900[0m
+[0;33m[0m[0;33mvca090mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m16:19:42  1259    02:30:43 /opt/activevideo/libexec/we  0.0 34732 84853740[0m
+[0;33m17:11:53 23677    01:38:32 /opt/activevideo/libexec/we  0.0 32616 84853740[0m
+[0;33m18:06:20 44384       44:05 /opt/activevideo/libexec/we  0.0 35032 101762028[0m
+[0;33m18:19:20 49215       31:05 /opt/activevideo/libexec/we  0.0 36080 101499884[0m
+[0;33m18:42:05 59088       08:20 /opt/activevideo/libexec/we  0.1 34208 84788204[0m
+[0;33m18:47:57 61100       02:28 /opt/activevideo/libexec/we  0.5 34352 101501932[0m
+[0;33m18:49:06 61358       01:19 /opt/activevideo/libexec/we  0.4 31948 84788204[0m
+[0;33m18:50:08 62435       00:17 /opt/activevideo/libexec/we  1.7 32140 101508080[0m
+[0;33m[0m[0;33mvca088mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:24:17 14771    01:26:08 /opt/activevideo/libexec/we  0.0 34784 84919144[0m
+[0;33m17:55:17 30312       55:08 /opt/activevideo/libexec/we  0.0 38888 84804456[0m
+[0;33m17:57:06 31542       53:19 /opt/activevideo/libexec/we  0.0 34564 84722664[0m
+[0;33m15:15:56 33203    03:34:29 /opt/activevideo/libexec/we  0.0 37444 84792300[0m
+[0;33m18:08:36 36452       41:49 /opt/activevideo/libexec/we  0.0 37432 101499884[0m
+[0;33m18:12:22 38637       38:03 /opt/activevideo/libexec/we  0.0 34524 101499884[0m
+[0;33m18:36:30 46375       13:55 /opt/activevideo/libexec/we  0.0 34652 84722664[0m
+[0;33m18:42:32 49905       07:53 /opt/activevideo/libexec/we  0.2 33672 101630824[0m
+[0;33m18:48:09 51872       02:16 /opt/activevideo/libexec/we  0.2 32116 101499752[0m
+[0;33m18:50:03 52368       00:22 /opt/activevideo/libexec/we  0.9 32240 84648888[0m
+[0;33m18:50:13 52440       00:12 /opt/activevideo/libexec/we  2.6 37536 101573616[0m
+[0;33m16:39:03 62912    02:11:22 /opt/activevideo/libexec/we  0.0 36468 84788204[0m
+[0;33m[0m[0;33mvca081mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:00:53 10855       49:32 /opt/activevideo/libexec/we  0.0 34416 101565420[0m
+[0;33m18:25:48 24432       24:37 /opt/activevideo/libexec/we  0.0 36504 84722668[0m
+[0;33m18:45:25 32082       05:00 /opt/activevideo/libexec/we  0.3 37076 101630956[0m
+[0;33m18:48:36 33691       01:49 /opt/activevideo/libexec/we  0.4 34796 101630956[0m
+[0;33m18:49:37 34075       00:48 /opt/activevideo/libexec/we  0.7 34904 84788204[0m
+[0;33m18:50:15 34306       00:10 /opt/activevideo/libexec/we  2.1 34160 101434300[0m
+[0;33m13:43:08 35112    05:07:17 /opt/activevideo/libexec/we  0.0 32000 84722668[0m
+[0;33m17:18:22 56949    01:32:03 /opt/activevideo/libexec/we  0.0 36584 84853740[0m
+[0;33m17:27:22 60568    01:23:03 /opt/activevideo/libexec/we  0.0 35164 84788204[0m
+[0;33m[0m[0;33mvca085mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:49:26  1717       00:59 /opt/activevideo/libexec/we  0.3 34296 101426108[0m
+[0;33m18:49:39  1832       00:46 /opt/activevideo/libexec/we  0.7 33160 101508080[0m
+[0;33m18:50:22  2184       00:03 /opt/activevideo/libexec/we  9.6 36968 84886524[0m
+[0;33m17:01:34 23563    01:48:51 /opt/activevideo/libexec/we  0.0 35064 101501932[0m
+[0;33m17:09:29 27181    01:40:56 /opt/activevideo/libexec/we  0.0 34928 101630824[0m
+[0;33m17:22:42 31747    01:27:43 /opt/activevideo/libexec/we  0.0 33644 84788072[0m
+[0;33m18:17:13 53644       33:12 /opt/activevideo/libexec/we  0.0 32088 101499880[0m
+[0;33m18:41:34 62836       08:51 /opt/activevideo/libexec/we  0.1 36700 84741100[0m
+[0;33m18:44:17 64284       06:08 /opt/activevideo/libexec/we  0.2 32336 101565420[0m
+[0;33m18:47:46 65433       02:39 /opt/activevideo/libexec/we  0.5 33316 101631848[0m
+[0;33m[0m[0;33mvca094mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:04:59 27830       45:26 /opt/activevideo/libexec/we  0.0 34376 101499884[0m
+[0;33m18:32:18 39019       18:07 /opt/activevideo/libexec/we  0.0 34684 101565420[0m
+[0;33m18:44:32 44087       05:53 /opt/activevideo/libexec/we  0.1 33932 84722668[0m
+[0;33m18:47:04 44625       03:21 /opt/activevideo/libexec/we  0.1 34028 101499884[0m
+[0;33m16:55:25 60178    01:55:00 /opt/activevideo/libexec/we  0.0 36876 101568492[0m
+[0;33m[0m[0;33mvca063mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:35:44  6853    01:14:41 /opt/activevideo/libexec/we  0.0 32276 101434348[0m
+[0;33m17:43:24  9858    01:07:01 /opt/activevideo/libexec/we  0.0 32476 101565420[0m
+[0;33m15:14:01 22645    03:36:24 /opt/activevideo/libexec/we  0.0 32888 84788204[0m
+[0;33m18:32:53 30855       17:32 /opt/activevideo/libexec/we  0.1 32944 84789228[0m
+[0;33m18:34:19 31309       16:06 /opt/activevideo/libexec/we  0.0 32572 101565288[0m
+[0;33m18:49:11 37214       01:14 /opt/activevideo/libexec/we  0.6 32828 101565288[0m
+[0;33m18:49:57 37490       00:28 /opt/activevideo/libexec/we  1.1 32296 101565288[0m
+[0;33m18:50:22 37675       00:03 /opt/activevideo/libexec/we 10.0 37340 84796268[0m
+[0;33m18:50:25 37723       00:00 /opt/activevideo/libexec/we  0.0 34464 84296492[0m
+[0;33m13:29:38 49044    05:20:47 /opt/activevideo/libexec/we  0.0 32848 101565420[0m
+[0;33m[0m[0;33mvca096mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:42:04 34543    01:08:21 /opt/activevideo/libexec/we  0.0 34804 84722668[0m
+[0;33m18:00:44 40679       49:41 /opt/activevideo/libexec/we  0.0 37088 84853740[0m
+[0;33m18:20:09 47857       30:16 /opt/activevideo/libexec/we  0.0 34452 101565420[0m
+[0;33m18:31:26 51111       18:59 /opt/activevideo/libexec/we  0.1 34408 84923372[0m
+[0;33m18:46:55 57081       03:30 /opt/activevideo/libexec/we  0.2 32368 84722668[0m
+[0;33m18:47:01 57130       03:24 /opt/activevideo/libexec/we  0.1 32288 84788200[0m
+[0;33m18:47:08 57204       03:17 /opt/activevideo/libexec/we  0.1 34108 84657132[0m
+[0;33m[0m[0;33mvca102mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:20:34  4828       29:51 /opt/activevideo/libexec/we  0.0 36268 101500908[0m
+[0;33m18:26:33  7197       23:52 /opt/activevideo/libexec/we  0.0 36364 84789228[0m
+[0;33m18:27:18  7386       23:07 /opt/activevideo/libexec/we  0.0 34908 101530604[0m
+[0;33m18:34:40 11191       15:45 /opt/activevideo/libexec/we  0.1 34300 101597164[0m
+[0;33m16:10:10 14545    02:40:15 /opt/activevideo/libexec/we  0.0 34712 84853740[0m
+[0;33m18:44:52 15577       05:33 /opt/activevideo/libexec/we  0.3 32652 84722668[0m
+[0;33m18:47:41 19873       02:44 /opt/activevideo/libexec/we  0.1 38104 84591596[0m
+[0;33m18:49:28 20985       00:57 /opt/activevideo/libexec/we  0.4 34436 84722668[0m
+[0;33m16:28:48 24781    02:21:37 /opt/activevideo/libexec/we  0.0 34760 84790252[0m
+[0;33m17:03:21 38893    01:47:04 /opt/activevideo/libexec/we  0.0 34756 84790252[0m
+[0;33m17:10:51 42348    01:39:34 /opt/activevideo/libexec/we  0.0 32504 84722668[0m
+[0;33m17:41:47 53241    01:08:38 /opt/activevideo/libexec/we  0.0 36656 84788204[0m
+[0;33m17:52:53 56958       57:32 /opt/activevideo/libexec/we  0.0 34620 101565420[0m
+[0;33m15:24:57 61705    03:25:28 /opt/activevideo/libexec/we  0.0 34196 84772844[0m
+[0;33m[0m[0;33mvca101mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m16:54:51 21204    01:55:35 /opt/activevideo/libexec/we  0.0 34904 101499884[0m
+[0;33m16:56:23 21562    01:54:03 /opt/activevideo/libexec/we  0.0 36560 84788204[0m
+[0;33m18:13:08 49451       37:18 /opt/activevideo/libexec/we  0.0 32400 84788204[0m
+[0;33m18:18:07 51108       32:19 /opt/activevideo/libexec/we  0.0 35064 84788204[0m
+[0;33m18:22:27 52839       27:59 /opt/activevideo/libexec/we  0.0 32428 101499884[0m
+[0;33m18:38:47 58188       11:39 /opt/activevideo/libexec/we  0.0 32612 101499884[0m
+[0;33m18:41:43 58712       08:43 /opt/activevideo/libexec/we  0.3 32380 101565420[0m
+[0;33m15:54:59 59614    02:55:27 /opt/activevideo/libexec/we  0.0 37280 84853740[0m
+[0;33m18:42:33 59722       07:53 /opt/activevideo/libexec/we  0.0 32000 101499884[0m
+[0;33m18:43:13 59868       07:13 /opt/activevideo/libexec/we  0.0 34832 101499884[0m
+[0;33m18:45:09 60212       05:17 /opt/activevideo/libexec/we  0.1 31844 84722668[0m
+[0;33m18:50:10 62220       00:16 /opt/activevideo/libexec/we  1.9 36592 101508080[0m
+[0;33m[0m[0;33mvca033mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:21:18   692    01:29:08 /opt/activevideo/libexec/we  0.0 38428 84879340[0m
+[0;33m17:24:25  1930    01:26:01 /opt/activevideo/libexec/we  0.0 32488 84723692[0m
+[0;33m17:38:55  7814    01:11:31 /opt/activevideo/libexec/we  0.0 34168 101499884[0m
+[0;33m18:04:10 20674       46:16 /opt/activevideo/libexec/we  0.0 36860 84919276[0m
+[0;33m18:23:40 30115       26:46 /opt/activevideo/libexec/we  0.0 32188 101565420[0m
+[0;33m18:25:26 30592       25:00 /opt/activevideo/libexec/we  0.0 32408 101565420[0m
+[0;33m18:27:26 31846       23:00 /opt/activevideo/libexec/we  0.0 32152 84657132[0m
+[0;33m18:28:03 32278       22:23 /opt/activevideo/libexec/we  0.1 32060 101499884[0m
+[0;33m18:29:09 32786       21:17 /opt/activevideo/libexec/we  0.0 32472 101565416[0m
+[0;33m16:20:38 40828    02:29:48 /opt/activevideo/libexec/we  0.0 33000 84919276[0m
+[0;33m18:49:11 41877       01:15 /opt/activevideo/libexec/we  0.4 36648 101499884[0m
+[0;33m18:49:22 41950       01:04 /opt/activevideo/libexec/we  0.6 32796 101360616[0m
+[0;33m18:50:11 42323       00:15 /opt/activevideo/libexec/we  2.0 32256 101508080[0m
+[0;33m18:50:18 42389       00:08 /opt/activevideo/libexec/we  3.7 34484 101508080[0m
+[0;33m17:16:48 63324    01:33:38 /opt/activevideo/libexec/we  0.0 34600 84853736[0m
+[0;33m[0m[0;33mvca103mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:33:21  5661    01:17:05 /opt/activevideo/libexec/we  0.0 32176 101696492[0m
+[0;33m17:37:47  7742    01:12:39 /opt/activevideo/libexec/we  0.0 38380 84790120[0m
+[0;33m17:45:36 10207    01:04:50 /opt/activevideo/libexec/we  0.0 36392 101631848[0m
+[0;33m17:58:01 18959       52:25 /opt/activevideo/libexec/we  0.0 38496 84788072[0m
+[0;33m18:33:00 31403       17:26 /opt/activevideo/libexec/we  0.0 32488 84722536[0m
+[0;33m18:43:21 35510       07:05 /opt/activevideo/libexec/we  0.1 33088 101630824[0m
+[0;33m18:49:54 38164       00:32 /opt/activevideo/libexec/we  1.0 34172 101573484[0m
+[0;33m16:19:23 42211    02:31:03 /opt/activevideo/libexec/we  0.0 33788 101565420[0m
+[0;33m17:13:48 62887    01:36:38 /opt/activevideo/libexec/we  0.0 34956 84853608[0m
+[0;33m17:22:44 65373    01:27:42 /opt/activevideo/libexec/we  0.0 34456 101565420[0m
+[0;33m[0m[0;33mvca065mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:21:08  7377    01:29:18 /opt/activevideo/libexec/we  0.0 36924 84722668[0m
+[0;33m14:43:12  8930    04:07:14 /opt/activevideo/libexec/we  0.0 32304 101499884[0m
+[0;33m18:03:16 27116       47:10 /opt/activevideo/libexec/we  0.0 36780 84788204[0m
+[0;33m18:07:03 28984       43:23 /opt/activevideo/libexec/we  0.0 32484 84788204[0m
+[0;33m18:07:10 29046       43:16 /opt/activevideo/libexec/we  0.0 32272 101565420[0m
+[0;33m18:33:42 39203       16:44 /opt/activevideo/libexec/we  0.0 37808 101565420[0m
+[0;33m18:34:45 39551       15:41 /opt/activevideo/libexec/we  0.0 32780 84657132[0m
+[0;33m18:35:47 40726       14:39 /opt/activevideo/libexec/we  0.0 32336 84722668[0m
+[0;33m18:49:36 45242       00:50 /opt/activevideo/libexec/we  0.7 34500 84788204[0m
+[0;33m18:49:51 45403       00:35 /opt/activevideo/libexec/we  0.9 36508 84788204[0m
+[0;33m[0m[0;33mvca028mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:36:46  5372       13:41 /opt/activevideo/libexec/we  0.0 34780 84722668[0m
+[0;33m18:37:43  5607       12:44 /opt/activevideo/libexec/we  0.0 32688 84723692[0m
+[0;33m18:42:16  7272       08:11 /opt/activevideo/libexec/we  0.0 32108 101566444[0m
+[0;33m18:46:13  8381       04:14 /opt/activevideo/libexec/we  0.2 32528 84722668[0m
+[0;33m18:50:11 10263       00:16 /opt/activevideo/libexec/we  3.4 35684 101508080[0m
+[0;33m17:07:39 31057    01:42:48 /opt/activevideo/libexec/we  0.0 32600 84788204[0m
+[0;33m17:34:31 41928    01:15:56 /opt/activevideo/libexec/we  0.0 34608 84788204[0m
+[0;33m17:44:37 45424    01:05:50 /opt/activevideo/libexec/we  0.0 36460 101565420[0m
+[0;33m15:17:11 50818    03:33:16 /opt/activevideo/libexec/we  0.0 34576 84789228[0m
+[0;33m18:27:54 62737       22:33 /opt/activevideo/libexec/we  0.0 34524 101565420[0m
+[0;33m[0m[0;33mvca015mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:19:39  7033    01:30:47 /opt/activevideo/libexec/we  0.0 35052 84853740[0m
+[0;33m18:10:09 29748       40:17 /opt/activevideo/libexec/we  0.0 38940 84788072[0m
+[0;33m18:12:33 31412       37:53 /opt/activevideo/libexec/we  0.0 36700 101565288[0m
+[0;33m18:25:47 36074       24:39 /opt/activevideo/libexec/we  0.0 34308 84723560[0m
+[0;33m18:27:59 37344       22:27 /opt/activevideo/libexec/we  0.0 32224 84657000[0m
+[0;33m18:32:31 39299       17:55 /opt/activevideo/libexec/we  0.0 32044 101499752[0m
+[0;33m18:35:27 39959       14:59 /opt/activevideo/libexec/we  0.0 31944 84657000[0m
+[0;33m18:37:27 41342       12:59 /opt/activevideo/libexec/we  0.0 34376 101499752[0m
+[0;33m18:41:50 42244       08:36 /opt/activevideo/libexec/we  0.1 32404 84788204[0m
+[0;33m18:42:39 43168       07:47 /opt/activevideo/libexec/we  0.2 34692 84723560[0m
+[0;33m18:42:42 43216       07:44 /opt/activevideo/libexec/we  0.1 34588 101565288[0m
+[0;33m18:49:20 45240       01:06 /opt/activevideo/libexec/we  0.4 32688 101499884[0m
+[0;33m16:11:57 45797    02:38:29 /opt/activevideo/libexec/we  0.0 35644 101630956[0m
+[0;33m16:31:19 52601    02:19:07 /opt/activevideo/libexec/we  0.0 32188 101499752[0m
+[0;33m16:55:38 61940    01:54:48 /opt/activevideo/libexec/we  0.0 34740 84722536[0m
+[0;33m[0m[0;33mvca049mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:32:01  5896    01:18:25 /opt/activevideo/libexec/we  0.0 34388 101565420[0m
+[0;33m17:33:32  6505    01:16:54 /opt/activevideo/libexec/we  0.0 34548 101565420[0m
+[0;33m17:42:49 10881    01:07:37 /opt/activevideo/libexec/we  0.0 32712 101696492[0m
+[0;33m18:02:08 23663       48:18 /opt/activevideo/libexec/we  0.0 32364 84722668[0m
+[0;33m13:03:18 25240    05:47:08 /opt/activevideo/libexec/we  0.0 35680 101565420[0m
+[0;33m13:05:13 26622    05:45:13 /opt/activevideo/libexec/we  0.0 34108 101499884[0m
+[0;33m18:12:57 27882       37:29 /opt/activevideo/libexec/we  0.0 36240 84722668[0m
+[0;33m18:32:45 35791       17:41 /opt/activevideo/libexec/we  0.0 34292 84657132[0m
+[0;33m18:38:53 37692       11:33 /opt/activevideo/libexec/we  0.1 34576 84853740[0m
+[0;33m16:13:45 38239    02:36:41 /opt/activevideo/libexec/we  0.0 32372 101499884[0m
+[0;33m18:46:28 41040       03:58 /opt/activevideo/libexec/we  0.2 34292 101426152[0m
+[0;33m17:00:15 56676    01:50:11 /opt/activevideo/libexec/we  0.0 32344 101565420[0m
+[0;33m17:06:26 59546    01:44:00 /opt/activevideo/libexec/we  0.0 32444 101565420[0m
+[0;33m[0m[0;33mvca031mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:17:20   704       33:07 /opt/activevideo/libexec/we  0.0 36756 84722536[0m
+[0;33m18:20:45  1665       29:42 /opt/activevideo/libexec/we  0.0 32276 101499752[0m
+[0;33m18:28:07  5146       22:20 /opt/activevideo/libexec/we  0.0 33008 101565420[0m
+[0;33m18:36:25  9225       14:02 /opt/activevideo/libexec/we  0.0 31972 101499884[0m
+[0;33m18:43:34 11450       06:53 /opt/activevideo/libexec/we  0.1 36500 101630824[0m
+[0;33m18:44:56 11980       05:31 /opt/activevideo/libexec/we  0.2 36476 84853608[0m
+[0;33m18:46:59 13326       03:28 /opt/activevideo/libexec/we  0.5 35404 84790252[0m
+[0;33m18:48:48 13814       01:39 /opt/activevideo/libexec/we  0.3 31880 84722668[0m
+[0;33m18:49:49 14172       00:38 /opt/activevideo/libexec/we  1.8 37048 101522416[0m
+[0;33m18:50:16 14481       00:11 /opt/activevideo/libexec/we  2.7 32444 84861936[0m
+[0;33m[0m[0;33mvca037mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m16:46:25  7448    02:04:01 /opt/activevideo/libexec/we  0.0 32140 101499752[0m
+[0;33m17:37:21 29683    01:13:05 /opt/activevideo/libexec/we  0.0 32644 101630956[0m
+[0;33m17:57:32 37126       52:54 /opt/activevideo/libexec/we  0.0 34796 101499884[0m
+[0;33m18:02:05 39922       48:21 /opt/activevideo/libexec/we  0.0 34452 101499752[0m
+[0;33m18:02:36 40103       47:50 /opt/activevideo/libexec/we  0.0 35292 101499752[0m
+[0;33m18:27:45 49738       22:41 /opt/activevideo/libexec/we  0.0 34120 84788204[0m
+[0;33m18:42:36 55937       07:50 /opt/activevideo/libexec/we  0.2 32752 84853740[0m
+[0;33m16:05:57 56184    02:44:29 /opt/activevideo/libexec/we  0.0 34144 101434348[0m
+[0;33m18:49:49 58529       00:37 /opt/activevideo/libexec/we  0.8 34320 101499884[0m
+[0;33m18:50:14 58731       00:12 /opt/activevideo/libexec/we  2.5 32204 84730732[0m
+[0;33m18:50:25 58830       00:01 /opt/activevideo/libexec/we 14.0 37352 101442368[0m
+[0;33m16:17:37 60618    02:32:49 /opt/activevideo/libexec/we  0.0 34692 84722668[0m
+[0;33m[0m[0;33mvca032mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:19:15  7112    01:31:12 /opt/activevideo/libexec/we  0.0 32124 101499880[0m
+[0;33m17:20:04  7342    01:30:23 /opt/activevideo/libexec/we  0.0 31832 101499884[0m
+[0;33m17:56:55 27300       53:32 /opt/activevideo/libexec/we  0.0 33416 84919276[0m
+[0;33m18:08:38 32394       41:49 /opt/activevideo/libexec/we  0.0 34516 101499884[0m
+[0;33m18:09:06 32640       41:21 /opt/activevideo/libexec/we  0.0 34764 84723692[0m
+[0;33m18:23:46 38513       26:41 /opt/activevideo/libexec/we  0.0 32580 101630956[0m
+[0;33m18:43:33 46087       06:54 /opt/activevideo/libexec/we  0.1 34384 84722668[0m
+[0;33m18:50:07 48388       00:20 /opt/activevideo/libexec/we  1.6 36472 84730864[0m
+[0;33m[0m[0;33mvca107mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m16:26:36  2341    02:23:51 /opt/activevideo/libexec/we  0.0 32796 84788204[0m
+[0;33m17:43:43 36355    01:06:44 /opt/activevideo/libexec/we  0.0 36620 101499752[0m
+[0;33m18:02:43 42527       47:44 /opt/activevideo/libexec/we  0.0 34460 101565288[0m
+[0;33m18:44:25 57768       06:02 /opt/activevideo/libexec/we  0.1 36952 84722668[0m
+[0;33m18:47:03 58315       03:24 /opt/activevideo/libexec/we  0.1 34984 84722536[0m
+[0;33m18:49:40 59710       00:47 /opt/activevideo/libexec/we  0.7 33924 101499752[0m
+[0;33m18:50:16 60010       00:11 /opt/activevideo/libexec/we  5.7 36592 101639020[0m
+[0;33m18:50:23 60067       00:04 /opt/activevideo/libexec/we  7.7 42180 101640176[0m
+[0;33m[0m[0;33mvca112mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m16:36:11  3442    02:14:16 /opt/activevideo/libexec/we  0.0 36268 84788204[0m
+[0;33m17:02:26 14011    01:48:01 /opt/activevideo/libexec/we  0.0 32588 84853736[0m
+[0;33m18:04:42 41894       45:45 /opt/activevideo/libexec/we  0.0 35296 101632872[0m
+[0;33m18:09:33 44014       40:54 /opt/activevideo/libexec/we  0.0 34216 101499880[0m
+[0;33m18:11:33 45329       38:54 /opt/activevideo/libexec/we  0.0 32460 84853608[0m
+[0;33m18:14:53 45925       35:34 /opt/activevideo/libexec/we  0.0 34676 84921192[0m
+[0;33m18:22:40 48964       27:47 /opt/activevideo/libexec/we  0.0 31972 84722668[0m
+[0;33m18:23:41 49107       26:46 /opt/activevideo/libexec/we  0.0 32068 101499752[0m
+[0;33m18:27:27 50667       23:00 /opt/activevideo/libexec/we  0.0 32232 101565420[0m
+[0;33m18:33:03 52746       17:24 /opt/activevideo/libexec/we  0.0 32440 101565420[0m
+[0;33m16:03:07 54862    02:47:20 /opt/activevideo/libexec/we  0.0 32760 84853608[0m
+[0;33m18:38:14 54954       12:13 /opt/activevideo/libexec/we  0.0 34400 84722668[0m
+[0;33m18:39:50 55324       10:37 /opt/activevideo/libexec/we  0.1 34696 101648364[0m
+[0;33m18:49:16 58911       01:11 /opt/activevideo/libexec/we  0.4 34296 101565420[0m
+[0;33m18:49:59 59152       00:28 /opt/activevideo/libexec/we  1.0 32548 84657000[0m
+[0;33m18:50:25 59342       00:02 /opt/activevideo/libexec/we 13.5 44448 101516276[0m
+[0;33m18:50:26 59421       00:01 /opt/activevideo/libexec/we 13.0 38064 101368768[0m
+[0;33m[0m[0;33mvca109mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:40:26 23425    01:10:01 /opt/activevideo/libexec/we  0.0 33316 101674988[0m
+[0;33m15:03:20 24917    03:47:07 /opt/activevideo/libexec/we  0.0 34240 84723692[0m
+[0;33m17:51:53 27765       58:34 /opt/activevideo/libexec/we  0.0 36588 101565420[0m
+[0;33m17:58:50 31035       51:37 /opt/activevideo/libexec/we  0.0 36276 101499884[0m
+[0;33m18:33:18 46299       17:09 /opt/activevideo/libexec/we  0.1 32296 101565420[0m
+[0;33m16:09:15 49516    02:41:12 /opt/activevideo/libexec/we  0.0 32144 84853740[0m
+[0;33m18:43:17 50337       07:10 /opt/activevideo/libexec/we  0.1 34044 101434348[0m
+[0;33m18:48:27 52207       02:00 /opt/activevideo/libexec/we  0.2 33740 84657132[0m
+[0;33m18:50:07 52571       00:20 /opt/activevideo/libexec/we  1.6 34412 101573616[0m
+[0;33m16:48:46 64665    02:01:41 /opt/activevideo/libexec/we  0.0 35184 85004268[0m
+[0;33m[0m[0;33mvca110mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:22:28  6390       27:59 /opt/activevideo/libexec/we  0.0 32320 84788204[0m
+[0;33m18:31:03 10170       19:24 /opt/activevideo/libexec/we  0.0 37024 101696492[0m
+[0;33m18:47:23 16252       03:04 /opt/activevideo/libexec/we  0.4 32408 84853740[0m
+[0;33m18:48:59 17418       01:28 /opt/activevideo/libexec/we  0.4 32472 84854764[0m
+[0;33m16:20:20 20286    02:30:07 /opt/activevideo/libexec/we  0.0 32412 84722668[0m
+[0;33m16:35:36 25919    02:14:51 /opt/activevideo/libexec/we  0.0 35032 84853740[0m
+[0;33m17:25:35 48776    01:24:52 /opt/activevideo/libexec/we  0.0 34616 84723692[0m
+[0;33m12:23:26 54800    06:27:01 /opt/activevideo/libexec/we  0.0 36704 84722668[0m
+[0;33m17:50:12 59041    01:00:15 /opt/activevideo/libexec/we  0.0 34608 84788204[0m
+[0;33m[0m[0;33mvca052mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:09:26 10464    01:41:01 /opt/activevideo/libexec/we  0.0 34180 84722668[0m
+[0;33m17:12:19 11255    01:38:08 /opt/activevideo/libexec/we  0.0 34428 84722536[0m
+[0;33m17:45:15 27647    01:05:12 /opt/activevideo/libexec/we  0.0 34672 101630824[0m
+[0;33m18:01:46 34217       48:41 /opt/activevideo/libexec/we  0.0 34340 101499752[0m
+[0;33m18:20:45 41530       29:42 /opt/activevideo/libexec/we  0.0 32356 101499752[0m
+[0;33m18:25:02 43391       25:25 /opt/activevideo/libexec/we  0.0 36448 84722668[0m
+[0;33m18:45:43 51904       04:44 /opt/activevideo/libexec/we  0.2 34936 101565416[0m
+[0;33m18:46:48 52292       03:39 /opt/activevideo/libexec/we  0.4 34800 101630956[0m
+[0;33m16:11:22 52969    02:39:05 /opt/activevideo/libexec/we  0.0 32788 101696488[0m
+[0;33m18:48:37 53438       01:50 /opt/activevideo/libexec/we  0.3 34536 101499880[0m
+[0;33m18:50:06 54023       00:21 /opt/activevideo/libexec/we  1.4 32396 84788200[0m
+[0;33m[0m[0;33mvca055mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:48:07  1074       02:20 /opt/activevideo/libexec/we  0.6 33112 84788072[0m
+[0;33m18:48:22  1151       02:05 /opt/activevideo/libexec/we  0.2 31848 84722536[0m
+[0;33m18:49:49  1606       00:38 /opt/activevideo/libexec/we  0.8 32300 101499752[0m
+[0;33m17:26:06 31954    01:24:21 /opt/activevideo/libexec/we  0.0 32076 101499752[0m
+[0;33m18:00:19 45113       50:08 /opt/activevideo/libexec/we  0.0 32720 101630824[0m
+[0;33m18:06:50 48520       43:37 /opt/activevideo/libexec/we  0.0 34288 84853608[0m
+[0;33m18:08:38 50037       41:49 /opt/activevideo/libexec/we  0.0 32824 84853608[0m
+[0;33m18:11:56 51360       38:31 /opt/activevideo/libexec/we  0.0 34596 84853736[0m
+[0;33m18:23:46 55989       26:41 /opt/activevideo/libexec/we  0.0 33992 101630956[0m
+[0;33m15:50:51 56102    02:59:36 /opt/activevideo/libexec/we  0.0 38708 101565288[0m
+[0;33m18:32:03 59039       18:24 /opt/activevideo/libexec/we  0.0 34424 101587816[0m
+[0;33m18:33:21 60165       17:06 /opt/activevideo/libexec/we  0.0 34804 84788072[0m
+[0;33m18:45:56 64742       04:31 /opt/activevideo/libexec/we  0.1 32484 84789096[0m
+[0;33m[0m[0;33mvca051mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:45:25 13057    01:05:02 /opt/activevideo/libexec/we  0.0 36196 84591464[0m
+[0;33m17:47:03 13415    01:03:24 /opt/activevideo/libexec/we  0.0 38000 84788200[0m
+[0;33m17:56:56 21611       53:31 /opt/activevideo/libexec/we  0.0 34604 84722536[0m
+[0;33m18:09:39 27891       40:48 /opt/activevideo/libexec/we  0.0 34260 101565288[0m
+[0;33m18:19:16 32186       31:11 /opt/activevideo/libexec/we  0.0 34112 84722536[0m
+[0;33m18:36:03 39305       14:24 /opt/activevideo/libexec/we  0.1 34664 84853740[0m
+[0;33m18:43:22 42660       07:05 /opt/activevideo/libexec/we  0.1 34372 101499884[0m
+[0;33m18:45:09 43047       05:18 /opt/activevideo/libexec/we  0.3 32952 84788204[0m
+[0;33m18:49:29 45153       00:58 /opt/activevideo/libexec/we  0.6 34028 101499752[0m
+[0;33m16:29:07 45315    02:21:20 /opt/activevideo/libexec/we  0.0 32796 84788204[0m
+[0;33m[0m[0;33mvca114mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:45:40  2404       04:47 /opt/activevideo/libexec/we  0.1 32124 101565420[0m
+[0;33m18:49:48  3319       00:39 /opt/activevideo/libexec/we  0.8 32296 84788200[0m
+[0;33m18:50:07  3520       00:20 /opt/activevideo/libexec/we  1.6 32436 101573616[0m
+[0;33m18:50:14  3583       00:13 /opt/activevideo/libexec/we  2.3 32500 101573616[0m
+[0;33m17:39:05 38297    01:11:22 /opt/activevideo/libexec/we  0.0 32520 84818924[0m
+[0;33m17:39:50 38666    01:10:37 /opt/activevideo/libexec/we  0.0 34928 84964332[0m
+[0;33m17:47:35 42057    01:02:52 /opt/activevideo/libexec/we  0.0 34392 101565420[0m
+[0;33m17:55:51 45789       54:36 /opt/activevideo/libexec/we  0.0 32916 84855788[0m
+[0;33m18:22:23 57589       28:04 /opt/activevideo/libexec/we  0.0 32704 101499884[0m
+[0;33m18:39:00 63947       11:27 /opt/activevideo/libexec/we  0.0 31820 101434348[0m
+[0;33m[0m[0;33mvca111mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:37:57  7607       12:31 /opt/activevideo/libexec/we  0.0 34324 101499884[0m
+[0;33m18:44:34 10263       05:54 /opt/activevideo/libexec/we  0.2 35160 84853740[0m
+[0;33m18:44:43 11112       05:45 /opt/activevideo/libexec/we  0.1 34212 84788204[0m
+[0;33m18:47:06 12018       03:22 /opt/activevideo/libexec/we  0.2 32224 84722668[0m
+[0;33m18:49:08 12575       01:20 /opt/activevideo/libexec/we  0.4 32484 101499884[0m
+[0;33m18:00:19 56498       50:09 /opt/activevideo/libexec/we  0.0 36552 101499884[0m
+[0;33m18:00:46 56729       49:42 /opt/activevideo/libexec/we  0.0 34832 84722668[0m
+[0;33m[0m[0;33mvca115mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:19:10  6714       31:18 /opt/activevideo/libexec/we  0.0 32372 101565420[0m
+[0;33m18:42:25 17592       08:03 /opt/activevideo/libexec/we  0.1 34616 101499884[0m
+[0;33m16:57:58 41333    01:52:30 /opt/activevideo/libexec/we  0.0 32952 84788204[0m
+[0;33m17:07:28 45442    01:43:00 /opt/activevideo/libexec/we  0.0 32444 101630956[0m
+[0;33m17:33:16 55215    01:17:12 /opt/activevideo/libexec/we  0.0 35204 101499884[0m
+[0;33m[0m[0;33mvca113mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:46:13  9888    01:04:15 /opt/activevideo/libexec/we  0.0 32184 101434348[0m
+[0;33m18:18:31 27920       31:57 /opt/activevideo/libexec/we  0.0 34716 101499752[0m
+[0;33m18:28:26 31998       22:02 /opt/activevideo/libexec/we  0.0 34252 101499884[0m
+[0;33m18:38:47 36661       11:41 /opt/activevideo/libexec/we  0.3 36800 101637100[0m
+[0;33m18:44:16 39565       06:12 /opt/activevideo/libexec/we  0.2 32256 101511148[0m
+[0;33m18:45:02 39852       05:26 /opt/activevideo/libexec/we  0.0 32008 101425976[0m
+[0;33m18:45:17 40080       05:11 /opt/activevideo/libexec/we  0.2 32836 101499884[0m
+[0;33m18:45:59 40361       04:29 /opt/activevideo/libexec/we  0.0 32104 101425976[0m
+[0;33m18:47:08 40925       03:20 /opt/activevideo/libexec/we  0.4 33468 101599080[0m
+[0;33m18:48:58 42388       01:30 /opt/activevideo/libexec/we  1.3 33028 101642092[0m
+[0;33m18:50:26 43049       00:02 /opt/activevideo/libexec/we  9.0 38772 84591420[0m
+[0;33m16:47:19 48637    02:03:09 /opt/activevideo/libexec/we  0.0 35252 101762024[0m
+[0;33m17:02:45 56700    01:47:43 /opt/activevideo/libexec/we  0.0 34732 101500776[0m
+[0;33m17:13:35 61209    01:36:53 /opt/activevideo/libexec/we  0.0 32172 101565420[0m
+[0;33m[0m[0;33mvca020mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:42:00 11000    01:08:28 /opt/activevideo/libexec/we  0.0 31840 101368812[0m
+[0;33m17:59:09 21463       51:19 /opt/activevideo/libexec/we  0.0 34536 84853740[0m
+[0;33m18:11:32 26779       38:56 /opt/activevideo/libexec/we  0.0 34952 84853740[0m
+[0;33m18:14:38 28295       35:50 /opt/activevideo/libexec/we  0.0 32072 84722668[0m
+[0;33m18:17:18 29234       33:10 /opt/activevideo/libexec/we  0.0 33072 101565420[0m
+[0;33m18:31:58 35727       18:30 /opt/activevideo/libexec/we  0.0 33596 101630956[0m
+[0;33m18:36:38 37661       13:50 /opt/activevideo/libexec/we  0.1 32400 84725740[0m
+[0;33m18:48:34 41879       01:54 /opt/activevideo/libexec/we  0.2 32644 84722668[0m
+[0;33m18:49:57 42919       00:31 /opt/activevideo/libexec/we  1.0 34508 84789228[0m
+[0;33m[0m[0;33mvca027mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:34:23   802       16:04 /opt/activevideo/libexec/we  0.1 32304 101499884[0m
+[0;33m18:35:09   938       15:18 /opt/activevideo/libexec/we  0.0 35400 101723116[0m
+[0;33m18:43:32  5168       06:55 /opt/activevideo/libexec/we  0.1 32588 101696492[0m
+[0;33m18:43:33  5207       06:54 /opt/activevideo/libexec/we  0.1 34528 84788072[0m
+[0;33m18:44:58  5663       05:29 /opt/activevideo/libexec/we  0.1 32760 101565420[0m
+[0;33m18:45:13  5815       05:14 /opt/activevideo/libexec/we  0.3 32728 84919144[0m
+[0;33m18:46:35  7155       03:52 /opt/activevideo/libexec/we  0.1 34104 84722536[0m
+[0;33m18:47:19  7368       03:08 /opt/activevideo/libexec/we  0.2 32080 101499880[0m
+[0;33m16:20:48  8269    02:29:39 /opt/activevideo/libexec/we  0.0 34916 101499752[0m
+[0;33m18:49:49  8305       00:38 /opt/activevideo/libexec/we  0.5 33868 84648892[0m
+[0;33m18:50:20  8564       00:07 /opt/activevideo/libexec/we  3.5 39252 84591464[0m
+[0;33m16:26:22 14940    02:24:05 /opt/activevideo/libexec/we  0.0 34468 84853608[0m
+[0;33m16:29:45 16026    02:20:42 /opt/activevideo/libexec/we  0.0 31704 101369704[0m
+[0;33m16:56:06 26885    01:54:21 /opt/activevideo/libexec/we  0.0 32336 101565288[0m
+[0;33m17:31:46 42411    01:18:41 /opt/activevideo/libexec/we  0.0 34324 101499752[0m
+[0;33m15:20:16 48420    03:30:11 /opt/activevideo/libexec/we  0.0 34372 101499884[0m
+[0;33m18:04:34 53850       45:53 /opt/activevideo/libexec/we  0.0 34596 84788072[0m
+[0;33m18:26:21 62819       24:06 /opt/activevideo/libexec/we  0.0 34196 84722668[0m
+[0;33m18:27:44 63108       22:43 /opt/activevideo/libexec/we  0.0 36532 84853740[0m
+[0;33m[0m[0;33mvca066mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:04:18  9657    01:46:09 /opt/activevideo/libexec/we  0.0 36920 84853740[0m
+[0;33m17:18:26 17777    01:32:01 /opt/activevideo/libexec/we  0.0 32556 101582828[0m
+[0;33m17:33:17 24627    01:17:10 /opt/activevideo/libexec/we  0.0 32964 84869100[0m
+[0;33m15:06:37 26620    03:43:50 /opt/activevideo/libexec/we  0.0 35416 84853740[0m
+[0;33m17:39:44 28311    01:10:43 /opt/activevideo/libexec/we  0.0 34640 101630952[0m
+[0;33m18:15:40 43100       34:47 /opt/activevideo/libexec/we  0.0 34044 84853740[0m
+[0;33m18:21:11 45084       29:16 /opt/activevideo/libexec/we  0.0 32396 84853740[0m
+[0;33m18:33:17 49653       17:10 /opt/activevideo/libexec/we  0.1 34424 101565420[0m
+[0;33m18:47:11 55640       03:16 /opt/activevideo/libexec/we  0.1 34296 101565420[0m
+[0;33m18:48:21 55936       02:06 /opt/activevideo/libexec/we  0.2 32136 101630956[0m
+[0;33m18:49:45 57055       00:42 /opt/activevideo/libexec/we  0.7 34728 84788204[0m
+[0;33m14:03:24 61707    04:47:03 /opt/activevideo/libexec/we  0.0 32184 84788204[0m
+[0;33m16:37:58 63248    02:12:29 /opt/activevideo/libexec/we  0.0 34792 101500908[0m
+[0;33m[0m[0;33mvca059mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m16:52:13  6249    01:58:15 /opt/activevideo/libexec/we  0.0 34892 101565420[0m
+[0;33m17:59:50 33844       50:38 /opt/activevideo/libexec/we  0.0 36084 84657000[0m
+[0;33m18:00:33 34886       49:55 /opt/activevideo/libexec/we  0.0 34164 101499752[0m
+[0;33m15:27:22 39705    03:23:06 /opt/activevideo/libexec/we  0.0 32384 84722668[0m
+[0;33m18:30:49 47194       19:39 /opt/activevideo/libexec/we  0.0 38372 101499884[0m
+[0;33m18:47:10 52945       03:18 /opt/activevideo/libexec/we  0.4 36236 84722668[0m
+[0;33m18:48:12 53291       02:16 /opt/activevideo/libexec/we  0.2 34324 84788204[0m
+[0;33m18:49:48 53649       00:40 /opt/activevideo/libexec/we  0.8 32344 101499884[0m
+[0;33m[0m[0;33mvca116mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:32:44 27819    01:17:44 /opt/activevideo/libexec/we  0.0 32212 101499884[0m
+[0;33m17:47:02 34226    01:03:26 /opt/activevideo/libexec/we  0.0 34412 101572588[0m
+[0;33m17:48:37 35507    01:01:51 /opt/activevideo/libexec/we  0.0 34196 101499884[0m
+[0;33m18:03:33 42539       46:55 /opt/activevideo/libexec/we  0.0 32688 101638124[0m
+[0;33m16:05:10 53521    02:45:18 /opt/activevideo/libexec/we  0.0 34696 84788204[0m
+[0;33m18:34:46 55962       15:42 /opt/activevideo/libexec/we  0.0 34560 101506028[0m
+[0;33m18:47:22 60295       03:06 /opt/activevideo/libexec/we  0.1 32160 84722664[0m
+[0;33m18:48:20 61504       02:08 /opt/activevideo/libexec/we  0.2 32716 84788204[0m
+[0;33m18:49:56 62235       00:32 /opt/activevideo/libexec/we  1.0 34572 101565420[0m
+[0;33m18:50:12 62506       00:16 /opt/activevideo/libexec/we  1.9 37148 84796400[0m
+[0;33m18:50:24 62631       00:04 /opt/activevideo/libexec/we  5.0 39704 84657088[0m
+[0;33m18:50:27 62769       00:01 /opt/activevideo/libexec/we  1.0 21796 100764900[0m
+[0;33m[0m[0;33mvca047mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:57:43  3064       52:45 /opt/activevideo/libexec/we  0.0 35928 101368812[0m
+[0;33m18:07:34  7375       42:54 /opt/activevideo/libexec/we  0.0 32216 101434348[0m
+[0;33m12:56:23 10380    05:54:05 /opt/activevideo/libexec/we  0.0 34528 84788204[0m
+[0;33m18:28:01 18437       22:27 /opt/activevideo/libexec/we  0.0 38444 84723692[0m
+[0;33m18:28:38 18648       21:50 /opt/activevideo/libexec/we  0.0 34328 84722668[0m
+[0;33m18:42:25 24546       08:03 /opt/activevideo/libexec/we  0.1 34460 84722668[0m
+[0;33m18:43:39 24874       06:49 /opt/activevideo/libexec/we  0.0 33472 101499880[0m
+[0;33m18:50:12 26997       00:16 /opt/activevideo/libexec/we  2.0 43760 84731888[0m
+[0;33m18:50:23 27076       00:05 /opt/activevideo/libexec/we  3.8 37608 101434304[0m
+[0;33m17:11:58 48603    01:38:30 /opt/activevideo/libexec/we  0.0 32936 101669868[0m
+[0;33m17:27:24 56458    01:23:04 /opt/activevideo/libexec/we  0.0 34232 101565420[0m
+[0;33m17:48:17 64390    01:02:11 /opt/activevideo/libexec/we  0.0 34532 101565420[0m
+[0;33m[0m[0;33mvca041mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:19:13 14144    01:31:15 /opt/activevideo/libexec/we  0.0 32676 101630956[0m
+[0;33m17:19:26 14218    01:31:02 /opt/activevideo/libexec/we  0.0 32656 101565420[0m
+[0;33m17:54:09 31632       56:19 /opt/activevideo/libexec/we  0.0 32772 101565420[0m
+[0;33m18:06:53 37053       43:35 /opt/activevideo/libexec/we  0.0 32308 101565416[0m
+[0;33m18:09:21 37613       41:07 /opt/activevideo/libexec/we  0.0 34016 84657132[0m
+[0;33m18:46:40 52311       03:48 /opt/activevideo/libexec/we  0.3 32668 101499884[0m
+[0;33m18:49:58 53027       00:30 /opt/activevideo/libexec/we  0.6 32252 101426108[0m
+[0;33m16:41:30 64796    02:08:58 /opt/activevideo/libexec/we  0.0 34476 101499884[0m
+[0;33m[0m[0;33mvca042mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:32:55  2293       17:33 /opt/activevideo/libexec/we  0.0 34232 84722536[0m
+[0;33m18:35:32  3916       14:56 /opt/activevideo/libexec/we  0.0 36756 84853608[0m
+[0;33m18:45:43  7863       04:45 /opt/activevideo/libexec/we  0.2 32616 101565420[0m
+[0;33m18:50:18  9986       00:10 /opt/activevideo/libexec/we  3.1 34396 84730864[0m
+[0;33m17:23:19 40270    01:27:09 /opt/activevideo/libexec/we  0.0 37020 84920300[0m
+[0;33m15:00:11 45233    03:50:17 /opt/activevideo/libexec/we  0.0 33748 84853608[0m
+[0;33m17:44:07 48466    01:06:21 /opt/activevideo/libexec/we  0.0 36476 84722668[0m
+[0;33m18:03:46 55845       46:42 /opt/activevideo/libexec/we  0.0 32192 101499884[0m
+[0;33m18:07:18 57348       43:10 /opt/activevideo/libexec/we  0.0 34480 101630956[0m
+[0;33m18:18:58 61492       31:30 /opt/activevideo/libexec/we  0.0 34468 84789228[0m
+[0;33m18:20:33 62715       29:55 /opt/activevideo/libexec/we  0.0 32148 101434348[0m
+[0;33m[0m[0;33mvca011mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:01:24  5245       49:03 /opt/activevideo/libexec/we  0.0 34436 84788072[0m
+[0;33m15:46:40  9279    03:03:47 /opt/activevideo/libexec/we  0.0 36396 101630824[0m
+[0;33m18:32:58 22835       17:29 /opt/activevideo/libexec/we  0.0 38084 101434348[0m
+[0;33m16:14:16 23824    02:36:11 /opt/activevideo/libexec/we  0.0 34848 101630956[0m
+[0;33m18:45:47 28622       04:40 /opt/activevideo/libexec/we  0.1 32284 84853740[0m
+[0;33m18:48:03 29416       02:24 /opt/activevideo/libexec/we  0.3 34332 101565416[0m
+[0;33m18:48:43 29626       01:44 /opt/activevideo/libexec/we  0.3 32000 84722536[0m
+[0;33m18:49:24 29816       01:03 /opt/activevideo/libexec/we  0.5 35724 84722668[0m
+[0;33m18:49:25 29855       01:02 /opt/activevideo/libexec/we  0.5 31772 101499752[0m
+[0;33m18:49:41 30812       00:46 /opt/activevideo/libexec/we  0.7 34276 84788072[0m
+[0;33m14:31:35 44433    04:18:52 /opt/activevideo/libexec/we  0.0 35096 84853740[0m
+[0;33m17:51:07 63576       59:20 /opt/activevideo/libexec/we  0.0 34560 84788072[0m
+[0;33m[0m[0;33mvca050mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:31:36  7259    01:18:52 /opt/activevideo/libexec/we  0.0 34992 84984812[0m
+[0;33m18:09:04 27874       41:24 /opt/activevideo/libexec/we  0.0 34988 84984812[0m
+[0;33m18:09:18 28003       41:10 /opt/activevideo/libexec/we  0.0 34724 101566444[0m
+[0;33m18:11:07 28759       39:21 /opt/activevideo/libexec/we  0.0 34620 84853740[0m
+[0;33m18:14:00 30343       36:28 /opt/activevideo/libexec/we  0.0 36388 84657132[0m
+[0;33m18:14:35 30519       35:53 /opt/activevideo/libexec/we  0.0 34856 84788204[0m
+[0;33m18:30:57 36973       19:31 /opt/activevideo/libexec/we  0.0 34720 84722664[0m
+[0;33m18:41:44 41718       08:44 /opt/activevideo/libexec/we  0.1 34552 101499880[0m
+[0;33m18:43:26 43032       07:02 /opt/activevideo/libexec/we  0.0 34072 84788204[0m
+[0;33m18:47:09 44260       03:19 /opt/activevideo/libexec/we  0.2 33360 101565420[0m
+[0;33m18:49:26 45846       01:02 /opt/activevideo/libexec/we  1.6 34460 101499884[0m
+[0;33m14:08:37 52583    04:41:51 /opt/activevideo/libexec/we  0.0 33604 84788204[0m
+[0;33m[0m[0;33mvca117mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:44:55 30817    01:05:33 /opt/activevideo/libexec/we  0.0 38388 84854764[0m
+[0;33m18:23:45 46207       26:43 /opt/activevideo/libexec/we  0.0 33872 101499884[0m
+[0;33m18:37:37 51413       12:51 /opt/activevideo/libexec/we  0.1 32544 84722668[0m
+[0;33m18:49:31 55726       00:57 /opt/activevideo/libexec/we  2.1 38576 101509104[0m
+[0;33m18:49:57 55957       00:31 /opt/activevideo/libexec/we  1.1 34144 101565420[0m
+[0;33m16:34:10 64802    02:16:18 /opt/activevideo/libexec/we  0.0 38912 84853740[0m
+[0;33m[0m[0;33mvca118mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:42:50 14814    01:07:38 /opt/activevideo/libexec/we  0.0 37144 101499884[0m
+[0;33m18:00:51 25958       49:37 /opt/activevideo/libexec/we  0.0 32256 84788204[0m
+[0;33m15:21:24 26611    03:29:04 /opt/activevideo/libexec/we  0.0 32268 101499884[0m
+[0;33m15:23:54 27038    03:26:34 /opt/activevideo/libexec/we  0.0 35096 101762028[0m
+[0;33m18:20:34 34850       29:54 /opt/activevideo/libexec/we  0.0 34808 101696492[0m
+[0;33m18:21:49 35103       28:39 /opt/activevideo/libexec/we  0.0 32872 84788204[0m
+[0;33m18:26:45 36999       23:43 /opt/activevideo/libexec/we  0.0 34816 101565416[0m
+[0;33m18:33:44 39525       16:44 /opt/activevideo/libexec/we  0.0 34784 84853740[0m
+[0;33m18:47:35 45410       02:53 /opt/activevideo/libexec/we  0.4 35652 84788200[0m
+[0;33m[0m[0;33mvca119mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:10:48  1834    01:39:40 /opt/activevideo/libexec/we  0.0 32104 84789096[0m
+[0;33m17:45:56 14737    01:04:32 /opt/activevideo/libexec/we  0.0 32144 84788072[0m
+[0;33m15:46:19 32851    03:04:09 /opt/activevideo/libexec/we  0.0 36092 84722664[0m
+[0;33m18:41:56 38879       08:32 /opt/activevideo/libexec/we  0.1 38728 101565420[0m
+[0;33m18:43:34 39223       06:54 /opt/activevideo/libexec/we  0.2 34024 84722664[0m
+[0;33m18:44:08 39443       06:20 /opt/activevideo/libexec/we  0.2 32688 84853608[0m
+[0;33m18:46:58 41104       03:30 /opt/activevideo/libexec/we  0.1 36508 84788200[0m
+[0;33m18:49:15 41530       01:13 /opt/activevideo/libexec/we  0.5 34192 84788072[0m
+[0;33m16:28:30 50648    02:21:58 /opt/activevideo/libexec/we  0.0 32348 101565420[0m
+[0;33m16:50:51 58998    01:59:37 /opt/activevideo/libexec/we  0.0 32804 84788204[0m
+[0;33m[0m[0;33mvca120mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m12:01:57  9175    06:48:31 /opt/activevideo/libexec/we  0.0 36820 101565288[0m
+[0;33m17:35:33  9693    01:14:55 /opt/activevideo/libexec/we  0.0 32160 84788072[0m
+[0;33m17:40:29 11960    01:09:59 /opt/activevideo/libexec/we  0.0 32392 84591596[0m
+[0;33m18:42:46 40320       07:42 /opt/activevideo/libexec/we  0.0 36404 84722664[0m
+[0;33m18:43:18 40438       07:10 /opt/activevideo/libexec/we  0.1 32376 84722536[0m
+[0;33m18:48:50 43106       01:38 /opt/activevideo/libexec/we  0.3 34312 84722668[0m
+[0;33m18:50:05 43362       00:23 /opt/activevideo/libexec/we  1.3 32272 84788204[0m
+[0;33m[0m[0;33mvca091mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m16:51:12  3224    01:59:17 /opt/activevideo/libexec/we  0.0 32112 84788072[0m
+[0;33m17:11:41 12122    01:38:48 /opt/activevideo/libexec/we  0.0 35144 101565288[0m
+[0;33m17:16:20 14108    01:34:09 /opt/activevideo/libexec/we  0.0 36016 84919276[0m
+[0;33m17:19:37 14836    01:30:52 /opt/activevideo/libexec/we  0.0 32292 84722536[0m
+[0;33m17:31:39 24254    01:18:50 /opt/activevideo/libexec/we  0.0 34360 84853740[0m
+[0;33m18:10:36 42180       39:53 /opt/activevideo/libexec/we  0.0 32892 101696360[0m
+[0;33m18:19:09 45889       31:20 /opt/activevideo/libexec/we  0.0 36280 101499880[0m
+[0;33m18:20:21 46254       30:08 /opt/activevideo/libexec/we  0.0 34560 84788200[0m
+[0;33m18:34:31 51780       15:58 /opt/activevideo/libexec/we  0.0 34588 84722668[0m
+[0;33m18:40:07 53991       10:22 /opt/activevideo/libexec/we  0.0 35072 84722536[0m
+[0;33m18:40:46 54141       09:43 /opt/activevideo/libexec/we  0.1 32708 84792300[0m
+[0;33m18:40:54 54204       09:35 /opt/activevideo/libexec/we  0.0 32296 84722668[0m
+[0;33m18:46:56 57049       03:33 /opt/activevideo/libexec/we  0.2 34008 84788072[0m
+[0;33m18:49:15 57609       01:14 /opt/activevideo/libexec/we  0.4 32124 101505896[0m
+[0;33m[0m[0;33mvca006mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:32:01 25937    01:18:30 /opt/activevideo/libexec/we  0.0 36528 101696360[0m
+[0;33m17:32:45 26124    01:17:46 /opt/activevideo/libexec/we  0.0 33968 84722668[0m
+[0;33m18:30:32 47452       19:59 /opt/activevideo/libexec/we  0.0 31964 101434216[0m
+[0;33m[0m[0;31mvca013mddcwi.mddc.wi.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca013mddcwi.mddc.wi.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;33mvca099mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m16:46:50  9903    02:03:41 /opt/activevideo/libexec/we  0.0 34312 84788200[0m
+[0;33m17:37:34 31331    01:12:57 /opt/activevideo/libexec/we  0.0 34520 84853740[0m
+[0;33m18:08:34 42439       41:57 /opt/activevideo/libexec/we  0.0 32556 84919276[0m
+[0;33m18:13:15 44174       37:16 /opt/activevideo/libexec/we  0.0 37056 101649388[0m
+[0;33m18:29:12 49708       21:19 /opt/activevideo/libexec/we  0.0 32520 101565420[0m
+[0;33m18:49:08 55934       01:23 /opt/activevideo/libexec/we  0.4 32560 84788204[0m
+[0;33m18:50:26 57084       00:05 /opt/activevideo/libexec/we  6.0 37496 101508080[0m
+[0;33m[0m[0;33mvca105mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m16:56:18 10287    01:54:15 /opt/activevideo/libexec/we  0.0 36284 84788200[0m
+[0;33m17:20:44 22329    01:29:49 /opt/activevideo/libexec/we  0.0 34772 84722536[0m
+[0;33m17:41:17 30238    01:09:16 /opt/activevideo/libexec/we  0.0 32332 101499884[0m
+[0;33m18:04:45 40194       45:48 /opt/activevideo/libexec/we  0.0 32976 101565420[0m
+[0;33m18:08:59 42092       41:34 /opt/activevideo/libexec/we  0.0 34564 101565288[0m
+[0;33m18:40:58 53485       09:35 /opt/activevideo/libexec/we  0.1 34360 101499884[0m
+[0;33m18:45:48 55062       04:45 /opt/activevideo/libexec/we  0.0 36208 101499884[0m
+[0;33m18:50:24 56581       00:09 /opt/activevideo/libexec/we  3.4 32280 84730864[0m
+[0;33m[0m[0;33mvca108mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m14:25:38 33802    04:24:55 /opt/activevideo/libexec/we  0.0 36284 101500908[0m
+[0;33m17:30:44 38325    01:19:49 /opt/activevideo/libexec/we  0.0 34056 101499884[0m
+[0;33m17:58:11 47234       52:22 /opt/activevideo/libexec/we  0.0 34916 101630956[0m
+[0;33m15:38:46 58094    03:11:47 /opt/activevideo/libexec/we  0.0 34584 101565420[0m
+[0;33m18:43:20 64672       07:13 /opt/activevideo/libexec/we  0.0 37176 84722668[0m
+[0;33m[0m[0;31mvca058mddcwi.mddc.wi.charter.com | UNREACHABLE! => {[0m
+[0;31m    "changed": false,[0m
+[0;31m    "msg": "Failed to connect to the host via ssh: ssh: connect to host vca058mddcwi.mddc.wi.charter.com port 22: Connection timed out",[0m
+[0;31m    "unreachable": true[0m
+[0;31m}[0m
+[0;31m[0m[0;33mvca070mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:32:40 10066       17:54 /opt/activevideo/libexec/we  0.0 32532 84722668[0m
+[0;33m18:38:51 12727       11:43 /opt/activevideo/libexec/we  0.1 34964 84798444[0m
+[0;33m17:30:44 48276    01:19:50 /opt/activevideo/libexec/we  0.0 31916 84657132[0m
+[0;33m17:33:36 49052    01:16:58 /opt/activevideo/libexec/we  0.0 34520 84793324[0m
+[0;33m17:33:43 49121    01:16:51 /opt/activevideo/libexec/we  0.0 34620 84788204[0m
+[0;33m12:02:03 59959    06:48:31 /opt/activevideo/libexec/we  0.0 32360 84788200[0m
+[0;33m18:02:31 60055       48:03 /opt/activevideo/libexec/we  0.0 32568 84722668[0m
+[0;33m[0m[0;33mvca069mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:25:34  1996       25:00 /opt/activevideo/libexec/we  0.0 34232 84722668[0m
+[0;33m18:28:04  2605       22:30 /opt/activevideo/libexec/we  0.0 34628 84788204[0m
+[0;33m18:47:16 10968       03:18 /opt/activevideo/libexec/we  0.1 34648 84853740[0m
+[0;33m18:47:33 11099       03:01 /opt/activevideo/libexec/we  0.1 32184 101499884[0m
+[0;33m18:47:48 11230       02:46 /opt/activevideo/libexec/we  0.3 32304 101565420[0m
+[0;33m18:48:50 11475       01:44 /opt/activevideo/libexec/we  0.3 36572 101565420[0m
+[0;33m16:52:28 29052    01:58:06 /opt/activevideo/libexec/we  0.0 34664 101630956[0m
+[0;33m16:57:21 30805    01:53:13 /opt/activevideo/libexec/we  0.0 37600 84855788[0m
+[0;33m17:16:52 38516    01:33:42 /opt/activevideo/libexec/we  0.0 34960 101630956[0m
+[0;33m17:47:55 51146    01:02:39 /opt/activevideo/libexec/we  0.0 32388 101565420[0m
+[0;33m17:59:22 56687       51:12 /opt/activevideo/libexec/we  0.0 34468 84788204[0m
+[0;33m[0m[0;33mvca057mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m15:46:22  2381    03:04:11 /opt/activevideo/libexec/we  0.0 32448 84722668[0m
+[0;33m18:10:52  6837       39:41 /opt/activevideo/libexec/we  0.0 32404 101565420[0m
+[0;33m16:01:07  8914    02:49:26 /opt/activevideo/libexec/we  0.0 34780 84788204[0m
+[0;33m18:30:10 16351       20:23 /opt/activevideo/libexec/we  0.0 32840 84919276[0m
+[0;33m18:32:24 17266       18:09 /opt/activevideo/libexec/we  0.0 32484 84788204[0m
+[0;33m18:32:42 18185       17:51 /opt/activevideo/libexec/we  0.0 32440 84722668[0m
+[0;33m18:36:11 19302       14:22 /opt/activevideo/libexec/we  0.1 32136 101499884[0m
+[0;33m18:45:50 24314       04:43 /opt/activevideo/libexec/we  0.1 34124 84722668[0m
+[0;33m18:49:23 26160       01:10 /opt/activevideo/libexec/we  0.5 39360 84722668[0m
+[0;33m18:49:47 26348       00:46 /opt/activevideo/libexec/we  2.1 34144 84722668[0m
+[0;33m18:49:59 26534       00:34 /opt/activevideo/libexec/we  0.9 32180 101499880[0m
+[0;33m18:50:31 26790       00:02 /opt/activevideo/libexec/we 23.5 45636 101371840[0m
+[0;33m17:00:59 35369    01:49:34 /opt/activevideo/libexec/we  0.0 34424 84788204[0m
+[0;33m17:33:42 50003    01:16:51 /opt/activevideo/libexec/we  0.0 34688 84722668[0m
+[0;33m17:43:31 54062    01:07:02 /opt/activevideo/libexec/we  0.0 35044 101696492[0m
+[0;33m17:44:38 54360    01:05:55 /opt/activevideo/libexec/we  0.0 35284 101565420[0m
+[0;33m17:44:42 54418    01:05:51 /opt/activevideo/libexec/we  0.0 32492 84723692[0m
+[0;33m17:50:08 57034    01:00:25 /opt/activevideo/libexec/we  0.0 32032 84657132[0m
+[0;33m17:51:40 57472       58:53 /opt/activevideo/libexec/we  0.0 34160 101499884[0m
+[0;33m17:57:58 64348       52:35 /opt/activevideo/libexec/we  0.0 34272 84722668[0m
+[0;33m[0m[0;33mvca084mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:10:43   844       39:51 /opt/activevideo/libexec/we  0.0 33820 84788204[0m
+[0;33m18:22:10  5708       28:24 /opt/activevideo/libexec/we  0.0 34996 84788072[0m
+[0;33m18:32:51  9842       17:43 /opt/activevideo/libexec/we  0.0 34476 101505004[0m
+[0;33m18:38:42 12144       11:52 /opt/activevideo/libexec/we  0.0 32324 101499752[0m
+[0;33m17:47:51 57402    01:02:43 /opt/activevideo/libexec/we  0.0 35172 101630824[0m
+[0;33m15:05:29 58999    03:45:05 /opt/activevideo/libexec/we  0.0 38660 84788072[0m
+[0;33m18:02:09 63381       48:25 /opt/activevideo/libexec/we  0.0 36340 101499884[0m
+[0;33m18:08:39 65357       41:55 /opt/activevideo/libexec/we  0.0 32232 101434348[0m
+[0;33m[0m[0;33mvca083mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m15:51:09 12550    02:59:26 /opt/activevideo/libexec/we  0.0 34728 101566444[0m
+[0;33m18:45:45 20470       04:50 /opt/activevideo/libexec/we  0.3 34420 101499884[0m
+[0;33m18:49:13 21774       01:22 /opt/activevideo/libexec/we  0.4 34472 84788204[0m
+[0;33m18:49:47 21986       00:48 /opt/activevideo/libexec/we  1.7 32408 84722668[0m
+[0;33m16:31:01 31675    02:19:34 /opt/activevideo/libexec/we  0.0 38524 84722668[0m
+[0;33m16:40:27 35133    02:10:08 /opt/activevideo/libexec/we  0.0 34184 84788204[0m
+[0;33m14:10:04 39248    04:40:31 /opt/activevideo/libexec/we  0.0 36576 101630956[0m
+[0;33m17:28:41 52951    01:21:54 /opt/activevideo/libexec/we  0.0 36448 84788204[0m
+[0;33m14:58:32 56154    03:52:03 /opt/activevideo/libexec/we  0.0 38768 101565420[0m
+[0;33m17:49:16 60513    01:01:19 /opt/activevideo/libexec/we  0.0 36216 101565420[0m
+[0;33m18:00:43 65119       49:52 /opt/activevideo/libexec/we  0.0 34564 84788204[0m
+[0;33m[0m[0;33mvca097mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:26:58   988    01:23:37 /opt/activevideo/libexec/we  0.0 32056 84788204[0m
+[0;33m17:59:27 15299       51:08 /opt/activevideo/libexec/we  0.0 32536 84722668[0m
+[0;33m18:16:06 27252       34:29 /opt/activevideo/libexec/we  0.0 32424 84722668[0m
+[0;33m18:18:02 27711       32:33 /opt/activevideo/libexec/we  0.0 35108 101565420[0m
+[0;33m18:19:36 28268       30:59 /opt/activevideo/libexec/we  0.0 32240 101630956[0m
+[0;33m16:00:46 30586    02:49:49 /opt/activevideo/libexec/we  0.0 35372 84857836[0m
+[0;33m18:31:43 33924       18:52 /opt/activevideo/libexec/we  0.0 33056 84985836[0m
+[0;33m18:36:12 35872       14:23 /opt/activevideo/libexec/we  0.1 32712 84853740[0m
+[0;33m16:23:09 39187    02:27:26 /opt/activevideo/libexec/we  0.0 32380 84724716[0m
+[0;33m17:14:39 60169    01:35:56 /opt/activevideo/libexec/we  0.0 34380 84789228[0m
+[0;33m[0m[0;33mvca093mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:39:37  7459       10:58 /opt/activevideo/libexec/we  0.0 34040 84657132[0m
+[0;33m16:13:30 19840    02:37:05 /opt/activevideo/libexec/we  0.0 34004 84722668[0m
+[0;33m17:19:38 44102    01:30:57 /opt/activevideo/libexec/we  0.0 32684 101565420[0m
+[0;33m17:30:46 47719    01:19:49 /opt/activevideo/libexec/we  0.0 38476 101500776[0m
+[0;33m18:12:54 63624       37:41 /opt/activevideo/libexec/we  0.0 32572 84722668[0m
+[0;33m[0m[0;33mvca100mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:39:16  1670       11:18 /opt/activevideo/libexec/we  0.0 32648 101499752[0m
+[0;33m18:50:18  6682       00:16 /opt/activevideo/libexec/we  1.8 34740 101704688[0m
+[0;33m16:32:37  9493    02:17:57 /opt/activevideo/libexec/we  0.0 32908 84853608[0m
+[0;33m14:08:10  9944    04:42:24 /opt/activevideo/libexec/we  0.0 32956 101565288[0m
+[0;33m14:37:11 25084    04:13:23 /opt/activevideo/libexec/we  0.0 34804 101630956[0m
+[0;33m17:15:03 30808    01:35:31 /opt/activevideo/libexec/we  0.0 34648 101565420[0m
+[0;33m17:25:22 34151    01:25:12 /opt/activevideo/libexec/we  0.0 34184 84789228[0m
+[0;33m17:26:11 34414    01:24:23 /opt/activevideo/libexec/we  0.0 34032 84722536[0m
+[0;33m17:36:04 38801    01:14:30 /opt/activevideo/libexec/we  0.0 36980 84853608[0m
+[0;33m17:45:14 43157    01:05:20 /opt/activevideo/libexec/we  0.0 34716 84853740[0m
+[0;33m17:58:29 48532       52:05 /opt/activevideo/libexec/we  0.0 32148 101565420[0m
+[0;33m17:59:54 49088       50:40 /opt/activevideo/libexec/we  0.0 34284 101499884[0m
+[0;33m18:02:18 50067       48:16 /opt/activevideo/libexec/we  0.0 34012 101499752[0m
+[0;33m18:05:38 52061       44:56 /opt/activevideo/libexec/we  0.0 32216 84853740[0m
+[0;33m18:12:53 54271       37:41 /opt/activevideo/libexec/we  0.0 38420 101565288[0m
+[0;33m18:19:54 57867       30:40 /opt/activevideo/libexec/we  0.0 34952 101499884[0m
+[0;33m15:55:35 58284    02:54:59 /opt/activevideo/libexec/we  0.0 36464 84788072[0m
+[0;33m18:21:28 58613       29:06 /opt/activevideo/libexec/we  0.0 34072 84723560[0m
+[0;33m18:34:42 64790       15:52 /opt/activevideo/libexec/we  0.0 34060 101499752[0m
+[0;33m18:38:05 65387       12:29 /opt/activevideo/libexec/we  0.0 34392 101500908[0m
+[0;33m[0m[0;33mvca104mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:32:04 20521    01:18:31 /opt/activevideo/libexec/we  0.0 38316 84788204[0m
+[0;33m18:00:28 32557       50:07 /opt/activevideo/libexec/we  0.0 38888 101499884[0m
+[0;33m18:12:15 37865       38:20 /opt/activevideo/libexec/we  0.0 35900 101630956[0m
+[0;33m18:16:48 39657       33:47 /opt/activevideo/libexec/we  0.0 36792 101565420[0m
+[0;33m18:16:52 39717       33:43 /opt/activevideo/libexec/we  0.0 34228 101500908[0m
+[0;33m18:38:21 49636       12:14 /opt/activevideo/libexec/we  0.1 34748 84722668[0m
+[0;33m18:48:55 52928       01:40 /opt/activevideo/libexec/we  0.3 36348 84788204[0m
+[0;33m16:25:19 57184    02:25:16 /opt/activevideo/libexec/we  0.0 34812 101506028[0m
+[0;33m[0m[0;33mvca098mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m17:01:00  1924    01:49:34 /opt/activevideo/libexec/we  0.0 32308 84788072[0m
+[0;33m17:02:10  2598    01:48:24 /opt/activevideo/libexec/we  0.0 34160 101499884[0m
+[0;33m15:03:30 18254    03:47:04 /opt/activevideo/libexec/we  0.0 37136 101565420[0m
+[0;33m17:33:43 19115    01:16:51 /opt/activevideo/libexec/we  0.0 32492 84788204[0m
+[0;33m17:38:16 20912    01:12:18 /opt/activevideo/libexec/we  0.0 34180 101434216[0m
+[0;33m12:46:29 22417    06:04:05 /opt/activevideo/libexec/we  0.0 36540 84723688[0m
+[0;33m17:44:58 23612    01:05:36 /opt/activevideo/libexec/we  0.0 32160 101565420[0m
+[0;33m17:51:58 25923       58:36 /opt/activevideo/libexec/we  0.0 32468 84657132[0m
+[0;33m18:09:18 34127       41:16 /opt/activevideo/libexec/we  0.0 32320 101696492[0m
+[0;33m18:18:15 37582       32:19 /opt/activevideo/libexec/we  0.0 34060 101565288[0m
+[0;33m18:20:18 38201       30:16 /opt/activevideo/libexec/we  0.0 32616 84788204[0m
+[0;33m18:24:37 40144       25:57 /opt/activevideo/libexec/we  0.0 32544 84853740[0m
+[0;33m16:01:06 40935    02:49:28 /opt/activevideo/libexec/we  0.0 32416 84788072[0m
+[0;33m18:36:26 45138       14:08 /opt/activevideo/libexec/we  0.1 32548 84722536[0m
+[0;33m18:41:57 47199       08:37 /opt/activevideo/libexec/we  0.1 34620 84723560[0m
+[0;33m16:19:49 49751    02:30:45 /opt/activevideo/libexec/we  0.0 32672 84875244[0m
+[0;33m18:50:27 51101       00:07 /opt/activevideo/libexec/we  4.2 41300 84796400[0m
+[0;33m[0m[0;33mvca095mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:18:47 20511       31:47 /opt/activevideo/libexec/we  0.0 32232 101499884[0m
+[0;33m18:50:14 31218       00:20 /opt/activevideo/libexec/we  1.1 31892 101426108[0m
+[0;33m18:50:31 32140       00:03 /opt/activevideo/libexec/we  6.6 37112 101434304[0m
+[0;33m16:12:41 34982    02:37:53 /opt/activevideo/libexec/we  0.0 32304 101499884[0m
+[0;33m16:35:30 43490    02:15:04 /opt/activevideo/libexec/we  0.0 32788 84853740[0m
+[0;33m13:50:03 44911    05:00:31 /opt/activevideo/libexec/we  0.0 32072 84657132[0m
+[0;33m17:07:03 55303    01:43:31 /opt/activevideo/libexec/we  0.0 32980 101565420[0m
+[0;33m[0m[0;33mvca106mddcwi.mddc.wi.charter.com | CHANGED | rc=0 >>[0m
+[0;33m STARTED   PID     ELAPSED CMD                         %CPU   RSS  SIZE[0m
+[0;33m18:20:57  2427       29:37 /opt/activevideo/libexec/we  0.0 34176 84788204[0m
+[0;33m18:48:52 12461       01:42 /opt/activevideo/libexec/we  0.2 31992 84648760[0m
+[0;33m18:49:48 12669       00:46 /opt/activevideo/libexec/we  0.7 32232 84788072[0m
+[0;33m18:50:34 13023       00:00 /opt/activevideo/libexec/we  0.0 30716 84289452[0m
+[0;33m13:33:50 18301    05:16:44 /opt/activevideo/libexec/we  0.0 34852 84853608[0m
+[0;33m17:43:30 52257    01:07:04 /opt/activevideo/libexec/we  0.0 34456 84788072[0m
+[0;33m17:46:00 52984    01:04:34 /opt/activevideo/libexec/we  0.0 31888 101434216[0m
+[0;33m[0m[0;31mvca054mddcwi.mddc.wi.charter.com | FAILED | rc=-1 >>[0m
+[0;31mTimeout (22s) waiting for privilege escalation prompt: [0m
+[0;31m[0m
+[0;31m[0m

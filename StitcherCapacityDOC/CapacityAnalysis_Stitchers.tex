@@ -1,0 +1,840 @@
+\documentclass{article}
+\usepackage{amsmath,amssymb,url}
+\usepackage{graphicx}
+\usepackage[table,x11names]{xcolor}
+\usepackage{float}
+
+
+
+\author{Brad Schoenrock\\Video Operations Engineering\\Charter Communications\\Greenwood Village, CO}
+\title{Stitcher Capacity Analysis:\\Charter Internal Note.\\Draft Version 3.1.0}
+\date{Oct. 2019}
+\begin{document}
+\maketitle
+\newpage
+
+\tableofcontents
+\newpage
+
+\section{Introduction}
+\label{SECTION-Introduction}
+
+The stitcher combines a set of audio and video assests into a unified guide experience. Prior to reaching the stitcher, the audio and video assets are pre-encoded into stitchable MPEG objects where they can be dynamically assembled into a single full screen MPEG video stream. That full screen stream (or session) can be personalized for each user request. This customization necessitates that each user get their own session. Those sessions present themselves as an html5client process which is managed by the SGUI application. 
+
+The following Active Video services run on the Stitcher in version AV2.9 and AV2.11. These services can be started, stopped, and restarted using these service names. 
+
+\begin{enumerate}
+\item lsm- the Local Session Manager (LSM)
+\item compositor- the Streaming Engine
+\item virga- the default Application Engine
+\item trafficserver- the standard internet cache used as local Stitcher cache
+\item udc- the service that collects and redirects reporting messages.
+\end{enumerate}
+
+Another common action is h5restartall, 5 being a referance to the 5 core Active Video services present on the stitcher.
+
+Because user guide streams require customization, stitchers scale with customer count 1:1 since information for each guide session must be loaded individually for each session. The size of user sessions in memory (and therefore the required comupting resources) also grows with the content provided/delivered. Each new overlay, content provided, or feature added to the SGUI appliction increases the computational burdon for providing the Spectrum Guide experience. Not all features are created equally, so the additional computational resources needed per feature would need to be assessed on a case by case basis and compared to a baseline measurement without the feature. 
+
+\subsection{Interactions with other systems}
+\label{SECTION-Interactions}
+
+The stitchers get sessions assigned to them by the Central Session Manager (CSM). Sessions can only get routed to the stitchers if the CSMs are functioning properly, and load balancing (which is managed by CSMs) can put extra load or alleviate load on the stitchers themselves. A discussion on this algorithm and CSMs in general should be addressed in the CSM capacity analysis document. 
+
+Stitchers get their content from many places, one of the largest in terms of capacity is scaled tiles. Those are delivered by the scalars and processed on the scalar by the SGUI application. The interaction of these systems contains several potential bottlenecks to be assessed/addressed. 
+
+Stitchers send the final video stream to the users STB through either the QAM or the CMTS in DOCSIS markets. The communication proticol to and the bandwidth through those edge devices present another potential bottleneck. Bandwidth concerns for the edge devices will be addressed in that capacity analysis document. 
+
+\subsection{Technical Debt}
+\label{SECTION-TechDebt}
+
+Two main pieces of technical debt that we are aware of at the time this analysis began were log rotations, and CCO being disabled in QAM markets. 
+
+UPDATE April 2019: Logrotate was addressed in March 2019 by a reconfiguring of the logrotate utility. CCO being disabled in QAM markets is outstanding, which complicates code deployments, but chef being enabled on stitchers means standardization can occour, it is just delayed and less automated than it could/should be. 
+
+​\section{Where We Stand Today}
+\label{SECTION-Status}
+
+\subsection{Stitchers Available}
+\label{SECTION-StitchersAvailable}
+
+The first step in calculating how much capacity our markets have is to know how many and of what kind of stitchers are available market by market. A summary can be seen in table~\ref{TABLE-marketStitcherAvail}.
+
+\begin{table}
+\begin{tabular}{|l|l|l|l|} 
+\hline Market & Number of stitchers & Memory (GB) & Number of cores\\
+\hline EDPRMN & 89 & 96 & 40\\
+\hline KNWDMI & 149 & 96 & 40\\
+\hline MDDCWI & 187 & 96 & 40\\
+\hline RENONV & 56 & 96 & 40\\
+\hline SLDCMO & 258 & 96 & 40\\
+\hline SPDCSC & 84 & 96 & 40\\
+\hline BHDCAL & 111 & 96 & 40\\
+\hline PLDCOR & 50 & 128 & 56\\
+\hline BODCMA & 55 & 128 & 56\\
+\hline DLDCTX & 23 & 128 & 56\\
+\hline LADCCA & 47 & 128 & 56\\
+\hline NVDCTN & 50 & 128 & 56\\
+\hline SLDCLA & 23 & 128 & 56\\
+\hline SLOTCA & 13 & 128 & 72\\
+\hline BLNGMT & 43 & 256 & 72\\
+\hline TWCCA & 287 & 256 & 72\\
+\hline TWCNY.NYDC & 195 & 256 & 72\\
+\hline TWCNY.SYDC & 323 & 256 & 72\\
+\hline TWCOH & 443 & 256 & 72\\
+\hline TWCSC & 307 & 256 & 72\\
+\hline TWCTX & 282 & 256 & 72\\
+\hline 
+\end{tabular}
+\caption{\label{TABLE-marketStitcherAvail}Stitcher availability market by market. BHN and TWCHI excluded as non-production.} 
+\end{table}
+
+\subsection{Stitcher Capacity Analysis}
+\label{SECTION-StitcherCapacity}
+
+The stitchers (as well as any server we operate) should at a minimum be assessed on memory consumption, CPU use, disk space utilization, networking usage, and application performance. 
+
+\subsubsection{Networking Usage}
+\label{SECTION-Networking}
+
+Stitchers have a 10Gb NIC each, and we will not be network limited by the stitchers in the forseeable future. Any networking constraints would need to be addressed by an audit and analysis of networking hardware utalization in our datacenters. Peak ussage of the stitcher networking varies from approximatly 500Kb to 150Mb. In future hardware acquisitions a 1Gb NIC would be sufficient and could present significant savings. 
+
+\subsubsection{CPU Utalization}
+\label{SECTION-CPUUse}
+
+Overall CPU utalization of the stitchers is quite low, This can be seen by running top, but more illustrative is the CPU consumption of the SGUI application seen in figure~\ref{FIGURE-CPUuse} and figure~\ref{FIGURE-CPUvsTime}. This shows that each instance of the SGUI application is using $<5\%$ of one core. With 20 concurrent sessions that means that even the lowest provisioned stitchers are utilizing approximatly $\frac{1}{40}$ of the cores on the blade. Averge sessions show approx 1\% CPU utalization as seen in tables presented in appendix~\ref{APPENDIX-SessionSizeTables}.
+
+\begin{figure}[!htb]
+        \center{\includegraphics[width=\textwidth]
+        {figures/SessionCPU}}
+        \caption{\label{FIGURE-CPUuse} CPU useage of sessions. Note that a majority of sessions use $<$5\% CPU.  A few sessions use sigificant CPU when they are first beginning, as seen in figure~\ref{FIGURE-CPUvsTime} but the average is still quite low.}
+\end{figure}
+
+\begin{figure}[!htb]
+        \center{\includegraphics[width=\textwidth]
+        {figures/CPUVsLength}}
+        \caption{\label{FIGURE-CPUvsTime} CPU usage of sessions over time. Note that most sessions that use $>5$\% CPU are in the first 10 seconds of starting.}
+\end{figure}
+
+It is worth noting that some CPUs in some markets have 3100 GHz processors, while some have 2800 GHz processors. If in the future markets become CPU bound then that effect will have to be taken into account. This represents an approximately 10\% effect in the unlikely event that our capacity becomes CPU bound. 
+
+\subsubsection{Application Performance}
+\label{SECTION-APPPerf}
+
+AV's 5 applications are generally performing well with little concern over capacity. There is some concern over the virga cache clear process, traffic server utilization and logging, and compositor's use of networking communications. These concerns are being assessed for impact and any related customer impacting issues are being addressed with Active Video. 
+
+As mentioned the SGUI application is using small amounts of CPU, and is generally well controled. What we have identified, however, is that the SGUI application is using substantial amounts of memory. The primary rendering of the user experience is an html5client process, and can be measured with the ps utility. The memory demands of the SGUI application average (enterprise wide) nearly 1GB of memory for each user session, with some QAM markets averaging nearly 1.5GB of memory per user session and the largest sessions using up to 20GB of memory for one user. A market by market summary of session size can be seen in appendix~\ref{APPENDIX-SessionSizeTables} as well as an example of session size plotted in RENONV taken from prime time in figure~\ref{FIGURE-SessionSizeMem}.
+
+\begin{figure}[!htb]
+        \center{\includegraphics[width=\textwidth]
+        {figures/SessionSize}}
+        \caption{\label{FIGURE-SessionSizeMem} Sample histogram showing session size taken from renonv in prime time. Note the multiple peak structure and sparsely populated region at approx. 750MB. The space between each peak is almost certainly a catalog of some kind being loaded into memory.}
+\end{figure}
+
+\subsubsection{Memory Consumption}
+\label{SECTION-Memory}
+
+The memory utilization of the stitcher is by design primarily driven by the SGUI application. Since the SGUI application is using so much memory this leads to hardware constraints that must be addressed. 
+
+For our purposes there are three types of stitchers in production, those with 96 GB of memory, those with 128 GB, and those with 256 GB. The capacity of these stitchers is calculated by $$Capacity=\frac{Mem * 0.8 * 1000}{SesSize + 2.32*SesVar}$$ Where $Capacity$ is the number of sessions a stitcher can take, $Mem$ is the memory of the stitcher in GB, $0.8$ is the threshold for avoiding stitcher degredation (alloting for some system proceses as well) $1000$ is a conversion factor, $SesSize$ is the average size of sessions in MB, $SesVar$ is the standard deviation of session size, and the $2.32$ factor is a statistical Z-score corresponding to a 1\% chance of stitcher degredation. The results can be calculated market by market but in the end all markets are exhibiting similar behaviour. For the observed size of sessions capacity for each stitcher by memory provisioning is summarized in table~\ref{TABLE-StitcherCapacity} which can be used as a rule of thumb.
+
+\begin{table}[H]
+\begin{tabular}{|l|l|} 
+\hline Stitcher Memory (GB) & Stitcher Capacity (sessions) \\
+\hline 96 & 20 \\
+\hline 128 & 65 \\
+\hline 256 & 125 \\
+\hline 
+\end{tabular}
+\caption{\label{TABLE-StitcherCapacity}Stitcher Capacity by memory provisioning of stitcher}
+\end{table}
+
+Note that reducing average session size isn't sufficient to reduce hardware needs unless variance in session size can be addressed. As long as we are supporting sessions that are in the multiple/tens of GB then increased allocation is needed to ensure degredation doesn't occur. 
+
+To calculate how many customers a particular provisioning could support, simply take the stitcher capacity calculated above, and multiply by the number of stitchers available. $$NCust=Capacity*Nstitch$$ where $Capacity$ is the number of sessions a stitcher can take (calculated above) $NStitch$ is the number of stitchers available, and $NCust$ is the number of customers that the given stitchers will support without negative effects. Note that the 20/65/125 numbers are guidelines, and as the environment changes $Capacity$ will have to be recalculated to match current production conditions. 
+
+This model has been (unfortunately) validated by the AV2.11 upgrade attempt in RENONV in Dec. 2018. In that upgrade attempt half the stitchers were taken out of the pool in preparation for code deployment. Unfortunately that exceeds the capacity by enough that the remaining stitchers couldn't handle prime time load, and every stitcher on the market went degraded in a cascading failure. The load RENONV was under when it collapsed was estimated to be 35 sessions per stitcher with all stitchers in the pool, which was already over the threshold for potential total market failure. Halving the stitcher pool put that to 70 sessions per stitcher in prime time. 
+
+\subsection{Market Capacity Analysis}
+\label{SECTION-MarketCapacity}
+
+With the number of sessions that we need to support the current environment right now, and the number of sessions a stitcher can handle with acceptable error rates, the number of stitchers needed to support our customers can be calculated. Hardware needed can be seen in table~\ref{TABLE-StitchersNeeded2018}. Columns for both current provisioning as well as 256GB memory upgrades are presented. Note highlighted rows which show capacity limitations being exceeded before this analysis took place. 
+
+\begin{table}
+\begin{tabular}{|l|p{17mm}|p{17mm}|p{17mm}|p{17mm}|} 
+\hline Market & N stitchers available & Memory of stitchers on market & N stitchers needed EOY 2018 & N 256GB stitchers needed EOY 2018 \\
+\hline EDPRMN & 89 & 96 & 70 & 26 \\
+\rowcolor{orange}\hline KNWDMI & 149 & 96 & 167 & 63 \\
+\rowcolor{orange}\hline MDDCWI & 187 & 96 & 188 & 70 \\
+\rowcolor{orange}\hline RENONV & 56 & 96 & 80 & 30 \\
+\hline SLDCMO & 258 & 96 & 219 & 82  \\
+\rowcolor{orange}\hline SPDCSC & 84 & 96 & 141 & 53 \\
+\hline BHDCAL & 111 & 96 & 11 & 29\\
+\rowcolor{yellow}\hline PLDCOR & 50 & 96 & 49 & 18 \\
+\hline BODCMA & 55 & 128 & 17 & 8  \\
+\rowcolor{yellow}\hline DLDCTX & 23 & 128 & 23 & 11 \\
+\rowcolor{yellow}\hline LADCCA & 47 & 128 & 46 & 23 \\
+\hline NVDCTN & 50 & 128 & 21 & 11  \\
+\hline SLDCLA & 23 & 128 & 13 & 7 \\
+\hline SLOTCA & 13 & 128 & 6 & 3 \\
+\hline BLNGMT & 43 & 256 & 1 & 10\\
+\hline TWCCA & 287 & 256 & 30 & 30 \\
+\hline TWCNY.NYDC & 195 & 256 & 12 & 12 \\
+\hline TWCNY.SYDC & 323 & 256 & 23 & 23 \\
+\hline TWCOH & 443 & 256 & 46 & 46 \\
+\hline TWCSC & 307 & 256 & 49 & 49 \\
+\hline TWCTX & 282 & 256 & 46 & 46 \\
+\hline 
+\end{tabular}
+\caption{\label{TABLE-StitchersNeeded2018}Stitcher availability and needs market by market for EOY 2018 with current provisioning and 256GB upgrades.} 
+\end{table}
+
+\section{Projections to eoy 2019}
+\label{SECTION-2019Proj}
+
+We can also cacluate the need if we upgrade to 256 GB stitchers and project how many stitchers we need in order to achieve our growth expectations. Growth model shown in table~\ref{TABLE-GrowthModel}. 
+
+\begin{table}[H]
+\begin{tabular}{|l|l|l|l|l|l|l|} 
+\hline Growth Model & EOY 2018 & EOY 2019 & EOY 2020 & EOY 2021 & EOY 2022 & EOY 2023\\
+\hline Enterprise wide & 2,565,010 & 7,245,661 & 10,776,712 & 15,279,660 & 17,138,597 & 18,872,874 \\
+\hline L-TWC DOCSIS & 1,258,324 & 4,364,276 & 6,199,043 & - & - & -\\
+\hline L-CHTR DOCSIS & 323,200 & 638,898 & 826,690 & - & - & -\\
+\hline L-CHTR QAM & 983,486 & 1,656,986 & 2,053,339 & - & - & -\\
+\hline L-BHN & - & 7,613 & 630,213 & - & - & -\\
+\hline 
+\end{tabular}
+\caption{\label{TABLE-GrowthModel}Projected growth (number of STB) by type of market. Missing values not provided. Enterprise wide projections taken from "Guide Subscriber and STB forcast 5 Yr Fcst" provided in Mar. 2019, market type projections taken from "Spectrum Guide Subscriber and STB Forecast V9" provided Feb. 2019. The 5 yr forecast was revised upward from previous projections, but did not include breakdowns by market type.}
+\end{table}
+
+With no software fix forthcoming for session size then we can use the model defined in table~\ref{TABLE-GrowthModel} to project EOY 2019 needs. Those results are summarized in table~\ref{TABLE-StitchersNeeded2019}. 
+
+The expected effects of addressing stitcher related tech debt on capacity are minimal. 
+
+\begin{table}
+\begin{tabular}{|l|p{17mm}|p{17mm}|p{17mm}|p{17mm}|p{17mm}|p{17mm}|} 
+\hline Market & N stitchers available & Memory of stitchers on market & N stitchers needed EOY 2019 & N 256GB stitchers needed EOY 2019 \\
+\hline EDPRMN & 89 & 96 & 118 & 44 \\
+\hline KNWDMI & 149 & 96 & 281 & 106 \\
+\hline MDDCWI & 187 & 96 & 316 & 118 \\
+\hline RENONV & 56 & 96 & 135 & 51 \\
+\hline SLDCMO & 258 & 96 & 369 & 138 \\
+\hline SPDCSC & 84 & 96 & 238 & 89 \\
+\hline BHDCAL & 111 & 96 & 11 & 29 \\
+\hline PLDCOR & 50 & 96 & 83 & 31 \\
+\hline BODCMA & 55 & 128 & 33 & 16 \\
+\hline DLDCTX & 23 & 128 & 45 & 23 \\
+\hline LADCCA & 47 & 128 & 90 & 45 \\
+\hline NVDCTN & 50 & 128 & 42 & 21 \\
+\hline SLDCLA & 23 & 128 & 22 & 11 \\
+\hline SLOTCA & 13 & 128 & 13 & 6 \\
+\hline BLNGMT & 43 & 256 & 10 & 10 \\
+\hline TWCCA & 287 & 256 & 105 & 105 \\
+\hline TWCNY.NYDC & 195 & 256 & 41 & 41 \\
+\hline TWCNY.SYDC & 323 & 256 & 82 & 82 \\
+\hline TWCOH & 443 & 256 & 161 & 161 \\
+\hline TWCSC & 307 & 256 & 169 & 169 \\
+\hline TWCTX & 282 & 256 & 160 & 160 \\
+\hline 
+\end{tabular}
+\caption{\label{TABLE-StitchersNeeded2019}Stitcher availability and needs market by market for EOY 2019 with current provisioning and with 256GB upgrades.} 
+\end{table}
+
+Other short term mitigation strategies include disabling suspended sessions while in VOD or other features, paginating loaded catalogs such as channel lineup information or VOD from within the SGUI application, and reallocation of stitchers and scalars to ensure sufficient hardware to continue supporting the SGUI application. A hybrid approach of these techniques will be necessary. 
+
+\section{Projections to eoy 2020}
+\label{SECTION-2020Proj}
+
+With no software fix forthcoming for session size then we can use the model defined in table~\ref{TABLE-GrowthModel} to project EOY 2020 needs similar to our EOY 2019 projection. Similarly Table~\ref{TABLE-OverrunTimeline} shows when each market would go over capacity under current provisioning, and under a 256GB upgrade plan. Those results are summarized in table~\ref{TABLE-StitchersNeeded2020}. The large number of stitchers required in some markets shows that no hardware based resolution can be the only steps taken. It would be prohibitively expensive to attempt, and so a software based solution is needed. 
+
+\begin{table}
+\begin{tabular}{|l|p{16mm}|p{16mm}|p{16mm}|p{16mm}|p{16mm}|p{16mm}|} 
+\hline Market & N stitchers available & Memory of stitchers on market & N stitchers needed EOY 2020 & N 256GB stitchers needed EOY 2020 & N 512GB stitchers needed EOY 2020 & N 768 GB stitchers needed EOY 2020 \\
+\hline EDPRMN & 89 & 96 & 146 & 55 & 28 & 18 \\
+\hline KNWDMI & 149 & 96 & 350 & 131 & 66 & 44 \\
+\hline MDDCWI & 187 & 96 & 393 & 147 & 74 & 49 \\
+\hline RENONV & 56 & 96 & 168 & 63 & 32 & 21 \\
+\hline SLDCMO & 258 & 96 & 458 & 172 & 86 & 57 \\
+\hline SPDCSC & 84 & 96 & 295 & 111 & 56 & 37 \\
+\hline BHDCAL & 111 & 96 & 32 & 12 & 6 & 4 \\
+\hline PLDCOR & 50 & 96 & 103 & 39 & 20 & 13 \\
+\hline BODCMA & 55 & 128 & 43 & 21 & 11 & 7 \\
+\hline DLDCTX & 23 & 128 & 59 & 29 & 15 & 10 \\
+\hline LADCCA & 47 & 128 & 117 & 58 & 29 & 19 \\
+\hline NVDCTN & 50 & 128 & 55 & 27 & 14 & 9 \\
+\hline SLDCLA & 23 & 128 & 27 & 14 & 7 & 5 \\
+\hline SLOTCA & 13 & 128 & 17 & 8 & 4 & 3 \\
+\hline BLNGMT & 43 & 256 & 10 & 4 & 2 & 2 \\
+\hline TWCCA & 287 & 256 & 149 & 149 & 74 & 50 \\
+\hline TWCNY.NYDC & 195 & 256 & 58 & 58 & 29 & 19 \\
+\hline TWCNY.SYDC & 323 & 256 & 116 & 116 & 58 & 39 \\
+\hline TWCOH & 443 & 256 & 229 & 229 & 114 & 76 \\
+\hline TWCSC & 307 & 256 & 241 & 241 & 120 & 80 \\
+\hline TWCTX & 282 & 256 & 228 & 228 & 114 & 76 \\
+\hline 
+\end{tabular}
+\caption{\label{TABLE-StitchersNeeded2020}Stitcher availability and needs market by market for EOY 2020 with current provisioning, 256GB, 512GB, and 768GB upgrades. Assumes no reduction in SGUI session size.} 
+\end{table}
+
+\begin{table}
+\begin{tabular}{|l|p{22mm}|p{26mm}|} 
+\hline Market & Month Over Capacity & Month Over Capacity 256GB Upgrade\\
+\hline EDPRMN & June 2019 & Good \\
+\hline KNWDMI & Nov 2018 & Good \\
+\hline MDDCWI & Jan 2019 & Good \\
+\hline RENONV & Aug 2018 & July 2020 \\
+\hline SLDCMO & Apr 2019 & Good \\
+\hline SPDCSC & Jun 2018 & Nov 2019 \\
+\hline BHDCAL & Good & Good \\
+\hline PLDCOR & Feb 2019 & Good \\
+\hline BODCMA & Good & Good \\
+\hline DLDCTX & Feb 2018 & Mar 2020 \\
+\hline LADCCA & Feb 2018 & Apr 2020\\
+\hline NVDCTN & Sept 2020 & Good \\
+\hline SLDCLA & May 2020 & Good \\
+\hline SLOTCA & Mar 2020 & Good \\
+\hline BLNGMT & Good & Good \\
+\hline TWCCA & Good & Good \\
+\hline TWCNY.NYDC & Good & Good \\
+\hline TWCNY.SYDC & Good & Good \\
+\hline TWCOH & Good & Good \\
+\hline TWCSC & Good & Good \\
+\hline TWCTX & Good & Good \\
+\hline 
+\end{tabular}
+\caption{\label{TABLE-OverrunTimeline}Timeline of stitcher overrun assuming no software fix for current provisioning and 256GB upgrades. Mitigation strategies not accounted for.} 
+\end{table}
+
+\section{Mitigation and Resolution Strategies}
+\label{SECTION-Mitigation}
+
+The following plan is presented in three parts. Phase 1 is meant to provide additional capacity to the most at risk markets. Phase 2 is meant to extend the capacity of markets whose capacity will be a concern before the 2020 budget year. Phase 3 provides guidance for possible actions in the 2020 budget year to extend capacity to accomodate growth and brings all our stitcher clusters to a minimum hardware specification. 
+
+\subsection{Phase 1 Mitigation}
+\label{SECTION-Phase1}
+
+UPDATED Oct. 2019: 
+
+Phase 1 POV was approved Mar 2019.
+
+Phase 1 of mitigation is designed to get us through EOY 2020, with the first software fix expected Q2 2019. Phase 1 included the following actions: 
+
+102 M3 stitchers were discovered in SPDCSC, and those were built out and used to alleviate capacity issues in that market until 256GB M4s could be shipped in and built. 
+
+Shared datacenter reallocation took place where 256 GB stitchers from TWC markets in TX and CA can be reallocated to L-CHTR TX and CA. 32 stitchers from TWCTX to DLDCTX, and 40 stitchers from TWCCA to LADCCA. 
+
+M4 blades were identified from the TWCOH(232), TWCNY.SYDC(136), and TWCSC(20) RDCs which had excess capacity, and those blades were re-allocated along with unused blades identified in the IC in order to satisfy capacity needs of the identified L-CHTR markets through EOY 2019. 
+
+Table~\ref{TABLE-marketStitcherAvailUpdated} outlines the availability of stitchers in each RDC at the conclusion of Phase 1. As of Oct. 2019 this is completed with the exception of EDPRMN which is awaiting hard drives and raid controlers for 13 blades. 
+
+\begin{table}
+\begin{tabular}{|l|l|l|l|} 
+\hline Market & Number of stitchers & Memory (GB)\\
+\hline EDPRMN & 48 & 256\\
+\hline KNWDMI & 112 & 256\\
+\hline MDDCWI & 120 & 256\\
+\hline RENONV & 56 & 256\\
+\hline SLDCMO & 136 & 256\\
+\hline SPDCSC & 89 & 256\\
+\hline BHDCAL & 111 & 96\\
+\hline PLDCOR & 50 & 256\\
+\hline BODCMA & 55 & 128\\
+\hline DLDCTX & 32 & 256\\
+\hline LADCCA & 40 & 256\\
+\hline NVDCTN & 50 & 128\\
+\hline SLDCLA & 23 & 128\\
+\hline SLOTCA & 13 & 128\\
+\hline BLNGMT & 43 & 256\\
+\hline TWCCA & 247 & 256\\
+\hline TWCNY.NYDC & 195 & 256\\
+\hline TWCNY.SYDC & 187 & 256\\
+\hline TWCOH & 290 & 256\\
+\hline TWCSC & 287 & 256\\
+\hline TWCTX & 250 & 256\\
+\hline 
+\end{tabular}
+\caption{\label{TABLE-marketStitcherAvailUpdated}Stitcher availability market by market post Phase 1 mitigation. BHN and TWCHI excluded as non-production.} 
+\end{table}
+
+\subsection{Phase 2 Mitigation}
+\label{SECTION-Phase2}
+
+UPDATED Oct. 2019:
+
+Phase 2 of mitigation is designed to get us through end of 2020. Alternitivly, SGUI team is expected to deliver fixes to memory utalization which would take SGUI average utalization from 1GB down to 500MB, or even down to 350MB. Even 500MB  would be able to get us through end of 2020, with 350MB being able to get us even further. With a combination of the following hardware based mitigation, and expected impacts of SGUI fixes down to 500MB, capacity needs could be met through Q2 2021. Capacity needs beyond Q2 2021 can be budgeted for in the 2021 budget. Two quarters is expected for hardware acquisition and deployment. 
+
+Memory uplift can be performed on M4 blades with 128 GB of memory to bring them to 256 GB of memory. Available memory left over from the CCAP project can be re used and sent to datacenters with 128GB stitchers in order to uplift them in place. These memory uplifts can be achieved as outlined in table~\ref{TABLE-MemUpliftNeeds256} in a 16x16GB configuration. If 8x32GB configuration is preferred half the number of memory sticks needed. Note: SLOTCA has memory sticks already on site from PLDCOR uplift work. Expected stitcher counts and memory allocations Post Phase 2 shown in table~\ref{TABLE-marketStitcherAvailPhase2}. On top of this some markets listed in table~\ref{TABLE-MemUpliftNeeds512} would need aditional memory (256 GB to 512 GB) in order to continue growing to meet product's expectations. Additional memory would have to be purchased to supliment APO availability in the 2020 budget cycle. 
+
+\begin{table}
+\begin{tabular}{|l|l|l|} 
+\hline Market & Number of stitchers & N Sticks (16x16GB configuration)\\
+\hline BODCMA & 55 & 448\\
+\hline DLDCTX & 23 & 192\\
+\hline LADCCA & 47 & 384\\
+\hline NVDCTN & 50 & 400\\
+\hline SLDCLA & 23 & 192\\
+\hline SLOTCA & 13 & 112*\\
+\hline 
+\end{tabular}
+\caption{\label{TABLE-MemUpliftNeeds256}Stitcher uplift to 256 GB. Memory stick needs. Note: SLOTCA has memory sticks already on site from PLDCOR uplift work.} 
+\end{table}
+
+\begin{table}
+\begin{tabular}{|l|l|l|} 
+\hline Market & Number of stitchers & N Sticks (8x64GB configuration)\\
+\hline EDPRMN & 48 & 384\\
+\hline KNWDMI & 112 & 896\\
+\hline MDDCWI & 120 & 960\\
+\hline RENONV & 56 & 448\\
+\hline SLDCMO & 136 & 1088\\
+\hline SPDCSC & 89 & 712\\
+\hline 
+\end{tabular}
+\caption{\label{TABLE-MemUpliftNeeds512}Stitcher uplift to 512 GB. Memory stick needs.} 
+\end{table}
+
+\begin{table}
+\begin{tabular}{|l|l|l|l|} 
+\hline Market & Number of stitchers & Memory (GB)\\
+\hline EDPRMN & 48 & 256\\
+\hline KNWDMI & 112 & 256\\
+\hline MDDCWI & 120 & 256\\
+\hline RENONV & 56 & 256\\
+\hline SLDCMO & 136 & 256\\
+\hline SPDCSC & 89 & 256\\
+\hline BHDCAL & 111 & 96\\
+\hline PLDCOR & 50 & 256\\
+\hline BODCMA & 55 & 256\\
+\hline DLDCTX & 55 & 256\\
+\hline LADCCA & 87 & 256\\
+\hline NVDCTN & 50 & 256\\
+\hline SLDCLA & 23 & 256\\
+\hline SLOTCA & 13 & 256\\
+\hline BLNGMT & 43 & 256\\
+\hline TWCCA & 247 & 256\\
+\hline TWCNY.NYDC & 195 & 256\\
+\hline TWCNY.SYDC & 187 & 256\\
+\hline TWCOH & 290 & 256\\
+\hline TWCSC & 287 & 256\\
+\hline TWCTX & 250 & 256\\
+\hline 
+\end{tabular}
+\caption{\label{TABLE-marketStitcherAvailPhase2} Expected stitcher availability market by market post Phase 2 mitigation. BHN and TWCHI excluded as non-production.} 
+\end{table}
+
+For each RDC we would need half the number of stitchers rounded up worth of memory shipped in. So ladcca for example has 47 M4s with 128 GB of memory each, we can use that memory to fill 23 stitchers up to 256, and we would need enough memory shipped in to fill the other 24 up to 256. Deadlines on ordering this memory due to M4 end of sale concerns are expected in Q1 2020, after which memory for M4 blades will no longer be available. 
+
+\subsection{Phase 3 Mitigation and future growth}
+\label{SECTION-Phase3}
+
+UPDATED Oct. 2019:
+
+Phase 3 of mitigation is intended to standardize stitcher cluster hardware across markets. Each cluster shoud have a minimum of 256 GB of memory (AV reccomendations) and a minimum of 12 stitcher blades (VidOps reccomendation). Replacements of remaining M3 blades in BHDCAL(111) would be nessicary to achieve this since M3 memory is no longer available (M3 went end of sale Dec. 31 2016, and end of hardware failure support was Dec. 31 2017). 
+
+M6 blades are anticipated to be announced/available sime time in mid 2020, and some replacements of M4s to M6s are reccomended to avoid end of support issues in the future. A yearly 25\% blade replacment (for all blades including scalers and hypervisors, not just stitchers) is a reccomended infrastructure investment (APO and VidOps reccomendation) for continued support of Spec-Guide in order to sustainably maintain hardware and projected growth of the product. 
+
+Blade replacements can be performed instead of Phase 2 memory uplifts in locations described in table~\ref{TABLE-MemUpliftNeeds256} since newly purchased blades will have 256GB of memory by default which will address capacity concerns and end of life concerns in those markets. A hybrid approach could also be taken where memory is provided to uplift some markets in table~\ref{TABLE-MemUpliftNeeds256} to hold them over while other markets get a blade refresh in order to address end of life concerns and capacity more quickly. 
+
+Projections beyond 2020 become more and more uncertain for a multitude of reasons. One of which includes the addition of always on guide which introduces detached sessions which would use memory even if the user isn't in guide at the time. Another is the extent to which the SGUI team is able to limit their memory consumption. The SGUI team has stated a goal to get from 1GB average usage down to 500MB average usage. Beyond limiting their average use case limits on the largest sessions would also be a great benifit since limiting the variance in session sizes helps lower the needed headroom in the capacity calculation outlined here. At this time no concrete results have come from the SGUI team to address either session size or variance. Yet another compounding factor is the uncertainty of product provided growth metrics. 2019 growth metrics were broken down by market type, but no such breakdown has been provided beyond EOY 2019. Since we know different markets will grow at different rates this introduces a systematic uncertainty to the size of our customer base for each RDC and consequently an uncertainty in resource needs. Better estimates could be produced if market by market growth forecasts were provided. With all of those caveats, stitcher needs are shown in table~\ref{TABLE-StitchersNeeded5YR} which assume a 50\% reduction in session size, maintaining a 3\% concurency, not having always on guide, and that each market grows beyond 2019 maintaining the market shares achieved by EOY 2019 projections. 
+
+\begin{table}
+\begin{tabular}{|l|p{16mm}|p{16mm}|p{16mm}|p{16mm}|p{16mm}|} 
+\hline Market & EOY 2020 & Q2 2021 & EOY 2021 & EOY 2022 & EOY 2023\\
+\hline EDPRMN & 33  &   40 & 	47 & 	52 & 	57 \\
+\hline KNWDMI & 78 & 	95 & 	111 & 	125 & 	137 \\
+\hline MDDCWI & 88 & 	107 & 	125 & 	140 & 	154 \\
+\hline RENONV & 38 & 	46 & 	53 & 	60 & 	66 \\
+\hline SLDCMO & 103 & 	124 & 	146 & 	163 & 	180 \\
+\hline SPDCSC & 66 & 	80 & 	94 & 	105 & 	116 \\
+\hline BHDCAL & 22 & 	26 & 	31 & 	35 & 	38 \\
+\hline PLDCOR & 23 & 	28 & 	33 & 	37 & 	40 \\
+\hline BODCMA & 12 & 	15 & 	17 & 	19 & 	21 \\
+\hline DLDCTX & 17 & 	20 & 	24 & 	27 & 	29 \\
+\hline LADCCA & 33 & 	40 & 	47 & 	53 & 	59 \\
+\hline NVDCTN & 16 & 	19 & 	22 & 	25 & 	28 \\
+\hline SLDCLA & 8 & 	10 & 	12 & 	13 & 	14 \\
+\hline SLOTCA & 5 & 	6 & 	7 & 	8 & 	8 \\
+\hline BLNGMT & 8 & 	9 & 	11 & 	12 & 	13 \\
+\hline TWCCA & 78 & 	94 & 	110 & 	124 & 	136 \\
+\hline TWCNY.NYDC & 30 & 	37 & 	43 & 	48 & 	53 \\
+\hline TWCNY.SYDC & 61 & 	73 & 	86 & 	96 & 	106 \\
+\hline TWCOH & 120 & 	145 & 	170 & 	190 & 	210 \\
+\hline TWCSC & 126 & 	152 & 	179 & 	200 & 	221 \\
+\hline TWCTX & 119 & 	144 & 	169 & 	190 & 	209 \\
+\hline 
+\end{tabular}
+\caption{\label{TABLE-StitchersNeeded5YR}Stitcher need projected beyond 2020.} 
+\end{table}
+
+
+
+\section{Conclusion}
+\label{SECTION-Conclusion}
+
+Mitigation strategies proposed here would address capacity concerns through 2020 and beyond. This will put our infrastructure in a position to support our growing customer base as well potentially support new initiatives such as Always on Guide and Stitcher Virtualization as best as is possible.
+
+Long term it is vital that new features and customer growth be approved with ongoing assessments of stitcher resources used by each new feature/code release in order to ensure we are not overrunning our computational resources. Stitchers in their current bare metal architecture are especially prone to resource limitations if we aren't keeping a careful eye on our utilization. 
+
+
+
+\newpage
+
+\appendix
+
+\section{Appendix A\: Session Size Tables}
+\label{APPENDIX-SessionSizeTables}
+
+\begin{table}[H]
+\begin{tabular}{|l|l|l|l|l|}
+\hline All markets & ELAPSED &        CPU\% &      RSS(mb) &     SIZE(mb) \\
+\hline count &                   7964 &  7964.000000 &  7964.000000 &   7964.00000 \\
+\hline mean &   0 days 16:57:29.043571 &    6.670191 &   704.325508 &  1016.00872 \\
+\hline std &    6 days 12:33:38.785822 &   17.375503 &   587.128283 &   751.04424 \\
+\hline min &         0 days 00:00:00 &    0.000000 &    26.296000 &    37.20400 \\
+\hline 25\% &           0 days 00:04:08 &    0.300000 &   306.063000 &   502.49400 \\
+\hline 50\% &   0 days 00:28:41.500000 &    0.900000 &   604.702000 &   906.51000 \\
+\hline 75\%  &         0 days 01:13:26 &    4.500000 &   888.213000 &  1256.41700 \\
+\hline max &       131 days 03:35:10 &  145.000000 & 14712.656000 & 16320.25200 \\
+\hline 
+\end{tabular}
+\label{TABLE-SessionSizeAll}
+\end{table}
+
+\begin{table}[H]
+\begin{tabular}{|l|l|l|l|l|}
+\hline edprmn&    ELAPSED&   CPU\%&   RSS(mb)&  SIZE(mb) \\
+\hline count&   703& 703.000000&  703.000000&  703.00000 \\
+\hline mean&  3 days 23:41:03.660028&  9.510953&  687.757826&  1037.11116 \\
+\hline std&  14 days 10:19:40.838831&  19.807971&  875.313315&  1095.16143 \\
+\hline min&   0 days 00:00:00&  0.000000&   26.296000&   37.20400 \\
+\hline 25\%&   0 days 00:01:28&  0.400000&  299.240000&  519.00800 \\
+\hline 50\%&   0 days 00:13:56&  1.700000&  563.340000&  828.87200 \\
+\hline 75\%&   0 days 00:52:57&  9.950000&  807.120000&  1152.59800 \\
+\hline max&   61 days 20:24:45& 136.000000& 12119.260000& 13713.00400 \\
+\hline 
+\end{tabular}
+\label{TABLE-SessionSizeedprmn}
+\end{table}
+
+\begin{table}[H]
+\begin{tabular}{|l|l|l|l|l|}
+\hline knwdmi& ELAPSED&   CPU\%&   RSS(mb)&  SIZE(mb) \\
+\hline count&    854& 854.000000&  854.000000&  854.00000 \\
+\hline mean&  0 days 01:50:32.909836&  7.179040&  742.129691&  1106.20582 \\
+\hline std&  0 days 11:45:10.901628&  16.393025&  730.700326&  942.02897 \\
+\hline min&   0 days 00:00:01&  0.000000&  124.752000&  209.78000 \\
+\hline 25\%&   0 days 00:02:39&  0.400000&  371.277000&  626.71100 \\
+\hline 50\%&  0 days 00:18:28.500000&  1.100000&  638.800000&  933.37400 \\
+\hline 75\%&   0 days 00:51:55&  6.575000&  920.667000&  1273.83700 \\
+\hline max&   7 days 07:38:22& 111.000000& 13115.864000& 14916.46000 \\
+\hline 
+\end{tabular}
+\label{TABLE-SessionSizeknwdmi}
+\end{table}
+
+\begin{table}[H]
+\begin{tabular}{|l|l|l|l|l|}
+\hline mddcwi& ELAPSED&   CPU\%&  RSS(mb)&   SIZE(mb) \\
+\hline count&    663& 663.000000&  663.000000&  663.00000 \\
+\hline mean&  0 days 01:13:31.853695&  7.504827&  871.828561& 1323.55937 \\
+\hline std&  0 days 05:18:41.994081&  17.288993&  697.919157& 1085.96406 \\
+\hline min&   0 days 00:00:01&  0.000000&  155.052000&  222.77200 \\
+\hline 25\%&   0 days 00:03:22&  0.400000&  311.396000&  528.56600 \\
+\hline 50\%&   0 days 00:21:19&  1.300000&  710.036000& 1025.54400 \\
+\hline 75\%&  0 days 00:57:54.500000&  6.350000& 1140.840000& 1598.61800 \\
+\hline max&   3 days 03:49:19&  99.800000& 5271.756000& 8797.68000 \\
+\hline 
+\end{tabular}
+\label{TABLE-SessionSizemddcwi}
+\end{table}
+
+\begin{table}[H]
+\begin{tabular}{|l|l|l|l|l|}
+\hline renonv& ELAPSED&   CPU\%&  RSS(mb)&   SIZE(mb) \\
+\hline count&    990& 990.000000&  990.000000&  990.00000 \\
+\hline mean&  0 days 01:00:09.429292&  4.826869&  968.266428& 1315.58436 \\
+\hline std&  0 days 01:28:07.999288&  11.318484&  643.358079&  761.49195 \\
+\hline min&   0 days 00:00:00&  0.000000&  87.840000&  156.11200 \\
+\hline 25\%&  0 days 00:04:56.250000&  0.400000&  407.672000&  640.68700 \\
+\hline 50\%&  0 days 00:32:28.500000&  0.900000&  857.420000& 1223.10600 \\
+\hline 75\%&  0 days 01:13:59.750000&  4.000000& 1267.769000& 1644.98900 \\
+\hline max&   0 days 17:49:29& 100.000000& 4509.704000& 5523.24800 \\
+\hline 
+\end{tabular}
+\label{TABLE-SessionSizerenonv}
+\end{table}
+
+\begin{table}[H]
+\begin{tabular}{|l|l|l|l|l|}
+\hline sldcmo& ELAPSED&   CPU\%&  RSS(mb)&   SIZE(mb) \\
+\hline count&    811& 811.000000&  811.000000&  811.00000 \\
+\hline mean&  0 days 00:48:12.890258&  4.603083&  991.308099& 1350.01964 \\
+\hline std&  0 days 01:16:55.655732&  9.059367&  681.528005&  798.25732 \\
+\hline min&   0 days 00:00:00&  0.000000&  140.636000&  225.09600 \\
+\hline 25\%&   0 days 00:04:00&  0.400000&  402.364000&  658.48400 \\
+\hline 50\%&   0 days 00:24:37&  1.200000&  858.612000& 1207.46800 \\
+\hline 75\%&  0 days 00:58:13.500000&  4.700000& 1315.152000& 1718.66600 \\
+\hline max&   0 days 16:32:18&  93.000000& 4124.472000& 5313.78000 \\
+\hline 
+\end{tabular}
+\label{TABLE-SessionSizesldcmo}
+\end{table}
+
+\begin{table}[H]
+\begin{tabular}{|l|l|l|l|l|}
+\hline spdcsc& ELAPSED&    CPU\%&   RSS(mb)&  SIZE(mb) \\
+\hline count&   1344& 1344.000000&  1344.000000&  1344.00000 \\
+\hline mean&  0 days 05:33:22.727678&  10.047545&  747.331970&  1148.42780 \\
+\hline std&  1 days 02:24:33.678990&  22.922085&  744.264176&  1063.67384 \\
+\hline min&   0 days 00:00:00&   0.000000&  108.732000&  163.03600 \\
+\hline 25\%&  0 days 00:03:07.500000&   0.400000&  363.873000&  616.14000 \\
+\hline 50\%&  0 days 00:21:37.500000&   1.300000&  617.814000&  876.55200 \\
+\hline 75\%&  0 days 01:02:09.250000&   7.300000&  818.191000&  1253.15700 \\
+\hline max&  10 days 03:05:09&  154.000000& 11340.324000& 12773.81600 \\
+\hline 
+\end{tabular}
+\label{TABLE-SessionSizespdcsc}
+\end{table}
+
+\begin{table}[H]
+\begin{tabular}{|l|l|l|l|l|}
+\hline bhdcal& ELAPSED&    CPU\%&   RSS(mb)&  SIZE(mb) \\
+\hline count&                      432&  432.000000 &  432.000000 &  432.000000 \\
+\hline mean&    4 days 09:29:55.965277&   15.303472 &  479.125093 &  672.544815 \\
+\hline std&    16 days 08:10:55.027113&   31.036164 &  269.773167 &  331.267155 \\
+\hline min&            0 days 00:00:01&    0.000000 &  140.280000  & 210.556000 \\
+\hline 25\%&     0 days 00:04:18.500000&    0.400000 &  255.625000 &  399.850000 \\
+\hline 50\%&     0 days 00:27:42.500000&    1.200000 &  410.478000 &  592.894000 \\
+\hline 75\%&     0 days 01:15:28.500000&    8.225000 &  632.388000 &  842.587000 \\
+\hline max&          102 days 02:59:27&  100.000000 & 1792.516000&  2361.968000 \\
+\hline 
+\end{tabular}
+\label{TABLE-SessionSizebhdcal}
+\end{table}
+
+\begin{table}[H]
+\begin{tabular}{|l|l|l|l|l|}
+\hline pldcor& ELAPSED&   CPU\%&  RSS(mb)&   SIZE(mb) \\
+\hline count&    389& 389.000000&  389.000000&  389.00000 \\
+\hline mean&  1 days 05:24:52.033419&  11.805141&  815.620380& 1175.33370 \\
+\hline std&  5 days 16:38:37.442890&  24.115209&  733.513476& 1041.47454 \\
+\hline min&   0 days 00:00:01&  0.000000&  125.612000&  211.30800 \\
+\hline 25\%&   0 days 00:01:08&  0.300000&  330.576000&  576.40000 \\
+\hline 50\%&   0 days 00:14:33&  2.300000&  636.780000&  919.36800 \\
+\hline 75\%&   0 days 01:38:37&  8.500000& 1054.984000& 1405.63200 \\
+\hline max&  37 days 14:45:31&  99.900000& 6727.340000& 8748.13200 \\
+\hline 
+\end{tabular}
+\label{TABLE-SessionSizepldcor}
+\end{table}
+
+\begin{table}[H]
+\begin{tabular}{|l|l|l|l|l|}
+\hline bodcma& ELAPSED&   CPU\%&  RSS(mb)&   SIZE(mb) \\
+\hline count&    593& 593.000000&  593.000000&  593.00000 \\
+\hline mean&  0 days 00:33:41.399662&  5.413322&  537.107386&  765.38517 \\
+\hline std&  0 days 00:44:57.083644&  12.469223&  307.470807&  369.60064 \\
+\hline min&   0 days 00:00:00&  0.000000&  144.824000&  210.89600 \\
+\hline 25\%&   0 days 00:01:55&  0.300000&  280.832000&  462.84000 \\
+\hline 50\%&   0 days 00:17:30&  1.000000&  412.584000&  637.72800 \\
+\hline 75\%&   0 days 00:49:06&  5.200000&  722.672000&  989.54400 \\
+\hline max&   0 days 08:33:57& 153.000000& 2237.936000& 2545.99200 \\
+\hline 
+\end{tabular}
+\label{TABLE-SessionSizebodcma}
+\end{table}
+
+\begin{table}[H]
+\begin{tabular}{|l|l|l|l|l|}
+\hline dldctx& ELAPSED&    CPU\%&  RSS(mb)&   SIZE(mb) \\
+\hline count&   1240& 1240.000000& 1240.000000& 1240.00000 \\
+\hline mean&  0 days 09:59:56.741129&   9.365484&  484.178539&  729.23009 \\
+\hline std&  3 days 22:37:16.728882&  18.061337&  295.350663&  359.44808 \\
+\hline min&   0 days 00:00:00&   0.000000&  84.692000&  132.11200 \\
+\hline 25\%&   0 days 00:01:12&   0.600000&  274.080000&  477.95400 \\
+\hline 50\%&  0 days 00:04:50.500000&   3.300000&  343.756000&  568.51400 \\
+\hline 75\%&   0 days 00:38:54&   9.250000&  635.297000&  909.19700 \\
+\hline max&  70 days 04:14:55&  119.000000& 2011.240000& 2581.69200 \\
+\hline 
+\end{tabular}
+\label{TABLE-SessionSizedldctx}
+\end{table}
+
+\begin{table}[H]
+\begin{tabular}{|l|l|l|l|l|}
+\hline ladcca& ELAPSED&   CPU\%&  RSS(mb)&   SIZE(mb) \\
+\hline count&    867& 867.000000&  867.000000&  867.00000 \\
+\hline mean&  0 days 08:47:35.552479&  8.360208&  450.936166&  669.28376 \\
+\hline std&  2 days 16:09:18.559904&  18.904368&  244.823500&  307.58961 \\
+\hline min&   0 days 00:00:00&  0.000000&  12.792000&  22.89200 \\
+\hline 25\%&  0 days 00:01:21.500000&  0.400000&  275.056000&  466.51000 \\
+\hline 50\%&   0 days 00:09:43&  1.400000&  336.452000&  557.32000 \\
+\hline 75\%&  0 days 00:47:16.500000&  7.850000&  594.040000&  820.15200 \\
+\hline max&  28 days 05:24:52& 150.000000& 1996.924000& 2973.56800 \\
+\hline 
+\end{tabular}
+\label{TABLE-SessionSizeladcca}
+\end{table}
+
+\begin{table}[H]
+\begin{tabular}{|l|l|l|l|l|}
+\hline nvdctn&    ELAPSED&   CPU\%&  RSS(mb)&   SIZE(mb) \\
+\hline count&   773& 773.000000&  773.000000&  773.00000 \\
+\hline mean&  1 days 23:34:24.972833&  9.574774&  581.608310&  834.08841 \\
+\hline std&  11 days 21:42:02.836950&  21.275061&  351.990133&  428.15494 \\
+\hline min&   0 days 00:00:00&  0.000000&  55.104000&  105.19200 \\
+\hline 25\%&   0 days 00:02:02&  0.400000&  299.696000&  492.51200 \\
+\hline 50\%&   0 days 00:19:12&  1.500000&  499.720000&  732.01600 \\
+\hline 75\%&   0 days 00:56:50&  7.900000&  779.652000& 1067.57600 \\
+\hline max&  127 days 05:50:07& 115.000000& 2500.564000& 3165.04800 \\
+\hline 
+\end{tabular}
+\label{TABLE-SessionSizenvdctn}
+\end{table}
+
+\begin{table}[H]
+\begin{tabular}{|l|l|l|l|l|}
+\hline sldcla& ELAPSED&   CPU\%&  RSS(mb)&   SIZE(mb) \\
+\hline count&    358& 358.000000&  358.000000&  358.00000 \\
+\hline mean&  0 days 00:58:12.290502&  6.725419&  680.787911&  928.31454 \\
+\hline std&  0 days 05:02:56.766229&  14.714847&  384.019453&  454.63616 \\
+\hline min&   0 days 00:00:00&  0.000000&  24.804000&  55.67600 \\
+\hline 25\%&   0 days 00:01:33&  0.300000&  314.110000&  508.44400 \\
+\hline 50\%&   0 days 00:16:41&  1.300000&  614.728000&  848.91000 \\
+\hline 75\%&  0 days 00:54:09.250000&  6.300000&  965.019000& 1233.39500 \\
+\hline max&   3 days 22:07:52& 105.000000& 1957.948000& 2583.84800 \\
+\hline 
+\end{tabular}
+\label{TABLE-SessionSizesldcla}
+\end{table}
+
+\begin{table}[H]
+\begin{tabular}{|l|l|l|l|l|}
+\hline slotca&    ELAPSED&   CPU\%&  RSS(mb)&   SIZE(mb) \\
+\hline count&   189& 189.000000&  189.000000&  189.00000 \\
+\hline mean&  2 days 05:08:17.068783&  10.966667&  517.918413&  743.12943 \\
+\hline std&  12 days 06:00:47.279801&  23.232777&  254.689270&  314.38865 \\
+\hline min&   0 days 00:00:00&  0.000000&  68.068000&  113.12400 \\
+\hline 25\%&   0 days 00:02:09&  0.400000&  291.140000&  466.89600 \\
+\hline 50\%&   0 days 00:13:11&  1.900000&  506.636000&  705.66000 \\
+\hline 75\%&   0 days 00:58:16&  8.800000&  690.876000&  947.54800 \\
+\hline max&  103 days 06:27:34& 100.000000& 1366.460000& 1732.20800 \\
+\hline 
+\end{tabular}
+\label{TABLE-SessionSizeslotca}
+\end{table}
+
+\begin{table}[H]
+\begin{tabular}{|l|l|l|l|l|}
+\hline blngmt&                  ELAPSED&       CPU\%&      RSS(mb)&     SIZE(mb) \\
+\hline count&                      48&  48.000000&    48.000000&    48.000000 \\
+\hline mean&   0 days 00:51:41.979166&   4.627083&   741.827583&  1009.949583 \\
+\hline std&    0 days 01:04:12.863049&  10.634623&   506.062761&   600.883006 \\
+\hline min&           0 days 00:00:03&   0.000000&   211.724000&   301.920000 \\
+\hline 25\%&           0 days 00:06:24&   0.300000&   290.092000&   440.090000 \\
+\hline 50\%&           0 days 00:30:37&   0.900000&   633.476000&   912.410000 \\
+\hline 75\%&    0 days 01:14:41.250000&   3.025000&  1040.937000&  1380.231000 \\
+\hline max&           0 days 05:40:27&  50.000000&  2178.032000&  2830.116000 \\
+\hline
+\end{tabular}
+\label{TABLE-SessionSizeblngmt}
+\end{table}
+
+\begin{table}[H]
+\begin{tabular}{|l|l|l|l|l|}
+\hline twcca& ELAPSED&   CPU\%&  RSS(mb)&   SIZE(mb) \\
+\hline count&    505& 505.000000&  505.000000&  505.00000 \\
+\hline mean&  0 days 00:35:02.885148&  4.480000&  515.805513&  793.22996 \\
+\hline std&  0 days 00:45:24.634973&  8.867115&  255.678862&  365.21607 \\
+\hline min&   0 days 00:00:00&  0.000000&  122.608000&  176.76000 \\
+\hline 25\%&   0 days 00:03:25&  0.300000&  288.092000&  459.67200 \\
+\hline 50\%&   0 days 00:18:04&  0.900000&  398.276000&  666.70800 \\
+\hline 75\%&   0 days 00:50:38&  4.200000&  702.064000& 1059.37600 \\
+\hline max&   0 days 05:29:07&  82.500000& 1365.628000& 1919.64400 \\
+\hline 
+\end{tabular}
+\label{TABLE-SessionSizetwcca}
+\end{table}
+
+\begin{table}[H]
+\begin{tabular}{|l|l|l|l|l|}
+\hline twcny.nydc& ELAPSED&   CPU\%&  RSS(mb)&   SIZE(mb) \\
+\hline count&    439& 439.000000&  439.000000&  439.00000 \\
+\hline mean&  0 days 00:42:33.881548&  3.782232&  505.566378&  770.06229 \\
+\hline std&  0 days 00:56:37.780297&  10.605681&  253.195549&  353.68918 \\
+\hline min&   0 days 00:00:00&  0.000000&  84.100000&  132.11200 \\
+\hline 25\%&  0 days 00:05:23.500000&  0.200000&  284.092000&  456.28800 \\
+\hline 50\%&   0 days 00:25:12&  0.700000&  413.500000&  646.48800 \\
+\hline 75\%&  0 days 00:54:22.500000&  2.350000&  682.940000& 1027.04000 \\
+\hline max&   0 days 07:27:59& 119.000000& 1451.068000& 1988.59200 \\
+\hline 
+\end{tabular}
+\label{TABLE-SessionSizetwcnynydc}
+\end{table}
+
+\begin{table}[H]
+\begin{tabular}{|l|l|l|l|l|}
+\hline twcny.sydc& ELAPSED&   CPU\%&  RSS(mb)&   SIZE(mb) \\
+\hline count&    442& 442.000000&  442.000000&  442.00000 \\
+\hline mean&  0 days 01:01:03.726244&  6.148190&  500.684950&  763.87129 \\
+\hline std&  0 days 05:46:28.356034&  15.162467&  260.041742&  358.83244 \\
+\hline min&   0 days 00:00:00&  0.000000&  84.572000&  132.11200 \\
+\hline 25\%&   0 days 00:03:06&  0.300000&  276.576000&  455.65000 \\
+\hline 50\%&   0 days 00:22:50&  0.800000&  367.764000&  581.14200 \\
+\hline 75\%&  0 days 00:59:00.750000&  4.875000&  697.221000& 1039.71500 \\
+\hline max&   3 days 13:49:05& 118.000000& 1466.484000& 1944.98800 \\
+\hline 
+\end{tabular}
+\label{TABLE-SessionSizetwcnysydc}
+\end{table}
+
+\begin{table}[H]
+\begin{tabular}{|l|l|l|l|l|}
+\hline twcoh& ELAPSED&   CPU\%&  RSS(mb)&   SIZE(mb) \\
+\hline count&    611& 611.000000&  611.000000&  611.00000 \\
+\hline mean&  0 days 00:41:26.962356&  4.990344&  499.298710&  762.94798 \\
+\hline std&  0 days 00:55:17.385177&  10.710850&  253.252774&  350.21950 \\
+\hline min&   0 days 00:00:00&  0.000000&  18.548000&  55.67600 \\
+\hline 25\%&  0 days 00:03:01.500000&  0.300000&  282.944000&  460.38400 \\
+\hline 50\%&   0 days 00:20:57&  0.800000&  373.420000&  609.91200 \\
+\hline 75\%&   0 days 00:59:45&  4.300000&  683.328000& 1013.02800 \\
+\hline max&   0 days 07:08:58&  90.500000& 1385.548000& 2101.02800 \\
+\hline 
+\end{tabular}
+\label{TABLE-SessionSizetwcoh}
+\end{table}
+
+\begin{table}[H]
+\begin{tabular}{|l|l|l|l|l|}
+\hline twcsc& ELAPSED&   CPU\%&  RSS(mb)&   SIZE(mb) \\
+\hline count&    697& 697.000000&  697.000000&  697.00000 \\
+\hline mean&  0 days 02:14:16.459110&  5.776327&  497.244746&  757.31775 \\
+\hline std&  0 days 21:17:15.405321&  13.323263&  287.396410&  387.90609 \\
+\hline min&   0 days 00:00:00&  0.000000&  36.252000&  82.15600 \\
+\hline 25\%&   0 days 00:02:47&  0.300000&  273.080000&  447.08000 \\
+\hline 50\%&   0 days 00:17:00&  1.000000&  347.376000&  561.42400 \\
+\hline 75\%&   0 days 00:53:12&  5.500000&  693.360000& 1035.06000 \\
+\hline max&  14 days 02:01:05& 101.000000& 2512.328000& 3058.43600 \\
+\hline 
+\end{tabular}
+\label{TABLE-SessionSizetwcsc}
+\end{table}
+
+\begin{table}[H]
+\begin{tabular}{|l|l|l|l|l|}
+\hline twctx& ELAPSED&  CPU\%&  RSS(mb)&  SIZE(mb) \\
+\hline count&   1234& 1234.000000& 1234.000000& 1234.00000 \\
+\hline mean&  0 days 00:38:16.789303&   4.593112&  490.834882&  751.81550 \\
+\hline std&  0 days 00:58:26.775946&  10.083455&  253.906020&  352.73699 \\
+\hline min&   0 days 00:00:00&   0.000000&  25.388000&  69.82800 \\
+\hline 25\%&  0 days 00:03:03.750000&   0.300000&  272.858000&  446.80800 \\
+\hline 50\%&   0 days 00:18:51&   0.900000&  366.556000&  588.50600 \\
+\hline 75\%&  0 days 00:53:25.750000&   4.700000&  670.100000& 1007.64800 \\
+\hline max&   0 days 14:24:02&  130.000000& 1614.120000& 2286.67600 \\
+\hline 
+\end{tabular}
+\label{TABLE-SessionSizetwctx}
+\end{table}
+
+
+
+\end{document}
